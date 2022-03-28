@@ -1,5 +1,5 @@
 ---
-title: "山河资源使用指引"
+title: "资源使用指引"
 date: 2021-07-07T00:38:25+09:00
 description: Test description
 weight: 50
@@ -13,11 +13,11 @@ enableToc: false
 
 点击下载：
 
-[国家超级计算济南中心用户试用使用申请表](https://jn1.is.shanhe.com/shanhe/web_file/%E5%9B%BD%E5%AE%B6%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%B5%8E%E5%8D%97%E4%B8%AD%E5%BF%83%E7%94%A8%E6%88%B7%E8%AF%95%E7%94%A8%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7%E8%A1%A8.doc)
+[国家超级计算济南中心用户试用使用申请表](https://jn1.is.yiqiyun.com/yiqiyun/web_file/%E5%9B%BD%E5%AE%B6%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%B5%8E%E5%8D%97%E4%B8%AD%E5%BF%83%E7%94%A8%E6%88%B7%E8%AF%95%E7%94%A8%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AF%B7%E8%A1%A8.doc)
 
 ### 2. 注册账号
 
-https://console.shanhe.com/signup
+https://console.yiqiyun.com/signup
 
 ![](../_images/register.png)
 
@@ -69,7 +69,7 @@ https://console.shanhe.com/signup
 
 点击下载：
 
-[山河VPN申请表](https://jn1.is.shanhe.com/shanhe/web_file/%E5%B1%B1%E6%B2%B3%E5%85%AC%E6%9C%89%E4%BA%91VPN%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7%E8%A1%A8.docx)
+[VPN申请表](https://jn1.is.yiqiyun.com/yiqiyun/web_file/%E5%B1%B1%E6%B2%B3%E5%85%AC%E6%9C%89%E4%BA%91VPN%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7%E8%A1%A8.docx)
 
 > 注意：访问地址请填写VPC网络的内网地址
 
@@ -79,7 +79,7 @@ https://console.shanhe.com/signup
 
 ![](../_images/vpn_ip1.png)
 
-> 通过VPN远程连接云主机，请参考：[登录VPN，远程连接云主机](https://docsv3.shanhe.com/compute/vm/faq/vpn_vpc/)
+> 通过VPN远程连接云主机，请参考：[登录VPN，远程连接云主机](https://docsv3.yiqiyun.com/compute/vm/faq/vpn_vpc/)
 
 ### 6. 云服务器访问互联网
 

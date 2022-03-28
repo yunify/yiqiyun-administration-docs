@@ -29,7 +29,7 @@ draft: false
    {
      "type": "s3",
      "settings": {
-       "endpoint": "s3.jn1a.<shanhe_stor>.com",
+       "endpoint": "s3.jn1a.<yiqiyun_stor>.com",
        "access_key": "<YourAccessKey>",
        "secret_key": "<YourSecretKey>",
        "bucket": "my_bucket"
@@ -44,7 +44,7 @@ draft: false
 | ------------ | ------------------------------------------------------------ |
 | 集群节点地址 | <大数据平台的 Elasticsearch 集群的某一节点的 IP 地址> 需替换为具体的 IP 地址 |
 | repository   | repo                                              |
-| endpoint     | s3.jn1a.< shanhe_stor >.com  |
+| endpoint     | s3.jn1a.< yiqiyun_stor >.com  |
 | access_key   | 账号关联的 access_key                                    |
 | secret_key   | 账号关联的 secret_key                                    |
 | bucket       | 对象存储上 bucket 名称 my_bucket (如果不存在将创建出来) |
@@ -63,7 +63,7 @@ draft: false
    {
      "type": "s3",
      "settings": {
-       "endpoint": "s3.jn1a.<shanhe_stor>.com",
+       "endpoint": "s3.jn1a.<yiqiyun_stor>.com",
        "access_key": "<YourAccessKey>",
        "secret_key": "<YourSecretKey>",
        "bucket": "my_bucket"

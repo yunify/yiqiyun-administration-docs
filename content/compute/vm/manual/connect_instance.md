@@ -26,9 +26,9 @@ draft: false
 如果云服务器不接受您的密码，您可以先关闭云服务器，然后修改云服务器密码。
 
 ## Linux云服务器
-如果您使用的是 Windows 操作系统，除了通过 山河 控制台以外，您也可以通过软件连接至 Linux 云服务器，常见的软件有[PuTTY](https://www.putty.org/) ， [Xshell](https://www.netsarang.com/zh/xshell/)。
+如果您使用的是 Windows 操作系统，除了通过控制台以外，您也可以通过软件连接至 Linux 云服务器，常见的软件有[PuTTY](https://www.putty.org/) ， [Xshell](https://www.netsarang.com/zh/xshell/)。
 
-请注意，山河并不知道您的软件来源和用途，也不对其产生的任何的问题和纠纷负责。
+请注意，系统并不知道您的软件来源和用途，也不对其产生的任何的问题和纠纷负责。
 
 ### 通过用户名密码连接
 >**说明**
@@ -86,7 +86,7 @@ draft: false
 
 #### 3. 配置好弹性 IP 和防火墙
 
-在连接云服务器之前，请确保您的云服务器已经绑定了弹性公网 IP，[防火墙放行](https://docsv3.山河.com/security/security_group/manual/sg_setting/) TCP 22 端口。
+在连接云服务器之前，请确保您的云服务器已经绑定了弹性公网 IP，[防火墙放行](/security/security_group/manual/sg_setting/) TCP 22 端口。
 
 #### 4. 将密钥转换为正确的格式
 
@@ -107,7 +107,7 @@ draft: false
 ![](/compute/vm/manual/_images/putty-session.png)
 
 ## Windows云服务器
-从安全考虑， 山河上的 Windows 云服务器默认关闭了远程登录， 您首先需要通过浏览器 Web 方式登录到云服务器，并开启远程登录功能
+从安全考虑， 云平台上的 Windows 云服务器默认关闭了远程登录， 您首先需要通过浏览器 Web 方式登录到云服务器，并开启远程登录功能
 
 ### 第一部分  Windows Server  开启远程登录
 

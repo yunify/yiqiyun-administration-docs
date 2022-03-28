@@ -8,7 +8,7 @@ weight: 43
 
 创建或编辑策略时，您可以选择 JSON 选项卡进入 JSON 编辑模式，以便在 JSON 编辑器中键入或粘贴策略。
 
-这种方法一般适用于复制[示例策略](../../faq/json/#策略示例)以方便在您的账户中使用，如果您对下文描述中的山河 IAM 语法元素比较熟悉，也可以直接在 JSON 编辑器中键入自己的 JSON 策略文档。
+这种方法一般适用于复制[示例策略](../../faq/json/#策略示例)以方便在您的账户中使用，如果您对下文描述中的 IAM 语法元素比较熟悉，也可以直接在 JSON 编辑器中键入自己的 JSON 策略文档。
 
 ![demo1_JsonEditor](../../_images/demo1_JsonEditor.png)
 
@@ -61,7 +61,7 @@ weight: 43
     资源是用六段式 qrn 描述，每款产品的资源定义详情会有所区别。具体描述方式请参阅：[资源标识符 QRN](../../faq/qrn) 。
 
     ```json
-    "resource": "qrn:shanhe:ecm:test:usr-XXXXX:instance/i-123456"
+    "resource": "qrn:yiqiyun:ecm:test:usr-XXXXX:instance/i-123456"
     ```
 
 4. 效力（effect）
@@ -76,7 +76,7 @@ weight: 43
     "effect": "allow"
     ```
 
-以上便是山河 IAM 的策略文档构成，建议您在参照文档用 JSON 编辑策略时，随时通过切换到可视化编辑器来比较您填写的这些内容。
+以上便是 IAM 的策略文档构成，建议您在参照文档用 JSON 编辑策略时，随时通过切换到可视化编辑器来比较您填写的这些内容。
 
 ## 策略示例
 

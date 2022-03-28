@@ -5,7 +5,7 @@ weight: 35
 draft: false
 ---
 
-Keras 默认使用 TensorFlow 来计算，目前山河平台上也只支持 TensorFlow 作为其计算框架。详情请见 [Keras 文档](https://keras.io)
+Keras 默认使用 TensorFlow 来计算，目前平台上也只支持 TensorFlow 作为其计算框架。详情请见 [Keras 文档](https://keras.io)
 
 ## 单机
 

@@ -169,7 +169,7 @@ jupyter notebook --ip=`ifconfig eth0 2>/dev/null|awk '/inet addr:/ {print $2}'|s
 ### Kaldi 中文语音识别
 
 [Kaldi](http://kaldi-asr.org) 是一个开源的语音识别工具箱，使用C++编写，在 Apache License v2.0 下发布，广泛用于语音识别研究者的研究工作，也用于一些工业语音识别系统的后台服务。
-本示例演示 Kaldi 在山河 CPU 平台上的安装和配置，在配置 Kaldi 的基础上，使用 CVTE 公司在 [http://kaldi-asr.org](http://kaldi-asr.org) 上开源的普通话 TDNN chain 模型完成普通话的语音识别，帮助用户快速熟悉语音识别工具箱的应用。
+本示例演示 Kaldi 在 CPU 平台上的安装和配置，在配置 Kaldi 的基础上，使用 CVTE 公司在 [http://kaldi-asr.org](http://kaldi-asr.org) 上开源的普通话 TDNN chain 模型完成普通话的语音识别，帮助用户快速熟悉语音识别工具箱的应用。
 
 操作流程：下载 Kaldi 工具箱，编译 CPU 版本，并调用 CVTE 模型，对中文语音文件进行语音识别。
 Kaidi 库地址：[https://github.com/kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi)

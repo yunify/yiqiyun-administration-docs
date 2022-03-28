@@ -7,7 +7,7 @@ draft: false
 enableToc: false
 ---
 
-山河的主机支持开启网卡多队列功能。您可以在创建主机的向导第 4 步 - 基本信息展开高级选项，选择启用网卡多队列。对于已经创建的主机，您可以在详情页 - 配置，找到网卡多队列的当前设置。如果想要启用或禁用该服务，可以关机之后点击相应的操作按钮。
+主机支持开启网卡多队列功能。您可以在创建主机的向导第 4 步 - 基本信息展开高级选项，选择启用网卡多队列。对于已经创建的主机，您可以在详情页 - 配置，找到网卡多队列的当前设置。如果想要启用或禁用该服务，可以关机之后点击相应的操作按钮。
 
 网卡多队列是利用 hash 算法，将网络流量分散到多个网卡队列中，交由多个 CPU 同时处理请求，利用CPU多核特性提高网络处理能力。 开启这个功能后，虚拟机挂载的网卡会有多队列功能，但是 Linux 系统还需要做相关配置，才能使用到这一特性，包括：
 
@@ -17,7 +17,7 @@ enableToc: false
 
     3、给网卡发送队列绑定 cpu
 
-为了方便使用，我们提供了 网卡队列[配置脚本](https://jn2.is.shanhe.com/shanhe2/docs/static/sh/nic_mq.sh) 配置这些参数，请把脚本放到/etc/rc.local中，开机自动配置。 详情请参考
+为了方便使用，我们提供了 网卡队列[配置脚本](https://jn2.is.yiqiyun.com/yiqiyun2/docs/static/sh/nic_mq.sh) 配置这些参数，请把脚本放到/etc/rc.local中，开机自动配置。 详情请参考
 
  [linux network scaling](https://www.kernel.org/doc/Documentation/networking/scaling.txt)
 

@@ -31,13 +31,13 @@ weight: 45
 3. 访问该云服务器终端，可使用 pip 安装 SDK: （[点此了解更多 SDK 文档信息](../../../../../development_docs/sdk/)）。
 
    ```bash
-   pip install shanhe-sdk
+   pip install yiqiyun-sdk
    ```
 
-   如果你已安装山河 SDK 并需要更新到最新版本，参考如下示例：
+   如果你已安装 SDK 并需要更新到最新版本，参考如下示例：
 
    ```bash
-   pip install --upgrade shanhe-sdk
+   pip install --upgrade yiqiyun-sdk
    ```
 
 4. 使用 SDK ，以 Python 语言为例 (无需提供 access key id 和 secret access key)：
@@ -46,8 +46,8 @@ weight: 45
 
     ```python
     #API Connection
-    from shanhe.iaas import APIConnection
-    conn = shanhe.iaas.connect_to_zone(
+    from yiqiyun.iaas import APIConnection
+    conn = yiqiyun.iaas.connect_to_zone(
     'jn1', # 你的资源所在的节点ID，可在控制台切换节点的地方查看，如 'jn1' 等
      None,
      None

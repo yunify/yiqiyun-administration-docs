@@ -79,7 +79,7 @@ VGGFace2
 
 TensorFlow-Slim image classification model library
 
-<span style="color:red">下表中 Checkpoint 地址均为山河对象存储地址，可直接下载。</span>
+<span style="color:red">下表中 Checkpoint 地址均为对象存储地址，可直接下载。</span>
 
 | Model                                                        | TF-Slim File                                                 | Checkpoint                                                   | Top-1 Accuracy | Top-5 Accuracy |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- | -------------- |

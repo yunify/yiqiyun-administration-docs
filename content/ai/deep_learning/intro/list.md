@@ -7,7 +7,7 @@ collapsible: false
 draft: false
 ---
 
-山河深度学习平台全新升级，推出入门版、基础版、企业版三种版本，可应对不同场景对深度学习的需求。
+深度学习平台全新升级，推出入门版、基础版、企业版三种版本，可应对不同场景对深度学习的需求。
 
 ## 系列介绍
 
@@ -32,10 +32,10 @@ draft: false
 
 | <span style="display:inline-block;width:50px">系列</span> | 版本           | Python 版本 | 加速库版本    | <span style="display:inline-block;width:200px">内置镜像</span> | <span style="display:inline-block;width:200px">描述</span> |
 | --------------------------------------------------------- | :------------- | :---------: | :------------ | :----------------------------------------------------------- | :--------------------------------------------------------- |
-| 入门版                                                    | v2.0.1c        |   2.7/3.6   | MKLDNN 0.18.0 | shanhe/deeplearning:1.1-cpu-optimize                         | Intel CPU 优化，AVX/AVX2 指令集和 MKLDNN 库加速            |
-| 基础版                                                    | v2.0a          |   2.7/3.6   | ROCm 2.6.22   | shanhe/deeplearning:1.1-rocm26                               | GPU 训练，ROCm 加速                                        |
-| 企业版                                                    | v2.0n-cuda9.1  |   2.7/3.6   | CUDA 9.1      | shanhe/deeplearning:1.1-cu91-cudnn7.1                        | GPU 训练，CUDA 9.1 和 cuDNN 7.1 加速                       |
-| 企业版                                                    | v2.0n-cuda10.0 |   2.7/3.6   | CUDA 10.0     | shanhe/deeplearning:1.1-cu10.0-cudnn7.6                      | GPU 训练，CUDA 10.0 和 cuDNN 7.6 加速                      |
+| 入门版                                                    | v2.0.1c        |   2.7/3.6   | MKLDNN 0.18.0 | yiqiyun/deeplearning:1.1-cpu-optimize                         | Intel CPU 优化，AVX/AVX2 指令集和 MKLDNN 库加速            |
+| 基础版                                                    | v2.0a          |   2.7/3.6   | ROCm 2.6.22   | yiqiyun/deeplearning:1.1-rocm26                               | GPU 训练，ROCm 加速                                        |
+| 企业版                                                    | v2.0n-cuda9.1  |   2.7/3.6   | CUDA 9.1      | yiqiyun/deeplearning:1.1-cu91-cudnn7.1                        | GPU 训练，CUDA 9.1 和 cuDNN 7.1 加速                       |
+| 企业版                                                    | v2.0n-cuda10.0 |   2.7/3.6   | CUDA 10.0     | yiqiyun/deeplearning:1.1-cu10.0-cudnn7.6                      | GPU 训练，CUDA 10.0 和 cuDNN 7.6 加速                      |
 
-为满足用户对不同 Deep Learning 框架版本、Python 版本和 CUDA 版本的需求，山河深度学习平台提供了匹配不同版本的多个 docker image，用户可依据需要拉取，多个版本的 docker image 以及获取命令见 [image 获取命令](#docker_images_pulls)。
+为满足用户对不同 Deep Learning 框架版本、Python 版本和 CUDA 版本的需求，深度学习平台提供了匹配不同版本的多个 docker image，用户可依据需要拉取，多个版本的 docker image 以及获取命令见 [image 获取命令](#docker_images_pulls)。
 
