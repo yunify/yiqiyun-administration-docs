@@ -1,5 +1,5 @@
 ---
-title: "山河资源使用指引"
+title: "资源使用指引"
 date: 2021-07-07T00:38:25+09:00
 description: Test description
 weight: 50
@@ -69,7 +69,7 @@ https://console.yiqiyun.com/signup
 
 点击下载：
 
-[山河VPN申请表](https://jn1.is.yiqiyun.com/yiqiyun/web_file/%E5%B1%B1%E6%B2%B3%E5%85%AC%E6%9C%89%E4%BA%91VPN%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7%E8%A1%A8.docx)
+[VPN申请表](https://jn1.is.yiqiyun.com/yiqiyun/web_file/%E5%B1%B1%E6%B2%B3%E5%85%AC%E6%9C%89%E4%BA%91VPN%E8%B5%84%E6%BA%90%E7%94%B3%E8%AF%B7%E8%A1%A8.docx)
 
 > 注意：访问地址请填写VPC网络的内网地址
 

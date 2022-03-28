@@ -16,8 +16,8 @@ product:
       url: ../../manual/log
 
     - time: 2019-06-16
-      title: 山河 IAM 访问鉴权管理服务 V1.0 发布
-      content: 日前，山河 IAM 服务 V1.0 版（yiqiyun.com/products/iam/）已发布至公有云平台供广大客户试用。作为 IAM 服务的第一个版本，我们主要支持身份信任载体、身份管理、策略权限配置、策略管理和策略模拟器等功能。
+      title: IAM 访问鉴权管理服务 V1.0 发布
+      content: 日前，IAM 服务 V1.0 版（yiqiyun.com/products/iam/）已发布至公有云平台供广大客户试用。作为 IAM 服务的第一个版本，我们主要支持身份信任载体、身份管理、策略权限配置、策略管理和策略模拟器等功能。
       url: ../../news/iam_v1
 
 ---

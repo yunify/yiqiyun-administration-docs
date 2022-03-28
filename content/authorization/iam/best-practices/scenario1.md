@@ -6,7 +6,7 @@ draft: false
 weight: 51
 ---
 
-当您准备自己在云上开发一款应用，需要在该应用中调用山河 API/CLI （例如： StopInstances 停止云服务器）以完成某些功能时，过去您可能需要利用自己的账户 API 密钥作为该应用配置项在有需要时连接使用。
+当您准备自己在云上开发一款应用，需要在该应用中调用 API/CLI （例如： StopInstances 停止云服务器）以完成某些功能时，过去您可能需要利用自己的账户 API 密钥作为该应用配置项在有需要时连接使用。
 
 现在您可以通过配置 IAM 即可轻松实现免密钥访问，而无需担心配置项意外泄露的问题。
 
@@ -24,7 +24,7 @@ weight: 51
 
    ![demo1_AssociateRole](../../_images/demo1_AssociateRole.png)
 
-3. 将山河官方 SDK 引用到这款应用的身份鉴权代码中（本例中为 Python SDK）。
+3. 将官方 SDK 引用到这款应用的身份鉴权代码中（本例中为 Python SDK）。
 
    ![demo1_ConnectSDK](../../_images/demo1_ConnectSDK.png)
 

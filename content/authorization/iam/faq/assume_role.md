@@ -34,7 +34,7 @@ weight: 45
    pip install yiqiyun-sdk
    ```
 
-   如果你已安装山河 SDK 并需要更新到最新版本，参考如下示例：
+   如果你已安装 SDK 并需要更新到最新版本，参考如下示例：
 
    ```bash
    pip install --upgrade yiqiyun-sdk
