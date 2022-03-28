@@ -17,7 +17,7 @@ draft: false
 
 ## 操作步骤
 
-1. 登录[管理控制台](https://console.shanhe.com/login)。
+1. 登录管理控制台。
 2. 在左上方的控制台导航栏中，选择**产品与服务** > **人工智能（AI）** > **Deep Learnling**，进入 Deep Learnling 集群管理页面。
 3. 点击**立即部署**，进入应用部署页面。
 4. 选择**区域**。

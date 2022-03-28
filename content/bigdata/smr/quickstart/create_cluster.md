@@ -49,7 +49,7 @@ draft: false
 |<span style="display:inline-block;width:140px">参数</span> |<span style="display:inline-block;width:520px">参数说明</span>|
 |:----|:----|
 |   UUID     |  系统默认分配的全局唯一标识码，不可修改。  |
-|   名称     |  输入当前集群的名称。 <li> 默认为`ShanHeSMR`  |
+|   名称     |  输入当前集群的名称。 <li> 默认为`yiqiyunSMR`  |
 |   描述  |  （可选）对集群的简要描述。   |
 |   版本 |  选择集群版本。|
 |   资源配置类型 |  选择集群节点云服务器规格。<li> 可选择**基础型**和**增强型**。<li>选择**自定义**，需自定义集群各节点云服务器规格。|

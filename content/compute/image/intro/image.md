@@ -4,7 +4,7 @@ date: 2020-01-30T00:39:25+09:00
 description: Test description
 draft: false
 enableToc: false
-keyword: 镜像, shanhe
+keyword: 镜像, yiqiyun
 ---
 
 ## 镜像（Image）
@@ -25,14 +25,14 @@ keyword: 镜像, shanhe
 
 为了方便更新Linux操作系统，我们提供了内网镜像代理，可供无法访问公网的云服务器更新系统。代理地址如下：
 
-Ubuntu: `http://mirrors.ks.shanhe.com`
+Ubuntu: `http://mirrors.ks.yiqiyun.com`
 
 使用方法
 
 ```
-sudo sed -i s/us.archive.ubuntu.com/mirrors.ks.shanhe.com/g /etc/apt/sources.list
-sudo sed -i s/cn.archive.ubuntu.com/mirrors.ks.shanhe.com/g /etc/apt/sources.list
-sudo sed -i s/security.ubuntu.com/mirrors.ks.shanhe.com/g /etc/apt/sources.list
+sudo sed -i s/us.archive.ubuntu.com/mirrors.ks.yiqiyun.com/g /etc/apt/sources.list
+sudo sed -i s/cn.archive.ubuntu.com/mirrors.ks.yiqiyun.com/g /etc/apt/sources.list
+sudo sed -i s/security.ubuntu.com/mirrors.ks.yiqiyun.com/g /etc/apt/sources.list
 sudo apt-get update
 ```
 

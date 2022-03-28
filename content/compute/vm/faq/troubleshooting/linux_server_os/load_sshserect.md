@@ -8,7 +8,7 @@ enableToc: false
 
 ## 问题介绍
 
-使用 [管理控制台](https://console.shanhe.com/login)云服务器加载 SSH 秘钥失败。
+使用管理控制台云服务器加载 SSH 秘钥失败。
 
 ## 解决办法
 

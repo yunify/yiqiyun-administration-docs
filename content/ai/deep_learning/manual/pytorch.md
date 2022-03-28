@@ -27,7 +27,7 @@ python mnist.py
 ##### 非容器版
 
 ```shell
-wget https://github.com/shanheAppcenter/DeepLearning/raw/master/examples/pytorch_multi_gpu_test.py
+wget https://github.com/yiqiyunAppcenter/DeepLearning/raw/master/examples/pytorch_multi_gpu_test.py
 python pytorch_multi_gpu_test.py
 ```
 
@@ -78,14 +78,14 @@ python mnist_dist.py
 **主机 (IP: 192.168.1.2)**
 
 ```shell
-wget https://github.com/shanheAppcenter/DeepLearning/raw/master/examples/pytorch_multi_gpu_test.py
+wget https://github.com/yiqiyunAppcenter/DeepLearning/raw/master/examples/pytorch_multi_gpu_test.py
 python pytorch_mnist_dist.py --master-addr 192.168.1.2 --rank 0
 ```
 
 **从机 (IP:192.168.2.2)**
 
 ```shell
-wget https://github.com/shanheAppcenter/DeepLearning/raw/master/examples/pytorch_multi_gpu_test.py
+wget https://github.com/yiqiyunAppcenter/DeepLearning/raw/master/examples/pytorch_multi_gpu_test.py
 python pytorch_mnist_dist.py --master-addr 192.168.1.2 --rank 1
 ```
 

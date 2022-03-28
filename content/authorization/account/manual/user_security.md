@@ -28,7 +28,7 @@ draft: false
 
 ## 设置入口
 
-点击控制台顶部导航 **用户头像** > **账户安全**，您也可以点击 [这里](https://console.shanhe.com/account/security) 进入帐户安全。或者点击**产品与服务** > **访问与授权** > **账户安全**。
+点击控制台顶部导航 **用户头像** > **账户安全**，您也可以点击 [这里](https://console.yiqiyun.com/account/security) 进入帐户安全。或者点击**产品与服务** > **访问与授权** > **账户安全**。
 
 ![user-security](../../_images/user-security.png)
 
