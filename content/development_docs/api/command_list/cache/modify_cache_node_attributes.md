@@ -30,10 +30,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyCacheNodeAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyCacheNodeAttributes
 &cache_node=cn-606ryhaa
 &cache_node_name=sample
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

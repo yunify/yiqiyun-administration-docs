@@ -31,7 +31,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=CreateCacheParameterGroup
+https://api.yiqiyun.net.cn/iaas/?action=CreateCacheParameterGroup
 &cache_type=memcached1.4.13
 &COMMON_PARAMS
 ```

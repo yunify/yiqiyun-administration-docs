@@ -30,10 +30,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=GrantImageToUsers
+https://api.yiqiyun.net.cn/iaas/?action=GrantImageToUsers
 &image=img-rtyv0968
 &user.1=user-1234
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

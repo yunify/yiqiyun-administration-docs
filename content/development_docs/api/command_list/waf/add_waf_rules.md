@@ -52,7 +52,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=AddWAFRules
+https://api.yiqiyun.net.cn/iaas/?action=AddWAFRules
 &rule_group=wafcg-32yt310g
 &rules.1.list_name=test_waf
 &rules.1.description=test_waf_desc
@@ -60,7 +60,7 @@ https://api.shanhe.com/iaas/?action=AddWAFRules
 &rules.1.list_color=60
 &rules.1.list_content=/url
 &rules.1.val1=/referer
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -27,7 +27,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DissociateEipFromClusterNode
+https://api.yiqiyun.net.cn/iaas/?action=DissociateEipFromClusterNode
 &eips.1=eip-ek3scgap
 &zone=jn1b
 &COMMON_PARAMS

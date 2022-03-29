@@ -23,7 +23,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=AddResourceGroupItems
+https://api.yiqiyun.net.cn/iaas/?action=AddResourceGroupItems
 &resource_group=rg-c7hmvt8u
 &zone=beta
 &resources.1=i-i8wewg3l

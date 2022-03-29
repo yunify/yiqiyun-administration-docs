@@ -58,7 +58,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeRouters
+https://api.yiqiyun.net.cn/iaas/?action=DescribeRouters
 &routers.1=rtr-b0u6sdj6
 &verbose=1
 &COMMON_PARAMS

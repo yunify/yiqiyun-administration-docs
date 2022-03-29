@@ -35,10 +35,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ApplyCacheParameterGroup
+https://api.yiqiyun.net.cn/iaas/?action=ApplyCacheParameterGroup
 &cache_parameter_group=cpg-p56ld3nr
 &caches.1=c-55dwkqew
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -30,10 +30,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=CreateSecurityGroupSnapshot
+https://api.yiqiyun.net.cn/iaas/?action=CreateSecurityGroupSnapshot
 &security_group=sg-q36kwq5r
 &name=sg_snapshot
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

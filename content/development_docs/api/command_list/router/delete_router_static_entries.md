@@ -30,10 +30,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteRouterStaticEntries
+https://api.yiqiyun.net.cn/iaas/?action=DeleteRouterStaticEntries
 &router_static_entries.1=rse-wls7otet
 &router_static_entries.2=rse-b3epyxu5
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

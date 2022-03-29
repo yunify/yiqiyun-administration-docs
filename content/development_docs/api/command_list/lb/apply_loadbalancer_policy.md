@@ -30,9 +30,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ApplyLoadBalancerPolicy
+https://api.yiqiyun.net.cn/iaas/?action=ApplyLoadBalancerPolicy
 &loadbalancer_policy=lbp-1234abcd
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

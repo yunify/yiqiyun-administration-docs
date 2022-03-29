@@ -1,5 +1,5 @@
 ---
-title: "安装山河SDK"
+title: "安装 SDK"
 description: test
 draft: false
 ---

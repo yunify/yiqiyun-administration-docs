@@ -43,7 +43,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeImageUsers&image_id=img-c5hx2ay5
+https://api.yiqiyun.net.cn/iaas/?action=DescribeImageUsers&image_id=img-c5hx2ay5
 &COMMON_PARAMS
 ```
 

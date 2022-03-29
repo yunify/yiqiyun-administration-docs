@@ -31,7 +31,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyLoadBalancerPolicyRuleAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyLoadBalancerPolicyRuleAttributes
 &loadbalancer_policy_rule=lbpr-1234abcd
 &val=new_regex
 &COMMON_PARAMS

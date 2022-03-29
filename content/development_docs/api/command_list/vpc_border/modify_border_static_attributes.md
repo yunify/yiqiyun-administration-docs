@@ -35,7 +35,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyBorderStaticAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyBorderStaticAttributes
 &disabled=1
 &border_static=bdrs-c8zo9kra
 &zone=jn1

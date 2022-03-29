@@ -35,10 +35,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ChangeEipsBillingMode
+https://api.yiqiyun.net.cn/iaas/?action=ChangeEipsBillingMode
 &eips.1=eip-r4jnbhui
 &billing_mode=traffic
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

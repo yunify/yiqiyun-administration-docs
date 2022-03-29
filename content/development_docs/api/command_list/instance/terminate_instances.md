@@ -11,7 +11,7 @@ weight: 4
 
 警告
 
-已销毁的云服务器山河会为你保留2小时，如果误操作，请及时与我们联系。
+已销毁的云服务器亿栖云会为你保留2小时，如果误操作，请及时与我们联系。
 
 **Request Parameters**
 
@@ -36,9 +36,9 @@ weight: 4
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=TerminateInstances
+https://api.yiqiyun.net.cn/iaas/?action=TerminateInstances
 &instances.1=i-rtyv0968
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -8,7 +8,7 @@ weight: 2
 
 ## 基本步骤
 
-山河 AppCenter 旨在帮助软件开发者以极低的学习成本快速部署自己的应用到云平台之上，应用可以是单节点部署架构，但 AppCenter 主要是针对于复杂的、多节点甚至多角色节点部署的企业应用而提供的服务。创建一个应用的主要流程：
+亿栖云 AppCenter 旨在帮助软件开发者以极低的学习成本快速部署自己的应用到云平台之上，应用可以是单节点部署架构，但 AppCenter 主要是针对于复杂的、多节点甚至多角色节点部署的企业应用而提供的服务。创建一个应用的主要流程：
 
 - [创建应用](/appcenter/dev-platform/cluster-developer-guide/app/management/#创建应用)
 - [创建应用版本](/appcenter/dev-platform/cluster-developer-guide/app-version/management/#创建应用版本)

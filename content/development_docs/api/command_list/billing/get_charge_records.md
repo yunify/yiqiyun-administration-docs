@@ -54,7 +54,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=GetChargeRecords
+https://api.yiqiyun.net.cn/iaas/?action=GetChargeRecords
 &resource=i-jahdgzez
 &zone=gd2
 &COMMON_PARAMS

@@ -33,7 +33,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteNotificationLists
+https://api.yiqiyun.net.cn/iaas/?action=DeleteNotificationLists
 &notification_lists.1=nl-xxxxx
 &COMMON_PARAMS
 ```

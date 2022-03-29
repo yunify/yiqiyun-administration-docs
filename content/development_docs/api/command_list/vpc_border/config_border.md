@@ -33,7 +33,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=ConfigBorder
+https://api.yiqiyun.net.cn/iaas/?action=ConfigBorder
 &border=irt-2zevtm67
 &operation=ConfigRoute
 &zone=jn1

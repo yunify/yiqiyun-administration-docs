@@ -36,11 +36,11 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyS2SharedTargetAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyS2SharedTargetAttributes
 &shared_target=s2st-eldx7l02
 &operation=modify
 &export_name=/mnt/test
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

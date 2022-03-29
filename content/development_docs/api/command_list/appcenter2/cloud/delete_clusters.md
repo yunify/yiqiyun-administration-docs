@@ -30,9 +30,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteClusters
+https://api.yiqiyun.net.cn/iaas/?action=DeleteClusters
 &clusters.1=cl-11esmufq
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

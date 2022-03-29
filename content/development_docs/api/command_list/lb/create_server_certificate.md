@@ -32,7 +32,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=CreateServerCertificate
+https://api.yiqiyun.net.cn/iaas/?action=CreateServerCertificate
 &private_key=private_key
 &certificate_content=certificate_content
 &COMMON_PARAMS

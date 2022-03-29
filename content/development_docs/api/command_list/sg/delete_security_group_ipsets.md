@@ -32,10 +32,10 @@ IP/端口集合须在没有资源（防火墙）使用的情况下才能被删�
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteSecurityGroupIPSets
+https://api.yiqiyun.net.cn/iaas/?action=DeleteSecurityGroupIPSets
 &security_group_ipsets.1=sgi-inijevna
 &security_group_ipsets.2=sgi-o3msxqpp
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -33,7 +33,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=AddCacheNodes
+https://api.yiqiyun.net.cn/iaas/?action=AddCacheNodes
 &cache=c-55dwkqew
 &node_count=2
 &private_ips.0.cache_role=slave

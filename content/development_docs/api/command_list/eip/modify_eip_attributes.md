@@ -35,10 +35,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyEipAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyEipAttributes
 &eip=eip-rtyv0968
 &eip_name=jenkins
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

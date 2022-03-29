@@ -41,9 +41,9 @@ weight: 12
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeInstanceTypes
+https://api.yiqiyun.net.cn/iaas/?action=DescribeInstanceTypes
 &instance_types.1=c1m1
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 
@@ -60,7 +60,7 @@ _Example Response_:
       "description":"",
       "instance_type_name":"1核1G",
       "instance_type_id":"c1m1",
-      "zone_id":"jn1a",
+      "zone_id":"zw2",
       "memory_current":1024
     }
   ],

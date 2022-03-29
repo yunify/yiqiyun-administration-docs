@@ -65,13 +65,13 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=GetCacheMonitor
+https://api.yiqiyun.net.cn/iaas/?action=GetCacheMonitor
 &resource=cn-5ry0ma0j
 &meters.1=stats
 &start_time==2015-05-01T10%3A39%3A40.091Z
 &end_time=2015-05-01T16%3A39%3A40.091Z
 &step=5m
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 
@@ -107,13 +107,13 @@ _Example Response_:
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=GetCacheMonitor
+https://api.yiqiyun.net.cn/iaas/?action=GetCacheMonitor
 &resource=cn-5ry0ma0j
 &meters.1=traffic
 &start_time==2015-05-01T16%3A00%3A40.091Z
 &end_time=2015-05-01T16%3A39%3A40.091Z
 &step=5m
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

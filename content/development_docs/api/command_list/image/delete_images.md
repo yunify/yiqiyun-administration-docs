@@ -30,9 +30,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteImages
+https://api.yiqiyun.net.cn/iaas/?action=DeleteImages
 &images.1=img-uydrnlax
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -43,7 +43,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=GetLeaseInfo
+https://api.yiqiyun.net.cn/iaas/?action=GetLeaseInfo
 &resource=i-jahdgzez
 &zone=gd2
 &COMMON_PARAMS

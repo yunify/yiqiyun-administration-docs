@@ -12,7 +12,7 @@ keyword: NAT网关, NAT
 
 ### 创建 NAT 网关
 
-登录[管理控制台](https://console.shanhe.com/login)，在控制台导航栏中，选择 **VPC 网络** > **NAT 网关**。在 **NAT 网关**页面，点击**创建**按钮。
+登录管理控制台，在控制台导航栏中，选择 **VPC 网络** > **NAT 网关**。在 **NAT 网关**页面，点击**创建**按钮。
 
 <img src="../../_images/create_natgw.png" style="zoom:50%;" />
 

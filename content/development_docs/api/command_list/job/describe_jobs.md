@@ -49,7 +49,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeJobs
+https://api.yiqiyun.net.cn/iaas/?action=DescribeJobs
 &COMMON_PARAMS
 ```
 

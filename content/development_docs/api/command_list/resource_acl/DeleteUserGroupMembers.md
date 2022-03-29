@@ -22,7 +22,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteUserGroupMembers
+https://api.yiqiyun.net.cn/iaas/?action=DeleteUserGroupMembers
 &user_group=ug-6zp387ak
 &users.1=usr-iKf0yJEZ
 &COMMON_PARAMS

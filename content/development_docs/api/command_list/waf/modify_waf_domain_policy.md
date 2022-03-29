@@ -25,12 +25,12 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyWAFDomainPolicyAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyWAFDomainPolicyAttributes
 &domain_policy=wafdp-5yzj3c39
 &domain_policy_name=test
 &domain_name=*.yunify.com
 &affect_mode=0
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

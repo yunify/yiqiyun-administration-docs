@@ -42,7 +42,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.qingcloudaas/?action=ModifySecurityGroupRuleAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifySecurityGroupRuleAttributes
 &security_group_rule=sgr-13cooxdd
 &security_group_rule_name=demo_rule
 &priority=13

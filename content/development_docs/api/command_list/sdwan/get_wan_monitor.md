@@ -40,7 +40,7 @@ _Example Request_
 
 ```
 接入点为光盒示例：
-https://api.shanhe.com/iaas/?action=GetWanMonitor
+https://api.yiqiyun.net.cn/iaas/?action=GetWanMonitor
 &resource=wacc-fub9b1eo
 &access_type=cpe
 &meters.1=traffic
@@ -51,11 +51,11 @@ https://api.shanhe.com/iaas/?action=GetWanMonitor
 &monitor_type=pop
 &start_time=2020-05-09T02:04:32.200Z
 &end_time=2020-05-09T08:04:32.200Z
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 
 接入点为网关示例：
-https://api.shanhe.com/iaas/?action=GetWanMonitor
+https://api.yiqiyun.net.cn/iaas/?action=GetWanMonitor
 &resource=waif-6bm6mt85
 &access_type=vpc
 &meters.1=traffic
@@ -64,7 +64,7 @@ https://api.shanhe.com/iaas/?action=GetWanMonitor
 &step=5m
 &start_time=2020-05-09T02:04:32.200Z
 &end_time=2020-05-09T08:04:32.200Z
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 
