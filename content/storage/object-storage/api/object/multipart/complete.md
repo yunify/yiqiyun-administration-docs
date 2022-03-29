@@ -14,13 +14,13 @@ weight: 3
 
 - 该操作要求请求者对指定的 Bucket 拥有可读权限。
 - 若指定的 Bucket 被设置为匿名用户可写，则请求中可不携带用户认证信息；
-- 若指定的 Bucket 被设置为匿名用户可写，但请求中仍然携带了用户认证信息，则山河对象存储仍然会对该用户进行认证，当山河对象存储认证该用户不拥有该 Bucket 的可写权限，该请求返回错误。
+- 若指定的 Bucket 被设置为匿名用户可写，但请求中仍然携带了用户认证信息，则亿栖云对象存储仍然会对该用户进行认证，当亿栖云对象存储认证该用户不拥有该 Bucket 的可写权限，该请求返回错误。
 
 ## 请求语法
 
 ```http
 POST /<object-name>?upload_id=<upload-id> HTTP/1.1
-Host: <bucket-name>.jn1.is.shanhe.com
+Host: <bucket-name>.jn1.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -37,7 +37,7 @@ Authorization: <authorization-string>
 
 ### 标准 HTTP 头
 
-读取分段上传合并后的 Object 全部内容所需时间较长，为了避免阻塞，山河对象存储服务不会自动为合并后的文件计算 ETag 值，需要用户自行在调用此接口时设置。此处设置的 ETag 值会在用户调用 HEAD Object 接口时，通过响应头返回。
+读取分段上传合并后的 Object 全部内容所需时间较长，为了避免阻塞，亿栖云对象存储服务不会自动为合并后的文件计算 ETag 值，需要用户自行在调用此接口时设置。此处设置的 ETag 值会在用户调用 HEAD Object 接口时，通过响应头返回。
 
 | 字段名 | 类型 | 说明 | 是否必须 |
 | --- | --- | --- | --- |
@@ -79,7 +79,7 @@ Authorization: <authorization-string>
 
 ```http
 POST /large-object?upload_id=4d26b37a469230619604ecdc0e314782 HTTP/1.1
-Host: mybucket.<zone-id>.is.shanhe.com
+Host: mybucket.<zone-id>.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 13:25:10 GMT
 Authorization: authorization string
 ETag: "0c2f573d81194064b129e940edcefe9b"
@@ -96,7 +96,7 @@ ETag: "0c2f573d81194064b129e940edcefe9b"
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 13:25:10 GMT
 Content-Length: 0
 Connection: close

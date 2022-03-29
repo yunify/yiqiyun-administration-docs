@@ -14,7 +14,7 @@ weight: 3
 
 ## 操作步骤
 
-1. 进入山河对象存储的主页面，点击待查看监控信息的 Bucket 名：
+1. 进入亿栖云对象存储的主页面，点击待查看监控信息的 Bucket 名：
 
  ![](/storage/object-storage/_images/bucket_info1.png)
 
@@ -48,11 +48,11 @@ weight: 3
      </tr>
      <tr>
         <td>zone内出流量</td>
-        <td>从与 Bucket 相同区域的山河平台其他资源下载 Bucket 文件所产生的流量。</td>
+        <td>从与 Bucket 相同区域的亿栖云平台其他资源下载 Bucket 文件所产生的流量。</td>
      </tr>
      <tr>
         <td>zone内进流量</td>
-        <td>从与 Bucket 相同区域的山河平台其他资源上传文件至 Bucket 所产生的流量。</td>
+        <td>从与 Bucket 相同区域的亿栖云平台其他资源上传文件至 Bucket 所产生的流量。</td>
      </tr>
      <tr>
         <td rowspan="1">低频存储流量</td>
@@ -70,11 +70,11 @@ weight: 3
      </tr>
      <tr>
         <td>zone内读请求</td>
-        <td>从与 Bucket 相同区域的山河平台其他资源调用该 Bucket 读相关的 API 的次数。</td>
+        <td>从与 Bucket 相同区域的亿栖云平台其他资源调用该 Bucket 读相关的 API 的次数。</td>
      </tr>
      <tr>
         <td>zone内写请求</td>
-        <td>从与 Bucket 相同区域的山河平台其他资源调用该 Bucket 写相关的 API 的次数。</td>
+        <td>从与 Bucket 相同区域的亿栖云平台其他资源调用该 Bucket 写相关的 API 的次数。</td>
      </tr>
      <tr>
         <td rowspan="4">低频存储API请求</td>
@@ -87,11 +87,11 @@ weight: 3
      </tr>
      <tr>
         <td>zone内读请求</td>
-        <td>从与 Bucket 相同区域的山河平台其他资源调用该 Bucket 读相关的 API 的次数。</td>
+        <td>从与 Bucket 相同区域的亿栖云平台其他资源调用该 Bucket 读相关的 API 的次数。</td>
      </tr>
      <tr>
         <td>zone内写请求</td>
-        <td>从与 Bucket 相同区域的山河平台其他资源调用该 Bucket 写相关的 API 的次数。</td>
+        <td>从与 Bucket 相同区域的亿栖云平台其他资源调用该 Bucket 写相关的 API 的次数。</td>
      </tr>
      <tr>
         <td>存储</td>

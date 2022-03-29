@@ -8,13 +8,13 @@ weight: 13
 ---
 
 
-山河对象存储的 Ruby SDK 已在 GitHub 开源，本文为简要使用文档。更多详细信息请参见 [GitHub 项目](https://github.com/qingstor/qingstor-sdk-ruby)。
+亿栖云对象存储的 Ruby SDK 已在 GitHub 开源，本文为简要使用文档。更多详细信息请参见 [GitHub 项目](https://github.com/qingstor/qingstor-sdk-ruby)。
 
-使用 SDK 之前请先在 [管理控制台](https://console.shanhe.com/access_keys/) 申请 Access key。
+使用 SDK 之前请先在管理控制台申请 Access key。
 
 ## 安装
 
-山河对象存储提供两个安装方式，用户可根据需求选用。
+亿栖云对象存储提供两个安装方式，用户可根据需求选用。
 
 **方式一：** 直接 Ruby Gem 安装:
 

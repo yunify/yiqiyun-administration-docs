@@ -21,7 +21,7 @@ weight: 3
 ```http
 PUT /<object-name> HTTP/1.1
 x-qs-copy-source: /source-bucket/source-object
-Host: <bucket-name>.<zone-id>.shanhe.com
+Host: <bucket-name>.<zone-id>.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -71,7 +71,7 @@ Authorization: <authorization-string>
 
 ```http
 PUT /myphoto.jpg HTTP/1.1
-Host: mybucket.jn2.is.shanhe.com
+Host: mybucket.jn2.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 x-qs-copy-source: /source-bucket/source-object
 Authorization: authorization string
@@ -81,7 +81,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 ETag: "0c2f573d81194064b129e940edcefe9b"
 Content-Length: 0

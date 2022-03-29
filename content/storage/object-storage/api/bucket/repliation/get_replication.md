@@ -13,7 +13,7 @@ weight: 3
 
 ```http
 GET /?replication HTTP/1.1
-Host: <bucket-name>.<zone_id>.is.shanhe.com
+Host: <bucket-name>.<zone_id>.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -58,7 +58,7 @@ Authorization: <authorization-string>
 
 ```http
 GET /?replication HTTP/1.1
-Host: my-bucket.jn1.is.shanhe.com
+Host: my-bucket.jn1.is.yiqiyun.com
 Date: Mon, 1 Oct 2018 15:04:01 GMT
 Authorization: authorization string
 ```
@@ -67,7 +67,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Mon, 1 Oct 2018 15:04:01 GMT
 Content-Length: 193
 Connection: close

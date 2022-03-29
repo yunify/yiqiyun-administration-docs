@@ -7,13 +7,13 @@ title: "List Locations"
 ## 使用限制
 
 - 该 API 支持匿名请求。
-- 使用该 API 时，请求只能发送至对象存储服务的 Globan Endpoint，即：`shanhe.com`。
+- 使用该 API 时，请求只能发送至对象存储服务的 Globan Endpoint，即：`yiqiyun.com`。
 
 ## 请求语法
 
 ```http
 GET /?location&lang=zh-cn HTTP/1.1
-Host: is.shanhe.com
+Host: is.yiqiyun.com
 ```
 
 ## 请求参数
@@ -45,7 +45,7 @@ Host: is.shanhe.com
 | locations | List |  Location 列表|
 | id | String | `Location` 的健值，Location ID。 |
 | name | String | `Location` 的健值，根据请求参数 `lang` 指定语言的翻译。 |
-| endpoint | String | `Location` 的健值，Location Endpoint，如 Location ID 为 jn2.is 的 Endpoint 是 jn2.is.shanhe.com。 |
+| endpoint | String | `Location` 的健值，Location Endpoint，如 Location ID 为 jn2.is 的 Endpoint 是 jn2.is.yiqiyun.com。 |
 
 ## 错误码
 
@@ -57,14 +57,14 @@ Host: is.shanhe.com
 
 ```http
 GET /?location&lang=zh-cn HTTP/1.1
-Host: is.shanhe.com
+Host: is.yiqiyun.com
 ```
 
 ### 响应示例
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Mon, 23 Oct 2017 12:08:19 GMT
 Content-Type: application/json
 Content-Length: 177
@@ -73,12 +73,12 @@ x-qs-request-id: dc05ee1cb7ea11e7b8da5254dda2bdf5
 {
     "locations": [
         {
-            "endpoint": "jn1.is.shanhe.com",
+            "endpoint": "jn1.is.yiqiyun.com",
             "id": "jn2.is",
             "name": "\u5317\u4eac3\u533a"
         },
         {
-            "endpoint": "sh1a.is.shanhe.com",
+            "endpoint": "sh1a.is.yiqiyun.com",
             "id": "sh1a",
             "name": "\u4e0a\u6d771\u533a"
         }

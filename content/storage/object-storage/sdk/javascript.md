@@ -3,12 +3,12 @@ title: "JavaScript SDK"
 ---
 
 
-山河对象存储的 JavaScript SDK 已在 GitHub 开源，本文为简要使用文档。更多详细信息请参见 [GitHub 项目](https://github.com/yunify/qingstor-sdk-js)。
+亿栖云对象存储的 JavaScript SDK 已在 GitHub 开源，本文为简要使用文档。更多详细信息请参见 [GitHub 项目](https://github.com/yunify/qingstor-sdk-js)。
 
 
 ## 安装
 
-山河对象存储提供若干安装方式，用户可根据需求进行选用。
+亿栖云对象存储提供若干安装方式，用户可根据需求进行选用。
 
 **方式一：** 使用 npm 安装 SDK：
 
@@ -22,7 +22,7 @@ npm install qingstor-sdk
 yarn add qingstor-sdk
 ```
 
-**方式三：** 也可以请前往 [Release](https://github.com/yunify/qingstor-sdk-js/releases) 页面下载打包好的 SDK 文件，然后在 HTML 中加上如下格式的 Script 标签引入 SDK，山河对象存储建议用户在开发时使用未压缩的版本，方便调试，在生产环境中使用 `qingstor-sdk.min.js` 版本。
+**方式三：** 也可以请前往 [Release](https://github.com/yunify/qingstor-sdk-js/releases) 页面下载打包好的 SDK 文件，然后在 HTML 中加上如下格式的 Script 标签引入 SDK，亿栖云对象存储建议用户在开发时使用未压缩的版本，方便调试，在生产环境中使用 `qingstor-sdk.min.js` 版本。
 
 ```html
 <script src="https://example.com/path/to/qingstor-sdk.js"></script>
@@ -129,7 +129,7 @@ node -r esm index.js
 
 ### 请求签名
 
-发往山河对象存储的请求需要使用 Access Key 和 Secret Key 对请求签名，请前往 [管理控制台](https://console.shanhe.com/access_keys/) 创建和下载。下载到的密钥文件格式如下，请妥善保存你的密钥:
+发往亿栖云对象存储的请求需要使用 Access Key 和 Secret Key 对请求签名，请前往管理控制台创建和下载。下载到的密钥文件格式如下，请妥善保存你的密钥:
 
 ``` plain_text
 access_key_id: 'ACCESS_KEY_ID_EXAMPLE'
@@ -147,7 +147,7 @@ const config = new Config({
 });
 ```
 
-如果在浏览器 Browser 环境中使用 SDK，山河对象存储强烈建议用户部署一个签名服务器，专门用来对请求做签名，这样的好处是不会将 `access_key_id` 和 `secret_access_key` 暴露在客户端。
+如果在浏览器 Browser 环境中使用 SDK，亿栖云对象存储强烈建议用户部署一个签名服务器，专门用来对请求做签名，这样的好处是不会将 `access_key_id` 和 `secret_access_key` 暴露在客户端。
 
 签名服务器的代码非常简单，请参考 [Express 示例](https://github.com/yunify/qingstor-sdk-js/blob/master/docs/examples/signaure_server.js)。签名服务器部署好之后，请采用如下方式初始化 Config 对象:
 
@@ -194,13 +194,13 @@ function listBuckets() {
     //     {
     //       "name": "mybucket",
     //       "location": "pek3a",
-    //       "url": "https://mybucket.jn1a.is.shanhe.com",
+    //       "url": "https://mybucket.jn1a.is.yiqiyun.com",
     //       "created": "2015-07-11T04:45:57Z"
     //     },
     //     {
     //       "name": "myphotos",
     //       "location": "pek3a",
-    //       "url": "https://myphotos.jn1a.is.shanhe.com",
+    //       "url": "https://myphotos.jn1a.is.yiqiyun.com",
     //       "created": "2015-07-12T09:40:32Z"
     //     }
     //   ]

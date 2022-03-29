@@ -7,7 +7,7 @@ weight: 2
 collapsible: false
 ---
 
-Logstash Output QingStor 是 Logstash 的一个 Output 插件，它用于对接山河对象存储服务。用户通过该插件，将 Logstash 的输出结果归档至山河对象存储的 Bucket 中。
+Logstash Output QingStor 是 Logstash 的一个 Output 插件，它用于对接亿栖云对象存储服务。用户通过该插件，将 Logstash 的输出结果归档至亿栖云对象存储的 Bucket 中。
 
 该插件已在 GitHub 开源，本文为简要使用文档。更多详细信息请参见 [GitHub 项目](https://github.com/yunify/logstash-output-qingstor)。
 
@@ -22,7 +22,7 @@ Logstash Output QingStor 是 Logstash 的一个 Output 插件，它用于对接�
 
 ## 配置
 
-1. 在 [管理控制台](https://console.shanhe.com/access_keys/) 申请 Access Key。
+1. 在管理控制台申请 Access Key。
 
 2. 创建配置文件 qs_output.conf，并填写如下内容：
 
@@ -43,7 +43,7 @@ output {
 
 ## 使用
 
-配置完成之后执行如下命令行启动 Logstash，即可在山河对象存储指定的 Bucket 中查看到输出的日志文件。
+配置完成之后执行如下命令行启动 Logstash，即可在亿栖云对象存储指定的 Bucket 中查看到输出的日志文件。
 
 ```bash
 $./bin/logstash -f qs_output.conf

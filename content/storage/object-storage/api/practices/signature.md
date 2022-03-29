@@ -7,7 +7,7 @@ weight: 1
 ---
 
 
-山河对象存储具备多种访问方式。根据场景的不同，山河对象存储提供了相应的方案来进行请求的身份认证。由于实现签名需要考虑的细节较多，包括语言编码、特殊字符处理、以及新 API 的支持等，所以建议开发者直接使用山河对象存储提供的 SDK 或客户端工具，以减少开发和维护工作。
+亿栖云对象存储具备多种访问方式。根据场景的不同，亿栖云对象存储提供了相应的方案来进行请求的身份认证。由于实现签名需要考虑的细节较多，包括语言编码、特殊字符处理、以及新 API 的支持等，所以建议开发者直接使用亿栖云对象存储提供的 SDK 或客户端工具，以减少开发和维护工作。
 
 
 若用户的 Bucket 设为私有权限，需要通过请求进行签名；若用户的 Bucket 已经配置为公开读或公开读写权限，则不需要对请求进行签名。
@@ -16,7 +16,7 @@ weight: 1
 
 ### 请求头签名
 
-该方式适用于大部分的场景，如运行在服务器端的应用程序向山河对象存储服务端发起访问请求。应用程序需配置 Access Key。为了防止签名请求被恶意用户拦截重放，从保证用户数据安全的角度出发，山河对象存储设置了 15 分钟之后签名串失效的机制。
+该方式适用于大部分的场景，如运行在服务器端的应用程序向亿栖云对象存储服务端发起访问请求。应用程序需配置 Access Key。为了防止签名请求被恶意用户拦截重放，从保证用户数据安全的角度出发，亿栖云对象存储设置了 15 分钟之后签名串失效的机制。
 
 所以，用户需要将系统时间通过 NTP 校准到网络时间。若用户的服务器是运行在 IaaS 平台上的虚拟机，系统会自动同步标准时间。
 
@@ -30,9 +30,9 @@ weight: 1
 
 ### 签名服务
 
-由于移动端应用的特点，将 Access Key 随 APP 分发会带来安全问题。所以山河对象存储提供了签名服务解决方案，具体请参考 [移动 App 接入方案](../../../beat-practices/app_integration/)。
+由于移动端应用的特点，将 Access Key 随 APP 分发会带来安全问题。所以亿栖云对象存储提供了签名服务解决方案，具体请参考 [移动 App 接入方案](../../../beat-practices/app_integration/)。
 
-移动客户端每次上传下载文件之前，由山河对象存储服务端验证了用户身份之后，签名服务根据特定的山河 API 调用参数，生成头签名或参数签名，返回给客户端。客户端使用该签名直接跟山河对象存储进行交互。
+移动客户端每次上传下载文件之前，由亿栖云对象存储服务端验证了用户身份之后，签名服务根据特定的亿栖云 API 调用参数，生成头签名或参数签名，返回给客户端。客户端使用该签名直接跟亿栖云对象存储进行交互。
 
 适用于Ajax类型应用的 [Javascript SDK](/storage/object-storage/sdk/javascript/)、适用 Android 平台的 [Java SDK](/storage/object-storage/sdk/java/) 均支持构造 API 请求时应用服务端计算的签名串。
 
@@ -41,15 +41,15 @@ weight: 1
 
 ## 获取 Access Key
 
-山河对象存储通过使用对称加密的方法来验证请求者的身份。如果用户以个人身份请求山河对象存储服务时，首先需要拥有一对密钥。密钥包括 `Access Key ID` 和 `Secret Access Key`，其中 `Secret Access Key` 在签名的过程中需要用到。
+亿栖云对象存储通过使用对称加密的方法来验证请求者的身份。如果用户以个人身份请求亿栖云对象存储服务时，首先需要拥有一对密钥。密钥包括 `Access Key ID` 和 `Secret Access Key`，其中 `Secret Access Key` 在签名的过程中需要用到。
 
 ### 注意事项
-- 获得密钥的用户，可以以密钥拥有者的身份访问山河对象存储，所以密钥中的 Secret Access Key 部分需要对外保密。
+- 获得密钥的用户，可以以密钥拥有者的身份访问亿栖云对象存储，所以密钥中的 Secret Access Key 部分需要对外保密。
 - API 密钥下载链接，自创建 10 分钟后失效。用户需及时下载并保存。
 
 ### 操作步骤
 
-1. 登录 [管理控制台](https://console.shanhe.com/login)，选择 **产品与服务** > **访问与授权** > **API 密钥**，进入 API 密钥主页面：
+1. 登录管理控制台，选择 **产品与服务** > **访问与授权** > **API 密钥**，进入 API 密钥主页面：
 
 ![](/storage/object-storage/_images/ak_sk_1.png)
 
@@ -223,7 +223,7 @@ Authorization: QS PLLZOBTTZXGBNOWUFHZZ:tuXu/KcggHWPAfEmraUHDwEUdiIPSXVRsO+T2rxom
 
 ```
 GET /
-HOST: js-sdk-test.jn2.is.shanhe.com
+HOST: js-sdk-test.jn2.is.yiqiyun.com
 x-qs-date:  Fri, 04 May 2018 16:37:00 GMT
 ```
 
@@ -239,9 +239,9 @@ x-qs-date:Fri, 04 May 2018 16:37:00 GMT
 
 ## 请求参数签名示例
 
-在一些使用场景中可能不便于设置请求头，比如使用浏览器重定向请求，或者给其它用户分享下载链接。山河对象存储允许使用请求参数签名的方式，替代请求头签名。
+在一些使用场景中可能不便于设置请求头，比如使用浏览器重定向请求，或者给其它用户分享下载链接。亿栖云对象存储允许使用请求参数签名的方式，替代请求头签名。
 
-需要注意的是，该方式需要设定请求过期时间 `expires` 参数。在过期时间之后到达的请求将被山河对象存储拒绝。
+需要注意的是，该方式需要设定请求过期时间 `expires` 参数。在过期时间之后到达的请求将被亿栖云对象存储拒绝。
 
 请求参数签名的方式不需要在 HTTP 请求头中附加任何内容，只需在请求参数中添加以下三项 **必要参数**：
 
@@ -294,7 +294,7 @@ access_key_id=PLLZOBTTZXGBNOWUFHZZ&expires=1479107162&signature=tuXu/KcggHWPAfEm
 
 ```
 GET /music.mp3?access_key_id=PLLZOBTTZXGBNOWUFHZZ&expires=1479107162&signature=tuXu/KcggHWPAfEmraUHDwEUdiIPSXVRsO%2BT2rxomBQ%3D
-Host: mybucket.jn2.is.shanhe.com
+Host: mybucket.jn2.is.yiqiyun.com
 Date: Mon, 14 Nov 2016 14:05:00 GMT
 ```
 

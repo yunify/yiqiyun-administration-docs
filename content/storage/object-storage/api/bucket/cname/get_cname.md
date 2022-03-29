@@ -13,7 +13,7 @@ weight: 2
 
 ```http
 GET /?cname HTTP/1.1
-Host: <bucket-name>.<zone-id>.is.shanhe.com
+Host: <bucket-name>.<zone-id>.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -60,7 +60,7 @@ Authorization: <authorization-string>
 
 ```http
 GET /?cname HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -69,7 +69,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:02 GMT
 Content-Length: 300
 Connection: close
