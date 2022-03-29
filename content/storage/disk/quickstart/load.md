@@ -5,7 +5,7 @@ description: Test description
 draft: false
 enableToc: false
 weight: 30
-keyword: 山河，硬盘
+keyword: 亿栖云，硬盘
 ---
 
 ## 操作场景
@@ -20,7 +20,7 @@ keyword: 山河，硬盘
 
 ## 在硬盘页面挂载
 
-1. 登录 [管理控制台](https://console.shanhe.com/login)。
+1. 登录 管理控制台。
 
 2. 在控制台导航栏中，选择**产品与服务** > **存储服务** > **硬盘**，进入**硬盘**页面。
 
@@ -36,7 +36,7 @@ keyword: 山河，硬盘
 
 ## 在云服务器页面加载
 
-1. 登录 [管理控制台](https://console.shanhe.com/login)。
+1. 登录 管理控制台。
 
 2. 在控制台导航栏中，选择**产品与服务** > **计算** > **云服务器**，进入**云服务器**页面。
 

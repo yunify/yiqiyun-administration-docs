@@ -7,7 +7,7 @@ type: "product"
 
 section1:
   title: 硬盘
-  vice_title: 山河提供了多种规格和类型的硬盘，并支持弹性扩展，满足不同场景的业务需求。
+  vice_title: 亿栖云提供了多种规格和类型的硬盘，并支持弹性扩展，满足不同场景的业务需求。
  
 Section2:
   title: 用户指南
