@@ -30,11 +30,11 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=AssociateAlarmPolicy
+https://api.yiqiyun.net.cn/iaas/?action=AssociateAlarmPolicy
 &alarm_policy=alp-hp55o9i5
 &resources.1=i-xxxxx
 &resources.2=i-xxxxx
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

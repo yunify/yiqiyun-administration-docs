@@ -51,7 +51,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeLoadBalancerListeners
+https://api.yiqiyun.net.cn/iaas/?action=DescribeLoadBalancerListeners
 &loadbalancers.1=lb-1234abcd
 &verbose=1
 &COMMON_PARAMS

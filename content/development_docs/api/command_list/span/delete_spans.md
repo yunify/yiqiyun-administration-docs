@@ -31,9 +31,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteSpans
+https://api.yiqiyun.net.cn/iaas/?action=DeleteSpans
 &spans.1=span-1234abcd
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

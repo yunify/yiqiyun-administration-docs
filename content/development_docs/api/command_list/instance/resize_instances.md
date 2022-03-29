@@ -42,10 +42,10 @@ weight: 9
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ResizeInstances
+https://api.yiqiyun.net.cn/iaas/?action=ResizeInstances
 &instance_type=medium_a
 &instances.1=i-r4jnbhui
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

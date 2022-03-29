@@ -35,10 +35,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ApplySecurityGroup
+https://api.yiqiyun.net.cn/iaas/?action=ApplySecurityGroup
 &security_group=sg-12djpg8q
 &instances.1=i-12345678,
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

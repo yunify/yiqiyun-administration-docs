@@ -24,10 +24,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DetachFromS2SharedTarget
+https://api.yiqiyun.net.cn/iaas/?action=DetachFromS2SharedTarget
 &shared_target=s2st-eawpunuj
 &volumes.1=vol-02x95cwp
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -51,7 +51,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeS2Accounts
+https://api.yiqiyun.net.cn/iaas/?action=DescribeS2Accounts
 &s2_accounts.1=s2a-cpuwpquf
 &verbose=1
 &COMMON_PARAMS

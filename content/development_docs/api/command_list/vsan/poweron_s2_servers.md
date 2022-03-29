@@ -36,9 +36,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=PowerOnS2Servers
+https://api.yiqiyun.net.cn/iaas/?action=PowerOnS2Servers
 &s2_servers.1=s2-s5nqo8mr
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

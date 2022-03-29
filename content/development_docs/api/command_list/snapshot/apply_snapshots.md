@@ -30,7 +30,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=ApplySnapshots
+https://api.yiqiyun.net.cn/iaas/?action=ApplySnapshots
 &snapshots.1=ss-wtthl1qq
 &zone=gd2
 &COMMON_PARAMS

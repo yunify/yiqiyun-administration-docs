@@ -31,9 +31,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DisableS2SharedTargets
+https://api.yiqiyun.net.cn/iaas/?action=DisableS2SharedTargets
 &shared_targets.1=s2st-eawpunuj
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

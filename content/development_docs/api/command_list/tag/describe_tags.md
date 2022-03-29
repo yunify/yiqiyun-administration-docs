@@ -48,7 +48,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhem/iaas/?action=DescribeTags
+https://api.yiqiyun.net.cn/iaas/?action=DescribeTags
 &verbose=1
 &COMMON_PARAMS
 ```

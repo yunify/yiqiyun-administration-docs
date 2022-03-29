@@ -40,7 +40,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=CreateCache
+https://api.yiqiyun.net.cn/iaas/?action=CreateCache
 &vxnet=vxnet-fbmcjfa
 &cache_type=memcached1.4.13
 &cache_size=1

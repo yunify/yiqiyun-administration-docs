@@ -44,7 +44,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeNotificationCenterUserPosts
+https://api.yiqiyun.net.cn/iaas/?action=DescribeNotificationCenterUserPosts
 &post_type.1=failures
 &status.1=new
 &COMMON_PARAMS

@@ -29,9 +29,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=CopySecurityGroupIPSets
+https://api.yiqiyun.net.cn/iaas/?action=CopySecurityGroupIPSets
 &ipsets.1=sgi-12345678
-&dest_zones.1=jn1a
+&dest_zones.1=zw2
 &COMMON_PARAMS
 ```
 

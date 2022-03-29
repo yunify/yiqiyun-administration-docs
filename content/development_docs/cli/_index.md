@@ -8,8 +8,8 @@ type: "product"
 Section2:
   title: CLI文档
   children:
-    - title: 安装山河CLI
-      content: 通过pip安装山河CLI。
+    - title: 安装亿栖云CLI
+      content: 通过pip安装亿栖云CLI。
       url: "install/install/"
 
     - title: 操作指南

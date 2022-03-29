@@ -33,7 +33,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyLoadBalancerBackendAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyLoadBalancerBackendAttributes
 &loadbalancer_backend=lbb-1234abcd
 &port=80
 &weight=5

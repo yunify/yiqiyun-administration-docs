@@ -46,7 +46,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeRouterStaticEntries
+https://api.yiqiyun.net.cn/iaas/?action=DescribeRouterStaticEntries
 &router_static=rtrs-8e3pgr8r
 &COMMON_PARAMS
 ```

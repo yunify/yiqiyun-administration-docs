@@ -35,9 +35,9 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyNFVAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyNFVAttributes
 &nfv=nfv-1234abcd
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

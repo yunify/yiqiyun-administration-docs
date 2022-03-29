@@ -34,7 +34,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteCacheNodes
+https://api.yiqiyun.net.cn/iaas/?action=DeleteCacheNodes
 &cache=c-55dwkqew
 &cache_nodes.0=cn-606ryhaa
 &cache_nodes.1=cn-cksknr5z

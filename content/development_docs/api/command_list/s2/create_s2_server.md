@@ -8,7 +8,7 @@ draft: false
 
 创建新的共享存储服务器。
 
-山河目前支持 VSAN 和 NAS 类型的共享存储服务器， 及基于 iSCSI 协议（ VSAN 类型），NFS 和 CIFS 协议（ NAS 类型）的存储服务。
+亿栖云目前支持 VSAN 和 NAS 类型的共享存储服务器， 及基于 iSCSI 协议（ VSAN 类型），NFS 和 CIFS 协议（ NAS 类型）的存储服务。
 
 **Request Parameters**
 
@@ -39,10 +39,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=CreateS2Server
+https://api.yiqiyun.net.cn/iaas/?action=CreateS2Server
 &vxnet_id=vxnet-ln2mtlk
 &service_type=vsan
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -48,16 +48,16 @@ draft: false
 
 **Example**
 
-以应用[ZooKeeper](https://appcenter.shanhe.com/apps/app-tg3lbp0a/ZooKeeper%20on%20shanhe)为例
+以应用[ZooKeeper](http://appcenter.yiqiyun.net.cn/apps/app-tg3lbp0a?name=ZooKeeper)为例
 
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeClusterJobs
+https://api.yiqiyun.net.cn/iaas/?action=DescribeClusterJobs
 &app=app-tg3lbp0a
 &jobs.1=j-etkt94ebqra
 &limit=1
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 
@@ -71,7 +71,7 @@ _Example Response_:
     {
       "status":"successful",
       "job_id":"j-etkt94ebqra",
-      "directive":"{\"sender\":{\"lang\":\"en\",\"user_id\":\"system\",\"console_id\":\"system\",\"root_user_id\":\"system\",\"role\":\"global_admin\",\"privilege\":10,\"channel\":\"internal\"},\"zone\":\"jn1a\",\"expires\":\"2018-03-04T05:38:58Z\",\"action\":\"CeaseResources\",\"clusters\":[\"cl-xi3aoihf\"],\"resource_ids\":[\"cl-xi3aoihf\"]}",
+      "directive":"{\"sender\":{\"lang\":\"en\",\"user_id\":\"system\",\"console_id\":\"system\",\"root_user_id\":\"system\",\"role\":\"global_admin\",\"privilege\":10,\"channel\":\"internal\"},\"zone\":\"zw2\",\"expires\":\"2018-03-04T05:38:58Z\",\"action\":\"CeaseResources\",\"clusters\":[\"cl-xi3aoihf\"],\"resource_ids\":[\"cl-xi3aoihf\"]}",
       "job_action":"CeaseResources",
       "create_time":"2018-03-04T05:37:58Z",
       "owner":"system",

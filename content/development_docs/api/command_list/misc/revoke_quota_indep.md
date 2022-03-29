@@ -27,7 +27,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=RevokeQuotaIndep
+https://api.yiqiyun.net.cn/iaas/?action=RevokeQuotaIndep
 &user=usr-P9P3grKr
 &zone=test
 ```

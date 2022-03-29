@@ -17,7 +17,7 @@ weight: 1
 ## 应用管理
 
 ### 创建应用
-首先登录[应用管理平台](https://appcenter.shanhe.com/developer)，点击**应用**部分的<b>+</b>号按钮，开始创建第一个应用。
+首先登录[应用管理平台](http://appcenter.yiqiyun.net.cn/developer)，点击**应用**部分的<b>+</b>号按钮，开始创建第一个应用。
 
 ![应用管理首页](/appcenter/dev-platform/cluster-images/home.png)
 
@@ -57,7 +57,7 @@ weight: 1
 
 ### 发布应用
 
-应用(版本)通过审核之后，您可以选择适当的时间发布应用，发布之后用户便可通过 [AppCenter](https://appcenter.shanhe.com/) 浏览、搜索查看到此款应用，并购买应用从而部署自己的应用实例。
+应用(版本)通过审核之后，您可以选择适当的时间发布应用，发布之后用户便可通过 [AppCenter](http://appcenter.yiqiyun.net.cn/) 浏览、搜索查看到此款应用，并购买应用从而部署自己的应用实例。
 
 ### 管理应用
 

@@ -33,10 +33,10 @@ weight: 10
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyInstanceAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyInstanceAttributes
 &instance=i-rtyv0968
 &instance_name=sample
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

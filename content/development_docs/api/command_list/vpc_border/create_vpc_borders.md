@@ -33,7 +33,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=CreateVpcBorders
+https://api.yiqiyun.net.cn/iaas/?action=CreateVpcBorders
 &border_name=ABC
 &border_type=1
 &zone=jn1

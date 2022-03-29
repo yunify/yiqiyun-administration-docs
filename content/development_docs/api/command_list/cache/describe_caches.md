@@ -95,7 +95,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeCaches
+https://api.yiqiyun.net.cn/iaas/?action=DescribeCaches
 &caches.1=c-3kxcqnif
 &status.1=active
 &verbose=1

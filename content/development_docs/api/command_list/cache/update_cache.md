@@ -32,11 +32,11 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=UpdateCaches
+https://api.yiqiyun.net.cn/iaas/?action=UpdateCaches
 &cache=c-55dwkqew
 &private_ips.0.cache_node_id=cn-kcoh9zui
 &private_ips.0.private_ip=192.168.10.21
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

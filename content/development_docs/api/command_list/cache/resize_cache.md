@@ -31,10 +31,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ResizeCaches
+https://api.yiqiyun.net.cn/iaas/?action=ResizeCaches
 &caches.1=c-55dwkqew
 &cache_size=2
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

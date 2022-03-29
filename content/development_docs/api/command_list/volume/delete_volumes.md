@@ -30,9 +30,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteVolumes
+https://api.yiqiyun.net.cn/iaas/?action=DeleteVolumes
 &volumes.1=vol-uydrnlax
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -31,7 +31,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyNicAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyNicAttributes
 &private_ip=192.168.1.2
 &COMMON_PARAMS
 ```

@@ -51,7 +51,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeLoadBalancerBackends
+https://api.yiqiyun.net.cn/iaas/?action=DescribeLoadBalancerBackends
 &loadbalancer=lb-1234abcd
 &COMMON_PARAMS
 ```

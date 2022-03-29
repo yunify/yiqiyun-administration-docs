@@ -32,10 +32,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ChangeS2ServerVxnet
+https://api.yiqiyun.net.cn/iaas/?action=ChangeS2ServerVxnet
 &s2_servers.1=s2-lxqjtu3l
 &vxnet=vxnet-ln2mtlk
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -32,7 +32,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=LoadBalancerLeaveVxnet
+https://api.yiqiyun.net.cn/iaas/?action=LoadBalancerLeaveVxnet
 &vxnet=vxnet-q8f2bu
 &loadbalancer=lb-ciy73nib
 &zone=jn1

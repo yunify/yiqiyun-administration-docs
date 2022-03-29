@@ -34,9 +34,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=CreateTag
+https://api.yiqiyun.net.cn/iaas/?action=CreateTag
 &tag_name=test
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

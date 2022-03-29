@@ -31,10 +31,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ResizeLoadBalancers
+https://api.yiqiyun.net.cn/iaas/?action=ResizeLoadBalancers
 &loadbalancers.1=lb-1234abcd
 &loadbalancer_type=2
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

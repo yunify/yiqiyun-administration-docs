@@ -35,11 +35,11 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=RestartCacheNodes
+https://api.yiqiyun.net.cn/iaas/?action=RestartCacheNodes
 &cache=c-55dwkqew
 &cache_nodes.0=cn-606ryhaa
 &cache_nodes.1=cn-cksknr5z
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

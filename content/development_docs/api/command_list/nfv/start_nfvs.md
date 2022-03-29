@@ -30,7 +30,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=StartNFVs
+https://api.yiqiyun.net.cn/iaas/?action=StartNFVs
 &nfvs.1=nfv-1234abcd
 &COMMON_PARAMS
 ```

@@ -35,9 +35,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=CaptureInstance
+https://api.yiqiyun.net.cn/iaas/?action=CaptureInstance
 &instance=i-n3nju2rh
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

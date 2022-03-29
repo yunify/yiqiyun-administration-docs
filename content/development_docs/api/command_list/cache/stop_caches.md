@@ -30,9 +30,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=StopCaches
+https://api.yiqiyun.net.cn/iaas/?action=StopCaches
 &caches.1=c-55dwkqew
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

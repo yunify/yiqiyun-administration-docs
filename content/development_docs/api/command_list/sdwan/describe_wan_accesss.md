@@ -69,9 +69,9 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeWanAccesss
+https://api.yiqiyun.net.cn/iaas/?action=DescribeWanAccesss
 &wan_accesss.1=wacc-fub9b1eo
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 
@@ -138,7 +138,7 @@ _Example Response_:
         "tunnel_status":"",
         "agent_version":"2.2.9-16664e82"
       },
-      "console_id":"shanhe",
+      "console_id":"",
       "elastic_bandwidth_remote":0,
       "net_mode":1,
       "location_nation":"\u4e2d\u56fd",
