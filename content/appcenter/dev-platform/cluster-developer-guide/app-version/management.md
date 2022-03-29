@@ -36,6 +36,7 @@ weight: 2
 config.json 中定义的参数，在控制台上由用户设置，控制台支持语言国际化，默认情况下，所有语言都会按配置项中的 label 和 description 展示，如果您想要适应不同的语言，需要在提交的应用中包含一个 locale 文件夹，并添加对应语言的翻译文件，如上所述。
 
 
+
 将以上几个文件压缩打包成 TAR，TAR.GZ，ZIP 或 TAR.BZ 格式并上传。
 
 镜像制作请参考：[镜像制作](/appcenter/dev-platform/cluster-developer-guide/image-build/build)
