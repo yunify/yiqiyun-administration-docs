@@ -9,11 +9,11 @@ Section2:
   title: Python
   children:
     - title: 安装指南
-      content: 通过pip安装山河SDK。
+      content: 通过 pip 安装 SDK。
       url: "install/install/"
 
     - title: 快速入门
-      content: 如何使用山河SDK
+      content: 如何使用 SDK
       url: "manual/manual_guide/"
 
 section3:

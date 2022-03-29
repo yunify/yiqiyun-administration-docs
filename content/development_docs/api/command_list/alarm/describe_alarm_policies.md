@@ -52,7 +52,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeAlarmPolicies
+https://api.yiqiyun.net.cn/iaas/?action=DescribeAlarmPolicies
 &COMMON_PARAMS
 ```
 

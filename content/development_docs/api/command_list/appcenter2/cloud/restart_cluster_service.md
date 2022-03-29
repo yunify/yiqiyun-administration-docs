@@ -28,12 +28,12 @@ draft: false
 
 **Example**
 
-以应用[shanhe 云数据库MySQL Plus](https://appcenter.shanhe.com/apps/app-00r26u27/shanhe%20MySQL%20Plus)为例
+以应用[云数据库MySQL Plus](http://appcenter.yiqiyun.net.cn/apps/app-00r26u27?name=yiqiyun.net.cn%20MySQL%20Plus)为例
 
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=RestartClusterService
+https://api.yiqiyun.net.cn/iaas/?action=RestartClusterService
 &cluster=cl-95av0jxo
 &zone=jn1b
 &COMMON_PARAMS

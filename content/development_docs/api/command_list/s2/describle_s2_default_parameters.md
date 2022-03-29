@@ -44,8 +44,8 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeS2DefaultParameters
-&zone=jn1a
+https://api.yiqiyun.net.cn/iaas/?action=DescribeS2DefaultParameters
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -30,10 +30,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteKeyPairs
+https://api.yiqiyun.net.cn/iaas/?action=DeleteKeyPairs
 &keypairs.1=kp-2yjg8qnj
 &keypairs.2=kp-ld23cdzc
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

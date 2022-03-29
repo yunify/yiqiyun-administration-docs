@@ -10,7 +10,7 @@ draft: false
 
 刚创建的防火墙不包含任何规则，即任何端口都是封闭的， 需要建立规则以打开相应的端口。
 
-山河为每个用户提供了一个缺省防火墙，为了方便用户使用， 缺省防火墙默认打开了下行 icmp 协议和 tcp 22 端口。
+亿栖云为每个用户提供了一个缺省防火墙，为了方便用户使用， 缺省防火墙默认打开了下行 icmp 协议和 tcp 22 端口。
 
 **Request Parameters**
 
@@ -34,9 +34,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=CreateSecurityGroup
+https://api.yiqiyun.net.cn/iaas/?action=CreateSecurityGroup
 &security_group_name=specify
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

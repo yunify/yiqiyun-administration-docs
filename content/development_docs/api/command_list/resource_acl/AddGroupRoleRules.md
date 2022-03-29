@@ -23,7 +23,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=AddGroupRoleRules
+https://api.yiqiyun.net.cn/iaas/?action=AddGroupRoleRules
 &group_role=gr-tirat7zw
 &policy=all.describe
 &COMMON_PARAMS

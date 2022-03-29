@@ -79,7 +79,7 @@ root@i-y862i3l9:~# cat /etc/ipsec.secrets
 #### 2、配置 ipsec.conf的配置
 
 ```
-# defined by shanhe
+# defined by qiyiyun
  
 version 2.0
 include /etc/ipsec.d/*.conf
@@ -127,7 +127,7 @@ https://www.strongswan.org/testing/testresults/ikev2/net2net-cert/moon.ipsec.con
 ipsec.conf的配置如下
 
 ```
-# defined by shanhe
+# defined by yiqiyun
  
 version 2.0
 include /etc/ipsec.d/*.conf

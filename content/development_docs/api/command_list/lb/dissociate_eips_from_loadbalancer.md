@@ -31,10 +31,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DissociateEipsFromLoadBalancer
+https://api.yiqiyun.net.cn/iaas/?action=DissociateEipsFromLoadBalancer
 &loadbalancer=lb-1234abcd
 &eips.1=eip-1234abcd
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

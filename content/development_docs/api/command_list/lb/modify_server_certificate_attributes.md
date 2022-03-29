@@ -31,10 +31,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyServerCertificateAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyServerCertificateAttributes
 &server_certificate=sc-1234abcd
 &server_certificate_name=sample
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

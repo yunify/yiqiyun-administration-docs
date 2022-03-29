@@ -28,7 +28,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeGroupRoles
+https://api.yiqiyun.net.cn/iaas/?action=DescribeGroupRoles
 &COMMON_PARAMS
 ```
 

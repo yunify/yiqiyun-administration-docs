@@ -18,7 +18,7 @@ IPsec 是一种加密的隧道技术，通过使用加密的安全服务在不�
 
 ### 1. 配置 router1 的 IPsec 隧道
 
-1. 登录[管理控制台](https://console.shanhe.com/login)，选择**产品与服务** > **网络服务** > **VPC 网络**，进入 VPC 列表页面。
+1. 登录管理控制台，选择**产品与服务** > **网络服务** > **VPC 网络**，进入 VPC 列表页面。
 
 2. 找到您的 VPC 网络，点击 VPC 网络名称，进入详情页。
 
@@ -105,14 +105,14 @@ DPDDelay:           15s
 
 ```
 ASA(config)# access-list my_nat extended permit ip 192.168.1.0 255.255.255.0 192.168.100.0 255.255.255.0
-ASA(config)# access-list cisco-to-shanhe extended permit ip 192.168.1.0 255.255.255.0 192.168.100.0 255.255.255.0
+ASA(config)# access-list cisco-to-qiyiyun extended permit ip 192.168.1.0 255.255.255.0 192.168.100.0 255.255.255.0
 ASA(config)# nat (inside) 0 access-list my_nat
 
 ASA(config)# crypto ipsec transform-set ESP-3DES-MD5 esp-3des esp-md5-hmac
 ASA(config)# crypto ipsec security-association lifetime seconds 28800
 ASA(config)# crypto ipsec security-association lifetime kilobytes 4608000
 
-ASA(config)# crypto map my_map 1 match address cisco-to-shanhe
+ASA(config)# crypto map my_map 1 match address cisco-to-yiqiyun
 ASA(config)# crypto map my_map 1 set pfs
 ASA(config)# crypto map my_map 1 set peer 99.99.99.99
 ASA(config)# crypto map my_map 1 set transform-set ESP-3DES-MD5

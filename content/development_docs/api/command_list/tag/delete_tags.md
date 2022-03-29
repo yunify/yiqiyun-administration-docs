@@ -30,10 +30,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhem/iaas/?action=DeleteTags
+https://api.yiqiyun.net.cn/iaas/?action=DeleteTags
 &tags.1=tag-axbkmf20
 &tags.2=tag-axbkmf21
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

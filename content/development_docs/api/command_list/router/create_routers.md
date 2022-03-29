@@ -40,9 +40,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=CreateRouters
+https://api.yiqiyun.net.cn/iaas/?action=CreateRouters
 &router_name=demo
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

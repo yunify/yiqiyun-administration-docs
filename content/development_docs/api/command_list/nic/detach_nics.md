@@ -30,9 +30,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DetachNics
+https://api.yiqiyun.net.cn/iaas/?action=DetachNics
 &nics.1="52:54:00:00:12:34"
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

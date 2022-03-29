@@ -38,7 +38,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeBorderStatics
+https://api.yiqiyun.net.cn/iaas/?action=DescribeBorderStatics
 &border=irt-2zevtm67
 &verbose=1
 &offset=0
@@ -61,7 +61,7 @@ _Example Response_:
             "static_type":0,
             "root_user_id":"usr-1gIBrASt",
             "owner":"usr-1gIBrASt",
-            "console_id":"shanhe",
+            "console_id":"",
             "disabled":0,
             "border_static_name":"r0",
             "controller":"self",

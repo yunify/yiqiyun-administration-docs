@@ -42,11 +42,11 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=AllocateEips
+https://api.yiqiyun.net.cn/iaas/?action=AllocateEips
 &bandwidth=2
 &billing_mode=bandwidth
 &eip_name=dev
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

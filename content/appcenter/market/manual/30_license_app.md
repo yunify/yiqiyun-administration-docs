@@ -7,7 +7,7 @@ draft: false
 
 ## 应用购买
 
-山河用户可从山河 AppCenter 进行应用查看与购买，进入[应用市场](https://appcenter.shanhe.com/)，在 AppCenter 应用中心购买所需的应用服务。
+用户可从 AppCenter 进行应用查看与购买，进入[应用市场](http://appcenter.yiqiyun.net.cn/)，在 AppCenter 应用中心购买所需的应用服务。
 
 <img src="../../_images/um_license_information.png" />
 

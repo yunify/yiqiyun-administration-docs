@@ -31,10 +31,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=LeaveRouter
+https://api.yiqiyun.net.cn/iaas/?action=LeaveRouter
 &vxnets.1=vxnet-rzg2llb
 &router=rtr-9iy0lt3s
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

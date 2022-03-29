@@ -35,7 +35,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=CaptureImageFromSnapshot
+https://api.yiqiyun.net.cn/iaas/?action=CaptureImageFromSnapshot
 &snapshot=ss-yp2b9l7v
 &image_name=image_from_snapshot
 &base_image=xenialx64b

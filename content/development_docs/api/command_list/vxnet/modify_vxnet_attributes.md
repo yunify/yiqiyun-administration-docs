@@ -33,10 +33,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyVxnetAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyVxnetAttributes
 &vxnet=vxnet-rtyv0968
 &vxnet_name=sample
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

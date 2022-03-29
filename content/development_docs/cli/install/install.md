@@ -6,11 +6,11 @@ draft: false
 
 
 
-shanhe-cli 是管理山河资源的命令行接口 (_Command Line Interface_)， 可以通过它对资源进行查看、创建和操作。目前支持 Linux, Mac 及 Windows。 当前最新版本是 1.0.1
+CLI 是管理亿栖云资源的命令行接口 (_Command Line Interface_)， 可以通过它对资源进行查看、创建和操作。目前支持 Linux, Mac 及 Windows。 当前最新版本是 1.0.1
 
 警告
 
-shanhe-cli 的使用受 API 访问配额的限制，具体请查看 [_概述_](../../../api/overview/) 中的 “API 请求配额限制”
+CLI 的使用受 API 访问配额的限制，具体请查看 [_概述_](../../../api/overview/) 中的 “API 请求配额限制”
 
 ## 安装
 

@@ -34,13 +34,13 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=GetNFVMonitor
+https://api.yiqiyun.net.cn/iaas/?action=GetNFVMonitor
 &resource=nfv-1234abcd
 &meters.1=traffic
 &meters.2=interface
 &start_time==2014-02-09T21:47:00.820Z
 &end_time=2014-02-10T03:47:00.820Z
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

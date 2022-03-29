@@ -32,7 +32,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=ModifySubUserAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifySubUserAttributes
 &user=usr-abcd1234
 &user_name=guest
 &nologin=1

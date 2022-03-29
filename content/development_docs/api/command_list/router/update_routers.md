@@ -34,9 +34,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=UpdateRouters
+https://api.yiqiyun.net.cn/iaas/?action=UpdateRouters
 &routers.1=rtr-xt37nm9j
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -34,7 +34,7 @@ VXNET 加入边界路由器。
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=JoinBorder
+https://api.yiqiyun.net.cn/iaas/?action=JoinBorder
 &border=irt-2zevtm67
 &vxnets.1=vxnet-gonkgpv
 &border_private_ips.0.vxnet_id=vxnet-gonkgpv

@@ -53,7 +53,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeCacheNodes
+https://api.yiqiyun.net.cn/iaas/?action=DescribeCacheNodes
 &caches.1=c-55dwkqew
 &status.1=active
 &verbose=1

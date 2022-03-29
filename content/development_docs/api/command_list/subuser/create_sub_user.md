@@ -33,7 +33,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=CreateAccessKey
+https://api.yiqiyun.net.cn/iaas/?action=CreateAccessKey
 &email=masteruser@test.com#subuser1
 &passwd=Passw0rd
 &COMMON_PARAMS

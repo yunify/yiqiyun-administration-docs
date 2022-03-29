@@ -32,10 +32,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteVxnets
+https://api.yiqiyun.net.cn/iaas/?action=DeleteVxnets
 &vxnets.1=vxnet-7mwzdbs
 &vxnets.2=vxnet-f3y0h3q
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 
