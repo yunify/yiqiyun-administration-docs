@@ -10,11 +10,11 @@ draft: false
 ## redis-port 迁移方式
 
 针对 Redis 2.6.0 至 5.0.0版本，包括 2.6.0 版本数据迁移，可以选择 **redis-port** 迁移方式。
- 
+
 1. 下载 [redis_port](https://github.com/CodisLabs/redis-port/releases)工具。
- 
+
  2. 执行以下命令开始迁移。
-   `./redis-sync -m [源地址:端口号] -t [目标地址:端口号] `。
+      `./redis-sync -m [源地址:端口号] -t [目标地址:端口号] `。
    
 3. 迁移提示完成100%，即可终止程序。
    
@@ -24,7 +24,7 @@ draft: false
 
 ## 从 RDB 文件恢复数据
 
-Redis 5.0.7 - ShanHe 2.2.0版本，新增了**从 RDB 文件恢复数据**功能。。
+Redis 5.0.7 - YiQiYun 2.2.0版本，新增了**从 RDB 文件恢复数据**功能。。
 
 > 注意：
 > - 执行**从 RDB 文件恢复数据**操作前，请先手动备份目标集群数据，因为该操作会完全删除目标集群的所有数据，且不可恢复。
@@ -47,4 +47,3 @@ Redis 5.0.7 - ShanHe 2.2.0版本，新增了**从 RDB 文件恢复数据**功能
    ![restoreData](../../_images/restoreData.png)
 
 4. 检查数据，并确认数据迁移完毕。
-   
