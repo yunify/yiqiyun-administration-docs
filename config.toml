@@ -40,8 +40,8 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.zh]
-title = "山河文档"
-description = "山河超算文档站点"
+title = "亿栖云文档"
+description = "亿栖云文档站点"
 languageName ="中文"
 contentDir = "content"
 # Weight used for sorting.
