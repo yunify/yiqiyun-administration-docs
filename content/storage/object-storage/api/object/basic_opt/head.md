@@ -6,20 +6,20 @@ draft: false
 weight: 3
 ---
 
-该 API 接口用于从指定 Bucket 获取一个 Object 的元数据，山河对象存储仅返回该 Object 的元数据信息，不返回该 Object 的内容。
+该 API 接口用于从指定 Bucket 获取一个 Object 的元数据，亿栖云对象存储仅返回该 Object 的元数据信息，不返回该 Object 的内容。
 
 ## 使用须知
 
 - 此操作要求请求者对指定 Bucket 拥有可读权限。
 - 若指定的 Bucket 被设置为匿名用户可读，则请求中可不携带用户认证信息；
-- 若指定的 Bucket 被设置为匿名用户可读，请求中仍然携带了用户认证信息，则山河对象存储仍然会对该用户进行认证，当山河对象存储认证该用户不拥有该 Bucket 的可读权限，该请求返回错误。
+- 若指定的 Bucket 被设置为匿名用户可读，请求中仍然携带了用户认证信息，则亿栖云对象存储仍然会对该用户进行认证，当亿栖云对象存储认证该用户不拥有该 Bucket 的可读权限，该请求返回错误。
 - 用户可调用该 API 接口检查相应的 Object 是否存在。
 
 ## 请求语法
 
 ```http
 HEAD /<object-name> HTTP/1.1
-Host: <bucket-name>.jn2.is.shanhe.com
+Host: <bucket-name>.jn2.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 Range: bytes=<byte-range>
@@ -78,7 +78,7 @@ Range: bytes=<byte-range>
 
 ```http
 HEAD /myphoto.jpg HTTP/1.1
-Host: mybucket.jn2.is.shanhe.com
+Host: mybucket.jn2.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -87,7 +87,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Last-Modified: Fri, 14 Aug 2015 09:10:39 GMT
 ETag: "0c2f573d81194064b129e940edcefe9b"

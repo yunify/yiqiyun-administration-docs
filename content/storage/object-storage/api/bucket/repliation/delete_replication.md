@@ -13,7 +13,7 @@ weight: 3
 
 ```http
 DELETE /?replication HTTP/1.1
-Host: <bucket-name>.<zone_id>.is.shanhe.com
+Host: <bucket-name>.<zone_id>.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -48,7 +48,7 @@ Authorization: <authorization-string>
 
 ```http
 DELETE /?replication HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Mon, 1 Oct 2018 15:04:01 GMT
 Authorization: authorization string
 ```
@@ -57,7 +57,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 204 NoContent
-Server: shanhe
+Server: yiqiyun
 Date: Mon, 1 Oct 2018 15:04:01 GMT
 Content-Length: 0
 Connection: close

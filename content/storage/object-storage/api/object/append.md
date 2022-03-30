@@ -2,7 +2,7 @@
 title: "Append Object"
 ---
 
-用户可以调用该 API 接口以追加写的方式上传对象到山河对象存储。通过该接口创建的 Object 类型为 `appendable`。
+用户可以调用该 API 接口以追加写的方式上传对象到亿栖云对象存储。通过该接口创建的 Object 类型为 `appendable`。
 
 ## 使用限制
 
@@ -14,7 +14,7 @@ title: "Append Object"
 
 ```http
 POST /<object-name>?append&position=<position> HTTP/1.1
-Host: <bucket-name>.<zone-id>.is.shanhe.com
+Host: <bucket-name>.<zone-id>.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -45,7 +45,7 @@ Authorization: <authorization-string>
 
 ## 响应头
 
-调用该接口后，山河对象存储会返回如下自定义响应头：
+调用该接口后，亿栖云对象存储会返回如下自定义响应头：
 
 | 名称 | 类型 | 说明 | 是否必选 |
 | ------------------------- | -------- | ------------------------------------------------ | -------- |
@@ -63,7 +63,7 @@ Authorization: <authorization-string>
 
 ```http
 POST /obj-append?append&position=0 HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Dec, 16 Aug 2019 09:05:00 GMT
 Content-Length: 1024
 Authorization: authorization string
@@ -74,7 +74,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Dec, 16 Aug 2019 09:05:00 GMT
 Content-Length: 0
 Connection: close

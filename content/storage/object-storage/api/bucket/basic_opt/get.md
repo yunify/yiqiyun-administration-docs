@@ -13,15 +13,15 @@ weight: 3
 
 调用该接口时，有如下注意事项：
 
-- 山河对象存储服务端对这个接口的调用频率会加以限制，建议用户的相关应用请勿依赖于该接口的并发调用。
-- 该接口的响应速度，与 Bucket 内对象数目有关。若 Bucket 内对象数目不断增长，为了不影响相关资源的访问速度，山河对象存储建议用户在业务侧自行保存对象名称或将对象名称拼接至需要访问的对象 URL 中。
-- 山河对象存储服务端会对目录归并结果进行缓存。当一个指定的前缀中，文件和子目录被频繁地更改，则缓存的结果，并不能立刻反映新目录的存在。
+- 亿栖云对象存储服务端对这个接口的调用频率会加以限制，建议用户的相关应用请勿依赖于该接口的并发调用。
+- 该接口的响应速度，与 Bucket 内对象数目有关。若 Bucket 内对象数目不断增长，为了不影响相关资源的访问速度，亿栖云对象存储建议用户在业务侧自行保存对象名称或将对象名称拼接至需要访问的对象 URL 中。
+- 亿栖云对象存储服务端会对目录归并结果进行缓存。当一个指定的前缀中，文件和子目录被频繁地更改，则缓存的结果，并不能立刻反映新目录的存在。
 
 ## 请求语法
 
 ```http
 GET / HTTP/1.1
-Host: <bucket-name>.<zone-id>.shanhe.com
+Host: <bucket-name>.<zone-id>.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -48,10 +48,10 @@ Authorization: <authorization-string>
 
 **参数说明**
 
-- 对象存储没有固定的目录结构，山河对象存储通过 `delimiter = '/'` 参数来实现目录结构访问。
-- 山河对象存储将给定 `prefix` 下相同前缀的多个对象合并为一个结果，通过 `common_prefixes` 返回，以实现目录层级的浏览。
+- 对象存储没有固定的目录结构，亿栖云对象存储通过 `delimiter = '/'` 参数来实现目录结构访问。
+- 亿栖云对象存储将给定 `prefix` 下相同前缀的多个对象合并为一个结果，通过 `common_prefixes` 返回，以实现目录层级的浏览。
 - 用户无须自行构造或修改 `marker` 的内容。首次调用时，不指定该参数，后续调用时，传入上一次 Response 返回的 `next_marker` 的值。
-- 山河对象存储服务端限制该 API 单次调用返回 Object 的最大数量为 100。用户可通过参数 `limit` 进行调整，设置的参数值若超出服务端限制，山河对象存储服务仅会按照最大值进行处理。
+- 亿栖云对象存储服务端限制该 API 单次调用返回 Object 的最大数量为 100。用户可通过参数 `limit` 进行调整，设置的参数值若超出服务端限制，亿栖云对象存储服务仅会按照最大值进行处理。
 - 若用户是自行拼接参数，调用该API，则需将 URL 参数进行 URL 编码。
 
 ## 请求头
@@ -104,7 +104,7 @@ Authorization: <authorization-string>
 
 ```http
 GET /?delimiter=/&limit=4 HTTP/1.1
-Host: mybucket.jn2.is.shanhe.com
+Host: mybucket.jn2.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -113,7 +113,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Content-Length: 559
 Connection: close

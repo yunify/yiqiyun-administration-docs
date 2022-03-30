@@ -2,13 +2,13 @@
 title: "GET Bucket Policy"
 ---
 
-该接口用于获取 Bucket 的访问策略相关设置。山河对象存储定义访问策略为 Bucket 的子资源，因此，只有 Bucket 的所有者才能调用该 API。
+该接口用于获取 Bucket 的访问策略相关设置。亿栖云对象存储定义访问策略为 Bucket 的子资源，因此，只有 Bucket 的所有者才能调用该 API。
 
 ## 请求语法
 
 ```http
 GET /?policy HTTP/1.1
-Host: <bucket-name>.<zone-id>.is.shanhe.com
+Host: <bucket-name>.<zone-id>.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -51,7 +51,7 @@ Authorization: <authorization-string>
 
 ```http
 GET /?policy HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -60,7 +60,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:02 GMT
 Content-Length: 300
 Connection: close

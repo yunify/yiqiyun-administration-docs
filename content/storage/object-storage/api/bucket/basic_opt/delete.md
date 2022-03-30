@@ -16,7 +16,7 @@ weight: 4
 
 ```http
 DELETE / HTTP/1.1
-Host: <bucket-name>.<zone-id>.shanhe.com
+Host: <bucket-name>.<zone-id>.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -54,7 +54,7 @@ Authorization: <authorization-string>
 
 ```http
 DELETE / HTTP/1.1
-Host: mybucket.jn2.is.shanhe.com
+Host: mybucket.jn2.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -63,7 +63,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 204 NoContent
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Content-Length: 0
 Connection: close

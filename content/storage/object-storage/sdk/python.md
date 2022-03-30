@@ -8,13 +8,13 @@ weight: 2
 ---
 
 
-山河对象存储的新版 Python SDK，已在 GitHub 开源。本文为简要使用文档，更多详细信息请参见 [GitHub 项目](https://github.com/qingstor/qingstor-sdk-python) 
+亿栖云对象存储的新版 Python SDK，已在 GitHub 开源。本文为简要使用文档，更多详细信息请参见 [GitHub 项目](https://github.com/qingstor/qingstor-sdk-python) 
 和 [Python SDK API 文档](https://qingstor-sdk-python.readthedocs.io/en/latest/)。
 
-Python SDK 使用 [Snips](https://github.com/yunify/snips) 工具生成，各接口的调用均与山河对象存储的 API 相对应。其返回码、请求头、错误码等规定请参照具体的 [API 文档](/storage/object-storage/api/)。
+Python SDK 使用 [Snips](https://github.com/yunify/snips) 工具生成，各接口的调用均与亿栖云对象存储的 API 相对应。其返回码、请求头、错误码等规定请参照具体的 [API 文档](/storage/object-storage/api/)。
 
 
-使用 SDK 之前请先在 [管理控制台](https://console.shanhe.com/access_keys/) 申请 Access key。
+使用 SDK 之前请先在管理控制台申请 Access key。
 
 ## 安装
 使用 Pip 安装:

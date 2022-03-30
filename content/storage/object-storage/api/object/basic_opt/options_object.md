@@ -9,13 +9,13 @@ weight: 3
 
 当用户的请求属于跨源请求时，需要在正式通信前，增加一次 HTTP 的查询请求，询问服务器当前所在的源，是否在服务器的白名单中，以及哪些 HTTP 动作，头信息是其可以使用的。
 
-该 API 接口便是用于向山河对象存储的 Object 发起预检请求，以确定是否能向该跨源请求发出回应。
+该 API 接口便是用于向亿栖云对象存储的 Object 发起预检请求，以确定是否能向该跨源请求发出回应。
 
 ## 请求语法
 
 ```http
 OPTIONS /<object-name> HTTP/1.1
-Host: <bucket-name>.jn2.is.shanhe.com
+Host: <bucket-name>.jn2.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 Origin: Origin
@@ -45,7 +45,7 @@ Access-Control-Request-Headers: <request-header>
 
 ## 响应头
 
-使用该接口，山河对象存储会返回如下响应头：
+使用该接口，亿栖云对象存储会返回如下响应头：
 
 | Header Name | Type | Description |
 | --- | --- | --- |

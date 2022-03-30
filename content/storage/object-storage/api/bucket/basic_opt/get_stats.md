@@ -3,13 +3,13 @@ title: "GET Bucket Statistics"
 ---
 
 
-获取 Bucket 的统计信息 (Statistics)。山河对象存储定义统计信息是 Bucket 的子资源，只有 Bucket 的所有者才能调用。
+获取 Bucket 的统计信息 (Statistics)。亿栖云对象存储定义统计信息是 Bucket 的子资源，只有 Bucket 的所有者才能调用。
 
 ## 请求语法
 
 ```http
 GET /?stats HTTP/1.1
-Host: <bucket-name>.<zone-id>.shanhe.com
+Host: <bucket-name>.<zone-id>.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -62,7 +62,7 @@ Authorization: <authorization-string>
 
 ```http
 GET /?stats HTTP/1.1
-Host: mybucket.jn2.is.shanhe.com
+Host: mybucket.jn2.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -71,7 +71,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Content-Type: application/json
 Content-Length: 222
@@ -83,7 +83,7 @@ x-qs-request-id: aa08cf7a43f611e5886952542e6ce14b
     "status": "active",
     "name": "mybucket",
     "created": "2015-07-22T02:23:04.000Z",
-    "url": "mybucket.jn2.is.shanhe.com",
+    "url": "mybucket.jn2.is.yiqiyun.com",
     "location": "jn2.is",
     "storage_classes": {
         "STANDARD": {

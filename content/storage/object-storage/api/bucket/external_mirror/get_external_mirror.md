@@ -13,7 +13,7 @@ weight: 3
 
 ```http
 GET /?mirror HTTP/1.1
-Host: <bucket-name>.<zone-id>.is.shanhe.com
+Host: <bucket-name>.<zone-id>.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -60,7 +60,7 @@ Authorization: <authorization-string>
 
 ```http
 GET /?mirror HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Sun, 14 Aug 2016 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -69,7 +69,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 14 Aug 2016 09:05:01 GMT
 Content-Length: 0
 Connection: close

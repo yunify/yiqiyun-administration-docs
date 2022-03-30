@@ -5,7 +5,7 @@ draft: false
 weight: 3
 ---
 
-本文介绍如何通过 goofys 将山河对象存储挂载到文件系统使用。项目地址：[Github 项目](https://github.com/kahing/goofys)。
+本文介绍如何通过 goofys 将亿栖云对象存储挂载到文件系统使用。项目地址：[Github 项目](https://github.com/kahing/goofys)。
 
 ## 操作步骤
 1. 创建 Bucket，若已经有可使用的 Bucket，可略过该步骤。详细操作可参考 [创建 Bucket](/storage/object-storage/manual/console/bucket_manage/basic_opt/#创建-bucket)。
@@ -31,7 +31,7 @@ aws_access_key_id = qy_access_key_id							#API密钥ID
 aws_secret_access_key = qy_secret_access_key					#API密钥密码
 ```
 ```bash
-goofys --endpoint https://s3.<zone>.is.shanhe.com <bucket_name> <mount_point>
+goofys --endpoint https://s3.<zone>.is.yiqiyun.com <bucket_name> <mount_point>
 ```
 
 5. `df -Th` 查看结果

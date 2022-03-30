@@ -8,7 +8,7 @@ title: "Delete Multiple Objects"
 
 ```http
 POST /?delete HTTP/1.1
-Host: <bucket-name>.<zone-id>.shanhe.com
+Host: <bucket-name>.<zone-id>.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 Content-MD5: Dd11y+x5Jegm/fUJ6mOuhg==
@@ -71,7 +71,7 @@ Content-MD5: Dd11y+x5Jegm/fUJ6mOuhg==
 
 ```http
 POST /?delete HTTP/1.1
-Host: mybucket.jn2.is.shanhe.com
+Host: mybucket.jn2.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 Content-MD5: Dd11y+x5Jegm/fUJ6mOuhg==
@@ -88,7 +88,7 @@ Content-MD5: Dd11y+x5Jegm/fUJ6mOuhg==
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Content-Length: 71
 Connection: close

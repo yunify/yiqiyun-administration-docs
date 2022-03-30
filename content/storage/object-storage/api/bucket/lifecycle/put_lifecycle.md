@@ -23,7 +23,7 @@ weight: 2
 
 ```http
 PUT /?lifecycle HTTP/1.1
-Host: <bucket-name>.jn1.is.shanhe.com
+Host: <bucket-name>.jn1.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 
@@ -123,7 +123,7 @@ Authorization: <authorization-string>
 
 ```http
 PUT /?lifecycle HTTP/1.1
-Host: example.jn1.is.shanhe.com
+Host: example.jn1.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Content-Length: 66
 Authorization: authorization string
@@ -148,7 +148,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:02 GMT
 Content-Length: 0
 Connection: close

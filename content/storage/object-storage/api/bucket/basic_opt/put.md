@@ -14,13 +14,13 @@ weight: 1
 
 ```http
 PUT / HTTP/1.1
-Host: <bucket-name>.<zone-id>.shanhe.com
+Host: <bucket-name>.<zone-id>.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
 
 **说明**
-- Bucket 名称在山河对象存储中是全局唯一的，并且遵守 DNS 规则。
+- Bucket 名称在亿栖云对象存储中是全局唯一的，并且遵守 DNS 规则。
 - Bucket 的命名规范：由长度为 6 ～ 63 的小写字母、数字、中划线组成的字符串，且以字母或数字开始和结尾。
 - Bucket 配额可通过工单申请调整。
 
@@ -56,7 +56,7 @@ Authorization: <authorization-string>
 
 ```http
 PUT / HTTP/1.1
-Host: mybucket.jn2.is.shanhe.com
+Host: mybucket.jn2.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -65,7 +65,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Content-Length: 0
 Connection: close

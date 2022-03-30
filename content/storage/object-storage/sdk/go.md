@@ -8,9 +8,9 @@ weight: 3
 ---
 
 
-山河对象存储的 Go SDK 已在 GitHub 开源，本文为简要使用文档。更多详细信息请参见 [GitHub 项目](https://github.com/qingstor/qingstor-sdk-go) 和 [Godoc](https://godoc.org/github.com/qingstor/qingstor-sdk-go)。
+亿栖云对象存储的 Go SDK 已在 GitHub 开源，本文为简要使用文档。更多详细信息请参见 [GitHub 项目](https://github.com/qingstor/qingstor-sdk-go) 和 [Godoc](https://godoc.org/github.com/qingstor/qingstor-sdk-go)。
 
-使用 SDK 之前请先在 [管理控制台](https://console.shanhe.com/access_keys/) 申请 Access key。
+使用 SDK 之前请先在管理控制台申请 Access key。
 
 ## 安装
 
@@ -40,9 +40,9 @@ weight: 3
 
 ```go
 import (
-    "github.com/shanhe-nsccjn/ois-sdk-go/config"
-    qs "github.com/shanhe-nsccjn/ois-sdk-go/service"
-    qsErrors "github.com/shanhe-nsccjn/ois-sdk-go/request/errors"
+    "github.com/yiqiyun-nsccjn/ois-sdk-go/config"
+    qs "github.com/yiqiyun-nsccjn/ois-sdk-go/service"
+    qsErrors "github.com/yiqiyun-nsccjn/ois-sdk-go/request/errors"
 )
 
 configuration, _ := config.New("ACCESS_KEY_ID", "SECRET_ACCESS_KEY")
@@ -178,7 +178,7 @@ fmt.Println(qs.IntValue(bACLOutput.StatusCode))
 
 ``` go
 initOutput, err := bucket.InitiateMultipartUpload(
-    "QingCloudInsight.mov",
+    "yiqiyunInsight.mov",
     &service.InitiateMultipartUploadInput{
         ContentType: qs.String("video/quicktime"),
     },
@@ -197,7 +197,7 @@ fmt.Println(qs.StringValue(initOutput.UploadID))
 
 ``` go
 uploadOutput, err := bucket.UploadMultipart(
-    "shanheInsight.mov",
+    "yiqiyunInsight.mov",
     &service.UploadMultipartInput{
         UploadID:   qs.String(initOutput.UploadID),
         PartNumber: qs.Int(0),
@@ -211,7 +211,7 @@ uploadOutput, err := bucket.UploadMultipart(
 fmt.Println(qs.IntValue(uploadOutput.StatusCode))
 
 uploadOutput, err = bucket.UploadMultipart(
-    "shanheInsight.mov",
+    "yiqiyunInsight.mov",
     &service.UploadMultipartInput{
         UploadID:   qs.String(initOutput.UploadID),
         PartNumber: qs.Int(1),
@@ -226,7 +226,7 @@ uploadOutput, err = bucket.UploadMultipart(
 
 ``` go
 completeOutput, err := bucket.CompleteMultipartUpload(
-    "shanheInsight.mov",
+    "yiqiyunInsight.mov",
     &service.CompleteMultipartUploadInput{
         UploadID:    qs.String(initOutput.UploadID),
         ObjectParts: []*service.ObjectPart{
@@ -245,7 +245,7 @@ fmt.Println(qs.IntValue(completeOutput.StatusCode))
 
 ``` go
 abrtOutput, err := bucket.AbortMultipartUpload(
-    "shanheInsight.mov"
+    "yiqiyunInsight.mov"
     &service.AbortMultipartUploadInput{
         UploadID:  qs.String(initOutput.UploadID),
     },

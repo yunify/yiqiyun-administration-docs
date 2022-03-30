@@ -15,7 +15,7 @@ weight: 3
 
 ```http
 PUT /?logging HTTP/1.1
-Host: <source-bucket-name>.jn1.is.shanhe.com
+Host: <source-bucket-name>.jn1.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 {
@@ -59,7 +59,7 @@ Authorization: <authorization-string>
 
 ```http
 PUT /?logging HTTP/1.1
-Host: <source-bucket-name>.jn1.is.shanhe.com
+Host: <source-bucket-name>.jn1.is.yiqiyun.com
 Date: <date>
 Content-Length: 66
 Authorization: authorization string
@@ -74,7 +74,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: <date>
 Content-Length: 0
 Connection: close
