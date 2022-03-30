@@ -31,9 +31,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteS2Groups
+https://api.yiqiyun.net.cn/iaas/?action=DeleteS2Groups
 &s2_groups.1=s2g-k01j1qtk
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

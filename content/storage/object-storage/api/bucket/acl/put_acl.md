@@ -10,7 +10,7 @@ title: "PUT Bucket ACL"
 
 ```http
 PUT /?acl HTTP/1.1
-Host: <bucket-name>.<zone-id>.is.shanhe.com
+Host: <bucket-name>.<zone-id>.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 
@@ -102,7 +102,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Content-Length: 0
 Connection: close

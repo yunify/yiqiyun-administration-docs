@@ -3,12 +3,12 @@ title: "SDK文档简介"
 description: Test description
 draft: false
 enableToc: false
-keyword: SDK文档, shanhe
+keyword: SDK文档
 ---
 
 
 
-山河为开发者提供软件开发包 SDK (Software Development Kit)， 可以利用它对山河的资源进行查看、创建和操作，借此开发出更富创造力的产品。
+亿栖云为开发者提供软件开发包 SDK (Software Development Kit)， 可以利用它对亿栖云的资源进行查看、创建和操作，借此开发出更富创造力的产品。
 
 警告
 

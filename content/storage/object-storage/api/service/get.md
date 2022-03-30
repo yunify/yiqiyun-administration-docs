@@ -7,14 +7,14 @@ title: "GET Service"
 ## 使用限制
 
 - 该 API 不支持匿名请求，请先注册账号并 [创建 Access Key](/storage/object-storage/api/practices/signature/#获取-access-key) 后才能调用此 API。
-- 该请求可以用于查询对象存储的 Global Endpoint 下所有区域的 Bucket。Global Endpoint 为：`shanhe.com`。
-- 该请求也可以用于查询对象存储某个区域的 [Zone Endpoint](/storage/object-storage/intro/object-storage/#zone) (如 js.shanhe.com)，列出特定区域的 Bucket。
+- 该请求可以用于查询对象存储的 Global Endpoint 下所有区域的 Bucket。Global Endpoint 为：`yiqiyun.com`。
+- 该请求也可以用于查询对象存储某个区域的 [Zone Endpoint](/storage/object-storage/intro/object-storage/#zone) (如 js.yiqiyun.com)，列出特定区域的 Bucket。
 
 ## 请求语法
 
 ```http
 GET / HTTP/1.1
-Host: is.shanhe.com
+Host: is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -65,7 +65,7 @@ Authorization: <authorization-string>
 
 ```http
 GET / HTTP/1.1
-Host: is.shanhe.com
+Host: is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -74,7 +74,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Content-Length: 256
 Connection: close
@@ -86,13 +86,13 @@ x-qs-request-id: aa08cf7a43f611e5886952542e6ce14b
     {
       "name": "mybucket",
       "location": "jn2.is",
-      "url": "https://mybucket.jn1.is.shanhe.com",
+      "url": "https://mybucket.jn1.is.yiqiyun.com",
       "created": "2015-07-11T04:45:57Z"
     },
     {
       "name": "myphotos",
       "location": "jn2.is",
-      "url": "https://myphotos.jn1.is.shanhe.com",
+      "url": "https://myphotos.jn1.is.yiqiyun.com",
       "created": "2015-07-12T09:40:32Z"
     }
   ]

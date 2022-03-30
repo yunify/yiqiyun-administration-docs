@@ -52,7 +52,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeNics
+https://api.yiqiyun.net.cn/iaas/?action=DescribeNics
 &nics.1=52:54:00:00:12:34
 &COMMON_PARAMS
 ```

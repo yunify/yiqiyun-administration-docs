@@ -35,13 +35,13 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=GetRDBMonitor
+https://api.yiqiyun.net.cn/iaas/?action=GetRDBMonitor
 &resource=rdb-5s127ypr
 &meters.1=status
 &meters.2=slave
 &start_time==2014-02-09T21%3A47%3A00.820Z
 &end_time=2014-02-10T03%3A47%3A00.820Z
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

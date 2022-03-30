@@ -21,7 +21,7 @@ weight: 3
 ```http
 PUT /<object-name>?upload_id=<upload-id>&part_number=<part-number> HTTP/1.1
 x-qs-copy-source: /source-bucket/source-object
-Host: <bucket-name>.<zone-id>.is.shanhe.com
+Host: <bucket-name>.<zone-id>.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -80,7 +80,7 @@ Authorization: <authorization-string>
 
 ```http
 PUT /large-object?upload_id=4d26b37a469230619604ecdc0e314782&part_number=0 HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 13:25:10 GMT
 Content-Length: 0
 Authorization: authorization string
@@ -91,7 +91,7 @@ x-qs-copy-source: /source-bucket/source-object
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 13:25:10 GMT
 Content-Length: 0
 Connection: close

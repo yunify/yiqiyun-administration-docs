@@ -11,8 +11,8 @@ weight: 3
 
 ## 使用须知
 
-- 山河对象存储在抓取时能够自动处理源链接服务器返回的 301/302/307 等重定向请求。
-- 山河对象存储在上传 Object 时需要知道文件大小，所以需要源站在提供下载文件时能返回 `Content-Length` 头字段，否则将抓取失败。
+- 亿栖云对象存储在抓取时能够自动处理源链接服务器返回的 301/302/307 等重定向请求。
+- 亿栖云对象存储在上传 Object 时需要知道文件大小，所以需要源站在提供下载文件时能返回 `Content-Length` 头字段，否则将抓取失败。
 - 当要保存的目标 Object 已存在时，本操作会对该 Object 的内容进行覆盖。
 
 ## 请求语法
@@ -20,7 +20,7 @@ weight: 3
 ```http
 PUT /<object-name> HTTP/1.1
 x-qs-fetch-source: <source site>
-Host: <bucket-name>.<zone-id>.shanhe.com
+Host: <bucket-name>.<zone-id>.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -35,8 +35,8 @@ Authorization: <authorization-string>
 
 | 字段 | 类型 | 说明 | 是否必须 |
 | --- | --- | --- | --- |
-| x-qs-fetch-source | String | 被抓取的文件路径 (源链接)。链接形式为 `<protocol>://<host>[:port]/[path]`。 各字段说明如下：<br> - protocol：可为 `http` 或 `https`，默认为 `http` <br> - port： 默认为 `protocol` 对应的端口。 <br> - path：目录。山河对象存储不会在源链接后边拼接请求中的 `<object-name>` 。若 `http` 为空，抓取的结果将取决于该站点默认页的设定。 | 是 |
-| x-qs-fetch-if-unmodified-since | Date | 若指定的时间晚于山河对象存储中的目标 Object 被修改的时间，则从源链接抓取 | 否 |
+| x-qs-fetch-source | String | 被抓取的文件路径 (源链接)。链接形式为 `<protocol>://<host>[:port]/[path]`。 各字段说明如下：<br> - protocol：可为 `http` 或 `https`，默认为 `http` <br> - port： 默认为 `protocol` 对应的端口。 <br> - path：目录。亿栖云对象存储不会在源链接后边拼接请求中的 `<object-name>` 。若 `http` 为空，抓取的结果将取决于该站点默认页的设定。 | 是 |
+| x-qs-fetch-if-unmodified-since | Date | 若指定的时间晚于亿栖云对象存储中的目标 Object 被修改的时间，则从源链接抓取 | 否 |
 
 除以上请求头以外，此接口还需要包含 Host、Date 等公共请求头。详细内容可参见 [公共请求头](/storage/object-storage/api/common_header/#请求头字段-request-header)。
 
@@ -66,7 +66,7 @@ Authorization: <authorization-string>
 
 ```http
 PUT /myphoto.jpg HTTP/1.1
-Host: mybucket.jn2.is.shanhe.com
+Host: mybucket.jn2.is.yiqiyun.com
 Date: Sun, 14 Aug 2016 09:05:00 GMT
 x-qs-fetch-source: http://image.example.com/photo.jpg
 Authorization: authorization string
@@ -76,7 +76,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 14 Aug 2016 09:05:01 GMT
 Content-Length: 0
 Connection: close

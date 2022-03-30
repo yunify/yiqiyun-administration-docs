@@ -16,9 +16,9 @@ Bucket 的文件和文件夹按字母序混合排列。管理控制台可查看�
 
 ## 创建文件夹
 
-便于文件管理，山河对象存储支持用户在 Bucket 下自行创建文件夹。具体操作如下：
+便于文件管理，亿栖云对象存储支持用户在 Bucket 下自行创建文件夹。具体操作如下：
 
-1. 进入山河对象存储的主页面，点击对应的 Bucket 名：
+1. 进入亿栖云对象存储的主页面，点击对应的 Bucket 名：
 
  ![](/storage/object-storage/_images/console_main.png)
 
@@ -41,7 +41,7 @@ Bucket 的文件和文件夹按字母序混合排列。管理控制台可查看�
 
 上传文件操作如下：
 
-1. 进入山河对象存储的主页面，点击对应的 Bucket 名：
+1. 进入亿栖云对象存储的主页面，点击对应的 Bucket 名：
 
  ![](/storage/object-storage/_images/console_main.png)
 
@@ -70,7 +70,7 @@ Bucket 的文件和文件夹按字母序混合排列。管理控制台可查看�
 
 用户可以在控制台下载文件。
 
-1. 进入山河对象存储的主页面，点击对应的 Bucket 名：
+1. 进入亿栖云对象存储的主页面，点击对应的 Bucket 名：
 
  ![](/storage/object-storage/_images/console_main.png)
 
@@ -82,7 +82,7 @@ Bucket 的文件和文件夹按字母序混合排列。管理控制台可查看�
 
 ## 查看文件详情
 
-1. 进入山河对象存储的主页面，点击对应的 Bucket 名：
+1. 进入亿栖云对象存储的主页面，点击对应的 Bucket 名：
 
  ![](/storage/object-storage/_images/console_main.png)
 
@@ -98,7 +98,7 @@ Bucket 的文件和文件夹按字母序混合排列。管理控制台可查看�
 
 若 Bucket 公开了读权限，用户可从管理控制台获取相应文件的 URL，并将其分享给其他人。详细操作如下：
 
-1. 进入山河对象存储的主页面，点击对应的 Bucket 名：
+1. 进入亿栖云对象存储的主页面，点击对应的 Bucket 名：
 
  ![](/storage/object-storage/_images/console_main.png)
 
@@ -114,9 +114,9 @@ Bucket 的文件和文件夹按字母序混合排列。管理控制台可查看�
 
 ## 更多操作
 
-山河对象存储，支持的文件操作包括：另存为，复制剪切，重命名等，详细内容可通过点击文件右键查看。
+亿栖云对象存储，支持的文件操作包括：另存为，复制剪切，重命名等，详细内容可通过点击文件右键查看。
 
-1. 进入山河对象存储的主页面，点击对应的 Bucket 名：
+1. 进入亿栖云对象存储的主页面，点击对应的 Bucket 名：
 
  ![](/storage/object-storage/_images/console_main.png)
 
@@ -136,7 +136,7 @@ Bucket 的文件和文件夹按字母序混合排列。管理控制台可查看�
 
 ## 删除文件
 
-1. 进入山河对象存储的主页面，点击对应的 Bucket 名：
+1. 进入亿栖云对象存储的主页面，点击对应的 Bucket 名：
 
  ![](/storage/object-storage/_images/console_main.png)
 
@@ -160,7 +160,7 @@ Bucket 的文件和文件夹按字母序混合排列。管理控制台可查看�
 
 删除文件夹时，系统会将该文件夹内文件一同删除。
 
-1. 进入山河对象存储的主页面，点击对应的 Bucket 名：
+1. 进入亿栖云对象存储的主页面，点击对应的 Bucket 名：
 
  ![](/storage/object-storage/_images/console_main.png)
 

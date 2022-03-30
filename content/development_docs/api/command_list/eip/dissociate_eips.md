@@ -30,9 +30,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DissociateEips
+https://api.yiqiyun.net.cn/iaas/?action=DissociateEips
 &eips.1=eip-12djpg8q
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

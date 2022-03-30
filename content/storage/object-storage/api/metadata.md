@@ -15,7 +15,7 @@ weight: 3
 ## 注意事项
 
 - 对象存储支持用户对元数据的增加与修改。匿名用户不支持该操作，用户需拥有该 Object 所在 Bucket 的读写权限。
-- 当用户复制源对象到目标对象时，默认情况下，山河对象存储会将源对象的元数据复制给目标对象。
+- 当用户复制源对象到目标对象时，默认情况下，亿栖云对象存储会将源对象的元数据复制给目标对象。
 - 当用户移动源对象到目标对象时，目标对象将保留源对象的元数据。
 - 当用户删除对象时，该对象的元数据将被删除。
 
@@ -25,7 +25,7 @@ weight: 3
 
 ### 标准 HTTP 头
 
-山河对象存储支持修改的标准 HTTP 头为：
+亿栖云对象存储支持修改的标准 HTTP 头为：
 
 | 名称 | 类型 | 说明 | 是否必须 |
 | - | - | - | - |
@@ -67,8 +67,8 @@ weight: 3
 
 | API | 说明 |
 | - | - |
-| [GetObject](/storage/object-storage/api/object/basic_opt/get/) | 下载对象时，山河对象存储服务端会返回该对象创建时所包含的元数据信息。|
-| [HeadObject](/storage/object-storage/api/object/basic_opt/head/) | 获取对象元数据时，山河对象存储服务端会返回该对象创建时所包含的元数据信息。|
+| [GetObject](/storage/object-storage/api/object/basic_opt/get/) | 下载对象时，亿栖云对象存储服务端会返回该对象创建时所包含的元数据信息。|
+| [HeadObject](/storage/object-storage/api/object/basic_opt/head/) | 获取对象元数据时，亿栖云对象存储服务端会返回该对象创建时所包含的元数据信息。|
 
 ## 复制修改元数据
 
@@ -115,7 +115,7 @@ weight: 3
 
 ```http
 PUT /copy_to_self HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 Cache-Control: no-cache
 x-qs-meta-id: 0
@@ -126,7 +126,7 @@ Authorization: <authorization string>
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 x-qs-request-id: <x-qs-request-id>
 ```
@@ -137,7 +137,7 @@ x-qs-request-id: <x-qs-request-id>
 
 ```http
 PUT /copy_to_self HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 Cache-Control: max-age=31536000
 x-qs-metadata-directive: replace
@@ -150,7 +150,7 @@ Authorization: <authorization string>
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 x-qs-request-id: <x-qs-request-id>
 ```
@@ -161,7 +161,7 @@ x-qs-request-id: <x-qs-request-id>
 
 ```http
 HEAD /copy_to_self HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 Authorization: <authorization string>
 ```
@@ -170,7 +170,7 @@ Authorization: <authorization string>
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 Cache-Control: max-age=31536000
 x-qs-meta-id: 1
@@ -185,7 +185,7 @@ x-qs-request-id: <x-qs-request-id>
 
 ```http
 PUT /source_object HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 Cache-Control: no-cache
 x-qs-meta-id: 0
@@ -196,7 +196,7 @@ Authorization: <authorization string>
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 x-qs-request-id: <x-qs-request-id>
 ```
@@ -207,7 +207,7 @@ x-qs-request-id: <x-qs-request-id>
 
 ```http
 PUT /dest_object HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 x-qs-copy-source: /mybucket/source_object
 Authorization: <authorization string>
@@ -217,7 +217,7 @@ Authorization: <authorization string>
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 x-qs-request-id: <x-qs-request-id>
 ```
@@ -228,7 +228,7 @@ x-qs-request-id: <x-qs-request-id>
 
 ```http
 HEAD /dest_object HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 Authorization: <authorization string>
 ```
@@ -237,7 +237,7 @@ Authorization: <authorization string>
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 Cache-Control: no-cache
 x-qs-meta-id: 0
@@ -252,7 +252,7 @@ x-qs-request-id: <x-qs-request-id>
 
 ```http
 PUT /source_object HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 Cache-Control: no-cache
 x-qs-meta-id: 0
@@ -263,7 +263,7 @@ Authorization: <authorization string>
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 x-qs-request-id: <x-qs-request-id>
 ```
@@ -274,7 +274,7 @@ x-qs-request-id: <x-qs-request-id>
 
 ```http
 PUT /dest_object HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 Cache-Control: max-age=31536000
 x-qs-copy-source: /mybucket/source_object
@@ -286,7 +286,7 @@ Authorization: <authorization string>
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 x-qs-request-id: <x-qs-request-id>
 ```
@@ -297,7 +297,7 @@ x-qs-request-id: <x-qs-request-id>
 
 ```http
 HEAD /dest_object HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 Authorization: <authorization string>
 ```
@@ -306,7 +306,7 @@ Authorization: <authorization string>
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Thu, 05 Jul 2018 11:01:40 GMT
 Cache-Control: max-age=31536000
 x-qs-meta-id: 1

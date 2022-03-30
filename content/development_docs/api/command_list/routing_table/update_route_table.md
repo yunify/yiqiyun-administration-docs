@@ -30,7 +30,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=UpdateRouteTable
+https://api.yiqiyun.net.cn/iaas/?action=UpdateRouteTable
 &routing_table=rt-w7xy0bq0
 &COMMON_PARAMS
 ```

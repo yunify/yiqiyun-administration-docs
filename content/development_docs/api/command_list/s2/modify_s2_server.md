@@ -31,11 +31,11 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyS2Server
+https://api.yiqiyun.net.cn/iaas/?action=ModifyS2Server
 &s2_server=s2-lxqjtu3l
 &name=demo
 &description=demo_descritpion
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -13,7 +13,7 @@ weight: 3
 
 ```http
 GET /?cors HTTP/1.1
-Host: <bucket-name>.<zone-id>.is.shanhe.com
+Host: <bucket-name>.<zone-id>.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -63,7 +63,7 @@ Authorization: <authorization-string>
 
 ```http
 GET /?cors HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -72,7 +72,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Content-Length: 0
 Connection: close
@@ -82,7 +82,7 @@ x-qs-request-id: aa08cf7a43f611e5886952542e6ce14b
     "resp_vary": "enable",
     "cors_rules": [
         {
-            "allowed_origin": "http://*.shanhe.com",
+            "allowed_origin": "http://*.yiqiyun.com",
             "allowed_methods": [
                 "PUT",
                 "GET",

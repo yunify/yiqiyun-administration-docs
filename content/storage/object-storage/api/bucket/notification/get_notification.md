@@ -7,14 +7,14 @@ draft: false
 weight: 2
 ---
 
-该接口用于获取 Bucket 的事件通知及处理策略。山河对象存储定义事件通知为 Bucket 的子资源，因此，只有 Bucket 的所有者才能调用该 API。
+该接口用于获取 Bucket 的事件通知及处理策略。亿栖云对象存储定义事件通知为 Bucket 的子资源，因此，只有 Bucket 的所有者才能调用该 API。
 
 
 ## 请求语法
 
 ```http
 GET /?notification HTTP/1.1
-Host: <bucket-name>.<zone_id>.is.shanhe.com
+Host: <bucket-name>.<zone_id>.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -63,7 +63,7 @@ Authorization: <authorization-string>
 
 ```http
 GET /?notification HTTP/1.1
-Host: mybucket.jn1.is.shanhe.com
+Host: mybucket.jn1.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -72,7 +72,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Content-Length: 125
 Connection: close

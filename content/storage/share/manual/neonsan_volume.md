@@ -5,7 +5,7 @@ description: Test description
 draft: false
 enableToc: false
 weight: 10
-keyword: 山河
+keyword: 亿栖云
 ---
 
 ## 简介
@@ -14,7 +14,7 @@ keyword: 山河
 
 ## 创建 NeonSAN 硬盘
 
-1. 登录山河管理控制台，在顶部导航中选择 **产品与服务** > **存储服务** > **共享存储**，进入如下界面。
+1. 登录管理控制台，在顶部导航中选择 **产品与服务** > **存储服务** > **共享存储**，进入如下界面。
 
    ![企业级分布式NeonSAN](/storage/share/manual/_images/shared_stor_page.png)
 

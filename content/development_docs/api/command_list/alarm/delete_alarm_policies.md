@@ -30,10 +30,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteAlarmPolicys
+https://api.yiqiyun.net.cn/iaas/?action=DeleteAlarmPolicys
 &alarm_policies.1=alp-axbkmf20
 &alarm_policies.2=alp-axbkmf21
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

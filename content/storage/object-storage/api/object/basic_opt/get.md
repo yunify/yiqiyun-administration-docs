@@ -12,13 +12,13 @@ weight: 3
 
 - 该操作要求请求者对指定的 Bucket 拥有可读权限。
 - 若指定的 Bucket 被设置为匿名用户可读，则请求中可不携带用户认证信息；
-- 若指定的 Bucket 被设置为匿名用户可读，但请求中仍然携带了用户认证信息，则山河对象存储仍然会对该用户进行认证，当山河对象存储认证该用户不拥有该 Bucket 的可读权限，该请求返回错误。
+- 若指定的 Bucket 被设置为匿名用户可读，但请求中仍然携带了用户认证信息，则亿栖云对象存储仍然会对该用户进行认证，当亿栖云对象存储认证该用户不拥有该 Bucket 的可读权限，该请求返回错误。
 
 ## 请求语法
 
 ```http
 GET /<object-name> HTTP/1.1
-Host: <bucket-name>.<zone-id>.shanhe.com
+Host: <bucket-name>.<zone-id>.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 Range: bytes=<byte-range>
@@ -88,7 +88,7 @@ Range: bytes=<byte-range>
 
 ```http
 GET /myphoto.jpg HTTP/1.1
-Host: mybucket.jn2.is.shanhe.com
+Host: mybucket.jn2.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Authorization: authorization string
 ```
@@ -97,7 +97,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Last-Modified: Fri, 14 Aug 2015 09:10:39 GMT
 Content-Type: image/jpeg
@@ -113,7 +113,7 @@ x-qs-request-id: aa08cf7a43f611e5886952542e6ce14b
 
 ```http
 GET /mybucket/test.htm?response-content-disposition=attachment%3B%20filename%3D%22%25E6%25B5%258B%25E8%25AF%2595%25E6%2596%2587%25E4%25BB%25B6%2528%25E5%2593%2588%25E5%2593%2588%25E5%2593%2588%2529.txt%22%3B%20filename%2A%3Dutf-8%27%27%25E6%25B5%258B%25E8%25AF%2595%25E6%2596%2587%25E4%25BB%25B6%2528%25E5%2593%2588%25E5%2593%2588%25E5%2593%2588%2529.txt&省略参数认证信息 HTTP/1.1
-Host: sh1a.shanhe.com
+Host: sh1a.yiqiyun.com
 Accept: */*
 ```
 

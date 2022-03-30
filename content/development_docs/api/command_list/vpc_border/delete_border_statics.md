@@ -31,7 +31,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteBorderStatics
+https://api.yiqiyun.net.cn/iaas/?action=DeleteBorderStatics
 &border=irt-2zevtm67
 &border_statics.0=bdrs-22obzsfu
 &zone=jn1

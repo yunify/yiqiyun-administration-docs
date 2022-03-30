@@ -31,7 +31,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteSubUsers
+https://api.yiqiyun.net.cn/iaas/?action=DeleteSubUsers
 &users.1=usr-abcd1234
 &COMMON_PARAMS
 ```

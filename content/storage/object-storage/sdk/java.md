@@ -3,13 +3,13 @@ title: "Java SDK"
 ---
 
 
-山河对象存储的 Java SDK 已在 GitHub 开源，本文为简要使用文档。更多详细信息请参见 [GitHub 项目](https://github.com/yunify/qingstor-sdk-java) 和 [Java SDK API 文档](https://github.com/qingstor/qingstor-sdk-java/blob/master/README_zh-CN.md)。
+亿栖云对象存储的 Java SDK 已在 GitHub 开源，本文为简要使用文档。更多详细信息请参见 [GitHub 项目](https://github.com/yunify/qingstor-sdk-java) 和 [Java SDK API 文档](https://github.com/qingstor/qingstor-sdk-java/blob/master/README_zh-CN.md)。
 
-Java SDK 使用 [Snips](https://github.com/yunify/snips) 工具生成，各接口调用的均与山河对象存储的 API 相对应。其返回码、请求头、错误码等规定请参照具体的 [API 文档](/storage/object-storage/api/)。
+Java SDK 使用 [Snips](https://github.com/yunify/snips) 工具生成，各接口调用的均与亿栖云对象存储的 API 相对应。其返回码、请求头、错误码等规定请参照具体的 [API 文档](/storage/object-storage/api/)。
 
 SDK 示例请参见 [SDK Example](https://github.com/qingstor/qingstor-sdk-java/blob/master/docs/examples_zh-CN.md)。
 
-使用 SDK 之前请先在 [管理控制台](https://console.shanhe.com/access_keys/) 申请 Access key。
+使用 SDK 之前请先在管理控制台申请 Access key。
 
 ## 安装
 
@@ -19,7 +19,7 @@ SDK 示例请参见 [SDK Example](https://github.com/qingstor/qingstor-sdk-java/
 > git clone git@github.com:qingstor/qingstor-sdk-java.git
 ```
 
-2. 在 gradle/maven 中将版本替换为您需要的版本，山河对象存储推荐使用最新的版本。
+2. 在 gradle/maven 中将版本替换为您需要的版本，亿栖云对象存储推荐使用最新的版本。
 
 Gradle:
 
@@ -53,7 +53,7 @@ QingStor stor = new QingStor(env);
 
 **说明：**
 - 代码行中的 `env` 承载了用户的认证信息及 SDK 配置；
-- 代码行中的 `stor` 用于操作山河对象存储服务，如调用 Service 级别的 API 或创建指定的 Bucket 对象来调用 Bucket 和 Object 级别的 API。
+- 代码行中的 `stor` 用于操作亿栖云对象存储服务，如调用 Service 级别的 API 或创建指定的 Bucket 对象来调用 Bucket 和 Object 级别的 API。
 
 ## 代码示例
 

@@ -25,7 +25,7 @@ draft: false
 
 - MongoDB 连接数
 
-**MongoDB 4.0.3 - ShanHe 1.3.0**以上版本新增以下监控项。
+**MongoDB 4.0.3 - YiQiYun 1.3.0**以上版本新增以下监控项。
 
 - WIREDTIGER 内存状态
 

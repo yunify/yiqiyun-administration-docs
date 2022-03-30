@@ -9,16 +9,16 @@ title: "Post Object"
 - 此操作要求请求者对 Bucket 拥有可写权限。
 - 该方式开发难度较小，但是由于浏览器自身的限制，没有断点续传、上传进度等用户友好的功能。因此当文件大于 20M 或多个文件上传时，不建议使用该接口。
 - 若指定的 Bucket 被设置为匿名用户可写，则请求中可不携带用户认证信息
-- 若指定的 Bucket 被设置为匿名用户可写，请求中仍然携带了用户认证信息，则山河对象存储仍然会对该用户进行认证，当山河对象存储认证该用户不拥有该 Bucket 的可写权限，该请求返回错误。
-- 若同时有多个上传请求写入同一个对象名称，则最后一个被山河对象存储处理的请求会覆盖之前上传的对象内容。
+- 若指定的 Bucket 被设置为匿名用户可写，请求中仍然携带了用户认证信息，则亿栖云对象存储仍然会对该用户进行认证，当亿栖云对象存储认证该用户不拥有该 Bucket 的可写权限，该请求返回错误。
+- 若同时有多个上传请求写入同一个对象名称，则最后一个被亿栖云对象存储处理的请求会覆盖之前上传的对象内容。
 - HTML 的表单设置如下：<br>`action` 为 `http://<bucket-name>.<zone-id>`，其中 `zone-id` 可参考 [Zone](/storage/object-storage/intro/object-storage/#zone)<br> `method` 必须为 `POST` <br> `enctype` 必须为 `multipart/form-data` <br> Object key 在表单项中设置。
-- 考虑到不是所有网站都默认使用 UTF-8，若您的网站需要以 GBK 或 Big5 展示，我们支持在 `Form` 中声明 `charset` 字段来定义客户端上传的文件名所用编码。山河对象存储服务端在接收到之后，会将其转换为 UTF-8 的格式来存储，以便兼容跨平台的客户端。但由于不是所有字符都能对应到 UTF-8 码表，转换过程仍有可能出现乱码，所以山河对象存储建议用户最好使用 UTF-8 来作为上传编码。
+- 考虑到不是所有网站都默认使用 UTF-8，若您的网站需要以 GBK 或 Big5 展示，我们支持在 `Form` 中声明 `charset` 字段来定义客户端上传的文件名所用编码。亿栖云对象存储服务端在接收到之后，会将其转换为 UTF-8 的格式来存储，以便兼容跨平台的客户端。但由于不是所有字符都能对应到 UTF-8 码表，转换过程仍有可能出现乱码，所以亿栖云对象存储建议用户最好使用 UTF-8 来作为上传编码。
 
 ## 请求语法
 
 ```http
 POST / HTTP/1.1
-Host: <bucket-name>.<zone-id>.is.shanhe.com
+Host: <bucket-name>.<zone-id>.is.yiqiyun.com
 Content-Type: multipart/form-data; boundary=XXXXXX
 Content-Length: length
 ```
@@ -38,7 +38,7 @@ Content-Length: length
 | access_key_id | String | Access Key ID。若该 Bucket 没有公开写权限，或含有 `policy`，则必须指定 `access_key_id`。| 否 |
 | signature | String | 签名认证信息。用 Secret Key 对 base64 编码后的 `policy` 字符串进行 HMAC-SHA256 签名即可。若表单含有 `access_key_id`，则必须设置该字段。| 否 |
 | content-type | String | 指定上传的文件类型，若用户上传的文件类型与本设置不一致，返回错误。 | 否 |
-| charset | String | 指定上传的文件名的编码方式。必须与网页开头的 `<meta http-equiv="Content-Type" content="text/html;charset=***">` 中 `charset` 的设置一致。若不指定，山河对象存储默认使用 `UTF-8` 对上传的文件名进行解码。 | 否 |
+| charset | String | 指定上传的文件名的编码方式。必须与网页开头的 `<meta http-equiv="Content-Type" content="text/html;charset=***">` 中 `charset` 的设置一致。若不指定，亿栖云对象存储默认使用 `UTF-8` 对上传的文件名进行解码。 | 否 |
 | key | String | 上传文件的 Object Key。有如下限制：<br> - 不可以使用 `/` 开头。<br> - 可以为普通字符串，也可以是一个模板。<br> - 模板可以使用一些内置的变量，例如 `user/tom/${filename}`。 | 是 |
 | policy | String | 设置上传文件的访问策略，由多个表单项组成。规则如下：<br> - 将 `file` 之前的，除 `access_key_id`，`policy` 和 `signature` 以外的所有表单项。以 `JSON Object` 的格式，UTF-8 编码后进行组装；<br> - 对以上内容进行 Base64 编码；<br> - 若指定 Bucket 对匿名用户可写，则无需设置该字段。<br> - 若有不方便签名的表单项，需将其放置在表单项 `file` 的之后。 | 否 |
 | redirect | String | 请求结果重定向 URL。重定向跳转时，会在该 URL 后面添加 Query String，包含 `status`，`code`，`message`，`request_id` 四个参数。 <br> 示例：设置 `redirect` 为 `http://.com/callback`，请求成功后会以状态码 `302` 重定向至: `http://.com/callback?status=201&code=created&message=Object+created&request_id=XXXXXX` | 否 |
@@ -87,7 +87,7 @@ signature = b64encode(h.digest()).strip()
 <html>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <h3>Upload</h3>
-    <form action="http://<bucket-name>.jn1.is.shanhe.com" method="POST" enctype="multipart/form-data">
+    <form action="http://<bucket-name>.jn1.is.yiqiyun.com" method="POST" enctype="multipart/form-data">
         <input type=hidden name="policy" value="eyJrZXkiOiAidXNlci90b20vJHtmaWxlbmFtZX0iLCAicmVkaXJlY3QiOiAiaHR0cDovL215ZG9tYWluLmNvbS9jYWxsYmFjayJ9" />
         <input type=hidden name="access_key_id" value="YYY" />
         <input type=hidden name="signature" value="XXX" />
@@ -95,7 +95,7 @@ signature = b64encode(h.digest()).strip()
         <input type=hidden name="charset" value="UTF-8" /> <!-- 该网页为UTF-8 -->
         <input type=hidden name="redirect" value="http://<mydomain>.com/callback"/>
         <input type=file name="file" />
-        <input type=submit name="Upload" value="Upload to shanhe" />
+        <input type=submit name="Upload" value="Upload to yiqiyun" />
     </form>
 </html>
 ```
@@ -118,7 +118,7 @@ eyJrZXkiOiAidXNlci90b20vJHtmaWxlbmFtZX0iLCAicmVkaXJlY3QiOiAiaHR0cDovLzxteWRvbWFp
 
 ```http
 POST / HTTP/1.1
-Host: .jn1.is.shanhe.com
+Host: .jn1.is.yiqiyun.com
 User-Agent: curl/7.30
 Content-Type: multipart/form-data; boundary=1234567890
 Content-Length: length
@@ -151,7 +151,7 @@ file_content
 --1234567890
 Content-Disposition: form-data; name="Upload"
 
-Upload to shanhe
+Upload to yiqiyun
 --1234567890--
 ```
 
@@ -159,7 +159,7 @@ Upload to shanhe
 
 ```http
 HTTP/1.1 302 Found
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 ETag: "0c2f573d81194064b129e940edcefe9b"
 Content-Length: 0

@@ -51,7 +51,7 @@ k8s 上的工作负载需要拉取 Docker 镜像，请确保集群所在私网�
 
 如果使用公网镜像仓库，比如 docker.io，请确保 VPC 绑定了公网 IP。  
 
-如果使用私有镜像仓库，比如山河提供的[容器服务镜像仓库](/container/harbor/)，请确保 QKE 所有节点可以访问到 Harbor 的负载均衡器地址。注意：如果 Harbor 后端使用的是 QingStor 对象存储，还要确保 QKE 所有节点可以访问到 QingStor 对象存储。
+如果使用私有镜像仓库，请确保 QKE 所有节点可以访问到 Harbor 的负载均衡器地址。注意：如果 Harbor 后端使用的是 QingStor 对象存储，还要确保 QKE 所有节点可以访问到 QingStor 对象存储。
 
 ## 防火墙
 
@@ -134,13 +134,13 @@ nginx-neonsan-pvc-nginx-perf-7   Bound    pvc-93e24c1d88d711e9   100Gi      RWO 
         deletionGracePeriodSeconds: 0
         deletionTimestamp: 2019-06-09T00:47:49Z
         finalizers:
-        - external-attacher/csi-qingcloud
+        - external-attacher/csi-yiqiyun
         name: csi-8b2ed050e78ad6f3a5491af35c9351358856ae15cc874262ca0b78a1c332b883
         resourceVersion: "1178846"
         selfLink: /apis/storage.k8s.io/v1/volumeattachments/csi-8b2ed050e78ad6f3a5491af35c9351358856ae15cc874262ca0b78a1c332b883
         uid: a21a70df-88d7-11e9-aed1-525433888127
     spec:
-        attacher: csi-qingcloud
+        attacher: csi-yiqiyun
         nodeName: i-5n8osu8t
         source:
             persistentVolumeName: pvc-93e24c1d88d711e9
@@ -156,13 +156,13 @@ nginx-neonsan-pvc-nginx-perf-7   Bound    pvc-93e24c1d88d711e9   100Gi      RWO 
         deletionGracePeriodSeconds: 0
         deletionTimestamp: 2019-06-09T00:51:53Z
         finalizers:
-        - external-attacher/csi-qingcloud
+        - external-attacher/csi-yiqiyun
         name: csi-8b2ed050e78ad6f3a5491af35c9351358856ae15cc874262ca0b78a1c332b883
         resourceVersion: "1180401"
         selfLink: /apis/storage.k8s.io/v1/volumeattachments/csi-8b2ed050e78ad6f3a5491af35c9351358856ae15cc874262ca0b78a1c332b883
         uid: a21a70df-88d7-11e9-aed1-525433888127
     spec:
-        attacher: csi-qingcloud
+        attacher: csi-yiqiyun
         nodeName: i-5n8osu8t
         source:
             persistentVolumeName: pvc-93e24c1d88d711e9
@@ -187,7 +187,7 @@ nginx-neonsan-pvc-nginx-perf-7   Bound    pvc-93e24c1d88d711e9   100Gi      RWO 
         selfLink: /apis/storage.k8s.io/v1/volumeattachments/csi-8b2ed050e78ad6f3a5491af35c9351358856ae15cc874262ca0b78a1c332b883
         uid: a21a70df-88d7-11e9-aed1-525433888127
     spec:
-        attacher: csi-qingcloud
+        attacher: csi-yiqiyun
         nodeName: i-5n8osu8t
         source:
             persistentVolumeName: pvc-93e24c1d88d711e9

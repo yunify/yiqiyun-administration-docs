@@ -40,11 +40,11 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=CreateS2Account
+https://api.yiqiyun.net.cn/iaas/?action=CreateS2Account
 &account_type=NFS
 &account_name=nfstest
 &nfs_ipaddr=192.168.1.10
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

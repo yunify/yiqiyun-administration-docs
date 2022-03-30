@@ -24,7 +24,7 @@ weight: 3
 
 ```http
 PUT /?replication HTTP/1.1
-Host: <bucket-name>.<zone-id>.is.shanhe.com
+Host: <bucket-name>.<zone-id>.is.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 
@@ -76,7 +76,7 @@ Authorization: <authorization-string>
 - `id` 用来唯一标记跨区域复制规则，描述该规则的用途。不能与其他跨区域复制规则 `id` 相重复。
 - `prefix` 最大字符长度为 1024。多个规则中的 `prefix` 不能有重叠匹配。比如规则一中 `"prefix": "image"`，那么其它规则中不能出现类似 `"prefix": "image1"`，`"prefix": "image-1"` 这样的设置。默认为空字符串，表示匹配所有对象。不支持正则表达式。
 - 同一条请求中，所有跨区域复制规则中的目标 Bucket，必须指向同一个 Bucket。
-- 为防止用户误操作删除数据，山河对象存储不建议用户在配置规则时开启 `delete_marker` 选项。
+- 为防止用户误操作删除数据，亿栖云对象存储不建议用户在配置规则时开启 `delete_marker` 选项。
 - 若通过 `storage_class` 设置的存储级别在目标 Bucket 所在区域不被支持，系统会返回设置失败。
 - 若设置 `sync_marker` 为 `enabled`，则历史数据会在规则生效 30 分钟之后开始同步。
 
@@ -98,7 +98,7 @@ Authorization: <authorization-string>
 
 ```http
 PUT /?replication HTTP/1.1
-Host: my-bucket.jn1.is.shanhe.com
+Host: my-bucket.jn1.is.yiqiyun.com
 Date: Mon, 1 Oct 2018 15:04:01 GMT
 Content-Length: 193
 Authorization: authorization string
@@ -140,7 +140,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 200 OK
-Server: shanhe
+Server: yiqiyun
 Date: Mon, 1 Oct 2018 15:04:01 GMT
 Content-Length: 0
 Connection: close

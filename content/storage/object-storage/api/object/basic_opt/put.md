@@ -13,17 +13,17 @@ weight: 3
 - 该操作要求请求者对指定的 Bucket 拥有可写权限。
 - Bucket 中的文件夹是模拟概念，管理控制台展现文件列表时，会自动根据 Object 名中的 `/` 生成文件夹。
 - 用户可以调用此接口上传空的 Object，并指定 Object 名以 `/` 结尾，来创建一个空文件夹。
-- 若指定的 Bucket 中已存在同名的 Object，山河对象存储会在该 Object 完整上传完成后，替换已有 Object。
-- 若同时有多个上传请求写入同一个 Object Key，则最后一个被山河对象存储处理的请求会覆盖之前上传的 Object 内容。
-- 在用户调用该 API 上传数据之前，用户可以只发送 HTTP 请求头，不携带请求实体，并在请求头中添加 `Expect: 100-continue`，来提前得知该请求是否能被山河对象存储正确接受与处理。当用户上传的对象实体非常庞大时，可以通过该方式提前知道该上传请求中的认证信息是否正确，请求域名是否需要重定向等，从而减少不必要的数据传输。
+- 若指定的 Bucket 中已存在同名的 Object，亿栖云对象存储会在该 Object 完整上传完成后，替换已有 Object。
+- 若同时有多个上传请求写入同一个 Object Key，则最后一个被亿栖云对象存储处理的请求会覆盖之前上传的 Object 内容。
+- 在用户调用该 API 上传数据之前，用户可以只发送 HTTP 请求头，不携带请求实体，并在请求头中添加 `Expect: 100-continue`，来提前得知该请求是否能被亿栖云对象存储正确接受与处理。当用户上传的对象实体非常庞大时，可以通过该方式提前知道该上传请求中的认证信息是否正确，请求域名是否需要重定向等，从而减少不必要的数据传输。
 - 若指定的 Bucket 被设置为匿名用户可写，则请求中可不携带用户认证信息；
-- 若指定的 Bucket 被设置为匿名用户可写，但请求中仍然携带了用户认证信息，则山河对象存储仍然会对该用户进行认证，当山河对象存储认证该用户不拥有该 Bucket 的可写权限，该请求返回错误。
+- 若指定的 Bucket 被设置为匿名用户可写，但请求中仍然携带了用户认证信息，则亿栖云对象存储仍然会对该用户进行认证，当亿栖云对象存储认证该用户不拥有该 Bucket 的可写权限，该请求返回错误。
 
 ## 请求语法
 
 ```http
 PUT /<object-name> HTTP/1.1
-Host: <bucket-name>.<zone-id>.shanhe.com
+Host: <bucket-name>.<zone-id>.yiqiyun.com
 Date: <date>
 Authorization: <authorization-string>
 ```
@@ -34,7 +34,7 @@ Authorization: <authorization-string>
 
 ## 请求头
 
-山河对象存储上传 Object 时，支持标准 HTTP 请求头和自定义请求头。若用户上传 Object 时设置了这些请求头，则下载该 Object 时，相应的请求头的值会自动使用上传 Object 时设置的值。各请求头字段说明如下：
+亿栖云对象存储上传 Object 时，支持标准 HTTP 请求头和自定义请求头。若用户上传 Object 时设置了这些请求头，则下载该 Object 时，相应的请求头的值会自动使用上传 Object 时设置的值。各请求头字段说明如下：
 
 ### 标准 HTTP 头
 
@@ -86,7 +86,7 @@ Object 实体内容。
 
 ```http
 PUT /myphoto.jpg HTTP/1.1
-Host: mybucket.jn2.is.shanhe.com
+Host: mybucket.jn2.is.yiqiyun.com
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 Content-Length: 7987
 Authorization: authorization string
@@ -97,7 +97,7 @@ Authorization: authorization string
 
 ```http
 HTTP/1.1 201 CREATED
-Server: shanhe
+Server: yiqiyun
 Date: Sun, 16 Aug 2015 09:05:00 GMT
 ETag: "0c2f573d81194064b129e940edcefe9b"
 Content-Length: 0

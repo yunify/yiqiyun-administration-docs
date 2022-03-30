@@ -45,7 +45,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeNotificationItems
+https://api.yiqiyun.net.cn/iaas/?action=DescribeNotificationItems
 &COMMON_PARAMS
 ```
 

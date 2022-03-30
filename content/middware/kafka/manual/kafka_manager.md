@@ -18,7 +18,7 @@ Kafka 集群创建完后，客户端节点预装的 Kafka Manager 会自动加�
 
 > **说明**
 >
->如果使用的版本是 Kafka 0.10.2.1 - ShanHe 1.1.6，可使用集群内任意节点的 IP。
+>如果使用的版本是 Kafka 0.10.2.1 - YiQiYun 1.1.6，可使用集群内任意节点的 IP。
 
 ![](../../_images/clusters.png)
 
@@ -26,7 +26,7 @@ Kafka 集群创建完后，客户端节点预装的 Kafka Manager 会自动加�
 
 2. 选择 **Cluster** -> **Add Cluster**。
 
-3. 自定义一个名字，填写所连接的 Kafka 集群地址，山河提供的 Kafka 服务对应的命名空间路径为：zkhost1: port , zkhost2 : port… / kafka / 集群 ID。
+3. 自定义一个名字，填写所连接的 Kafka 集群地址，系统提供的 Kafka 服务对应的命名空间路径为：zkhost1: port , zkhost2 : port… / kafka / 集群 ID。
 
    **例如**：Kafka集群id为 cl-j0yf8y1m, ZooKeeper地址 : 192.168.0.1:2181, 192.168.0.2:2181, 192.168.0.3:2181, 则填写192.168.0.1:2181, 192.168.0.2:2181, 192.168.0.3:2181/ kafka / cl-j0yf8y1m。
 

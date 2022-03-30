@@ -29,7 +29,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?&action=CeaseClusters
+https://api.yiqiyun.net.cn/iaas/?&action=CeaseClusters
 &clusters.1=cl-2gi2b3oc
 &zone=jn1b
 &COMMON_PARAMS

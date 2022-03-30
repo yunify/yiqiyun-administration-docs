@@ -24,7 +24,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyUserGroupMemberAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyUserGroupMemberAttributes
 &user_group=ug-6zp387ak
 &user=usr-iKf0yJEZ
 &status=disabled

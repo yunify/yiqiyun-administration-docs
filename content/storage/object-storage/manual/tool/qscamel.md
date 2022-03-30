@@ -200,7 +200,7 @@ destination:
 ```
 
 **说明**
-- 该任务即为：将本地目录 `/path/to/source` 下的文件复制至山河对象存储的 `example_bucket` 下的 `/path/to/destination` 目录。
+- 该任务即为：将本地目录 `/path/to/source` 下的文件复制至亿栖云对象存储的 `example_bucket` 下的 `/path/to/destination` 目录。
 - `access_key_id` 与 `secret_access_key` 可参考 [获取 Access Key](/storage/object-storage/api/practices/signature/#获取-access-key)。
 
 
@@ -332,7 +332,7 @@ options:
 
 ### Endpoint qingstor
 
-山河对象存储是[山河](https://www.shanhe.com/products/67)提供的对象存储服务。能够用做 qscamel 数据迁移任务中的 **source** 与 **destination** 端点。
+亿栖云对象存储是亿栖云提供的对象存储服务。能够用做 qscamel 数据迁移任务中的 **source** 与 **destination** 端点。
 
 使用 qingstor 作为端点时，可添加如下配置内容:
 

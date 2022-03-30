@@ -34,7 +34,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=ModifySpanAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifySpanAttributes
 &ip_addr=1.2.3.4
 &COMMON_PARAMS
 ```

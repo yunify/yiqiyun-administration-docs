@@ -56,7 +56,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeVolumes
+https://api.yiqiyun.net.cn/iaas/?action=DescribeVolumes
 &status=in-use
 &COMMON_PARAMS
 ```

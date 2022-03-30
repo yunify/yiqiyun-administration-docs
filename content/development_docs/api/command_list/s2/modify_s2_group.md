@@ -34,10 +34,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyS2Group
+https://api.yiqiyun.net.cn/iaas/?action=ModifyS2Group
 &s2_group=s2g-k01j1qtk
 &description=testgroup
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

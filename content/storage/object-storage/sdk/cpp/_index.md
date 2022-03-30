@@ -3,9 +3,9 @@ title: "C/C++ SDK"
 ---
 
 
-山河对象存储的 C/C++ SDK 已在 GitHub 开源，本文为简要使用文档。更多详细信息请参见 [GitHub 项目](https://github.com/yunify/qingstor-sdk-cpp)。
+亿栖云对象存储的 C/C++ SDK 已在 GitHub 开源，本文为简要使用文档。更多详细信息请参见 [GitHub 项目](https://github.com/yunify/qingstor-sdk-cpp)。
 
-本 SDK 使用 [Snips](https://github.com/yunify/snips) 工具生成，各接口的调用均与山河对象存储的 API 相对应。其返回码、请求头、错误码等规定请参照具体的 [API 文档](/storage/object-storage/api/)。
+本 SDK 使用 [Snips](https://github.com/yunify/snips) 工具生成，各接口的调用均与亿栖云对象存储的 API 相对应。其返回码、请求头、错误码等规定请参照具体的 [API 文档](/storage/object-storage/api/)。
 
 
 本SDK提供了 C 和 C++ 两套接口，这两套接口在使用上方式上有所差别，请您阅读相应的使用说明文档，了解具体细节。

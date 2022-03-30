@@ -90,7 +90,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeQuotas
+https://api.yiqiyun.net.cn/iaas/?action=DescribeQuotas
 &zone=test
 ```
 

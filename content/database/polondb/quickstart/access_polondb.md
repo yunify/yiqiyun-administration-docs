@@ -51,16 +51,16 @@ PolonDB 基于 Citus 构建，支持选择协调器节点、高性能节点和�
 <img src="../../_images/check_access_info.png" alt="连接信息" style="zoom:50%;" />
 
 ### 访问数据库
-   
+
 通过命令连接方式如下：
 
 ```bash
 $ psql -U <userName> -h <port> -d <serverName> 
 ```
 
-|<span style="display:inline-block;width:80px">选项</span> |<span style="display:inline-block;width:240px">说明</span>|<span style="display:inline-block;width:280px">示例</span> |
-|:----|:----|:----|
-|-U           |数据库用户账号名。<br>新建数据库默认账号名 `shanhe`。      | shanhe  |
-|-h          |集群的 VIP。                 |192.168.100.240|
-|-d          |数据库名称。 <br>新建数据库默认名称 `shanhe `。            | shanhe  |
-|密码          |数据库用户密码。<br>新建数据库默认账号密码`shanhe1234`              | shanhe1234 |
+| <span style="display:inline-block;width:80px">选项</span> | <span style="display:inline-block;width:240px">说明</span> | <span style="display:inline-block;width:280px">示例</span> |
+| :-------------------------------------------------------- | :--------------------------------------------------------- | :--------------------------------------------------------- |
+| -U                                                        | 数据库用户账号名。<br>新建数据库默认账号名 `yiqiyun`。     | yiqiyun                                                    |
+| -h                                                        | 集群的 VIP。                                               | 192.168.100.240                                            |
+| -d                                                        | 数据库名称。 <br>新建数据库默认名称 `yiqiyun `。           | yiqiyun                                                    |
+| 密码                                                      | 数据库用户密码。<br>新建数据库默认账号密码`yiqiyune1234`   | yiqiyun1234                                                |

@@ -32,10 +32,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=AssociateS2AccountGroup
+https://api.yiqiyun.net.cn/iaas/?action=AssociateS2AccountGroup
 &s2_group=s2g-5xmpse7o
 &s2_accounts.1=s2a-3f181hmo
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

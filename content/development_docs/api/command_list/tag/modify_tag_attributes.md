@@ -33,10 +33,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyTagAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyTagAttributes
 &tag=tag-axbkmf21
 &tag_name=sample
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

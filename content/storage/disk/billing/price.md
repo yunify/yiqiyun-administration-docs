@@ -23,7 +23,6 @@ draft: false
   - 预留方式：硬盘删除成功并合约退订后方可停止计费。
   - 按需计费：硬盘删除成功后停止计费。
 
-- 价格计算：详情可参考[计费说明]( https://docsv3.shanhe.com/middware/kafka/billing/price/) 。
 
 
 

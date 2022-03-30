@@ -21,7 +21,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DeleteResourceGroups
+https://api.yiqiyun.net.cn/iaas/?action=DeleteResourceGroups
 &resource_groups.1=rg-5ukijwcx
 &COMMON_PARAMS
 ```

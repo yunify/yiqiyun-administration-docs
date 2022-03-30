@@ -36,9 +36,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=PowerOffRouters
+https://api.yiqiyun.net.cn/iaas/?action=PowerOffRouters
 &routers.1=rtr-s5nqo8mr
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

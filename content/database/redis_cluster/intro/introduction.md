@@ -18,6 +18,6 @@ Redis 是一个使用ANSI C编写的开源、支持网络、基于内存、可�
 - 支持集群的横向及纵向伸缩
 - 一键部署
 - 基于最新的 Redis 4.0.6 稳定版构建
-- Redis 5.0.3 - ShanHe 1.2.1 添加了同城多活，实现业务容灾
-- Redis 5.0.5 - ShanHe 1.3.0 添加了内存限制，防止删除节点时出现 OOM
-- Redis 5.0.5 - ShanHe 2.0.0 添加了 Caddy 服务，支持通过浏览器自助查看和下载 Redis 文件
+- Redis 5.0.3 - YiQiYun 1.2.1 添加了同城多活，实现业务容灾
+- Redis 5.0.5 - YiQiYun 1.3.0 添加了内存限制，防止删除节点时出现 OOM
+- Redis 5.0.5 - YiQiYun 2.0.0 添加了 Caddy 服务，支持通过浏览器自助查看和下载 Redis 文件

@@ -21,7 +21,7 @@ title: "使用示例"
    conn = boto.connect_s3(
        aws_access_key_id='PLLZOBTTZXGBNOWUFHZZ',
        aws_secret_access_key='MnIjI58zC8AX07xotHXcm6grwFgOXhaJQHkTCX2X',
-       host='s3.jn1.is.shanhe.com'
+       host='s3.jn1.is.yiqiyun.com'
    )
    bucket = conn.get_bucket('mybucket')
    key = bucket.get_key("mykey")
@@ -155,11 +155,11 @@ title: "使用示例"
    access_key = PLLZOBTTZXGBNOWUFHZZ
    secret_key = MnIjI58zC8AX07xotHXcm6grwFgOXhaJQHkTCX2X
    bucket_location = pek3a
-   host_base = s3.jn1.is.shanhe.com
-   host_bucket = %(bucket)s.s3.jn1.is.shanhe.com
+   host_base = s3.jn1.is.yiqiyun.com
+   host_bucket = %(bucket)s.s3.jn1.is.yiqiyun.com
    ```
 
-3. 执行如下命令行，上传文件至山河对象存储:
+3. 执行如下命令行，上传文件至亿栖云对象存储:
 
    ```bash
    > s3cmd put /tmp/hello.txt s3://mybucket/

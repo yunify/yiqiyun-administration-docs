@@ -35,12 +35,12 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=GetMongoMonitor
+https://api.yiqiyun.net.cn/iaas/?action=GetMongoMonitor
 &resource=mi-ole0pgn1
 &meters.1=status
 &start_time=2015-06-21T01:10:10Z
 &end_time=2015-06-22T01:10:10Z
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

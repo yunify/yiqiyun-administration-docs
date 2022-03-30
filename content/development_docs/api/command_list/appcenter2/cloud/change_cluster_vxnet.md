@@ -30,12 +30,12 @@ draft: false
 
 **Example**
 
-以应用[ZooKeeper](https://appcenter.shanhe.com/apps/app-tg3lbp0a/ZooKeeper%20on%20shanhe)为例
+以应用[ZooKeeper](http://appcenter.yiqiyun.net.cn/apps/app-tg3lbp0a?name=ZooKeeper)为例
 
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ChangeClusterVxnet
+https://api.yiqiyun.net.cn/iaas/?action=ChangeClusterVxnet
 &cluster=cl-q1witcdk
 &vxnet=vxnet-iuy3lnd
 &private_ips.1.node_id=cln-nqop00oj

@@ -35,10 +35,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyVolumeAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyVolumeAttributes
 &volume=vol-rtyv0968
 &volume_name=sample
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

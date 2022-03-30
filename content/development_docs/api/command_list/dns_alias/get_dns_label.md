@@ -30,8 +30,8 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=GetDNSLabel
-&zone=jn1a
+https://api.yiqiyun.net.cn/iaas/?action=GetDNSLabel
+&zone=zw2
 &COMMON_PARAMS
 ```
 
@@ -41,7 +41,7 @@ _Example Response_:
 {
   "action": "GetDNSLabelResponse",
   "dns_label": "xwxjic",
-  "domain_name": "xwxjic.gd2.shanhe.com",
+  "domain_name": "xwxjic.zw2.yiqiyun.net.cn",
   "ret_code":0
 }
 ```

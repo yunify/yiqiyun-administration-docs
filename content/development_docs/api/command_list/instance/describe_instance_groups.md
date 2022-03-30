@@ -47,7 +47,7 @@ weight: 19
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeInstanceGroups
+https://api.yiqiyun.net.cn/iaas/?action=DescribeInstanceGroups
 &instance_groups.1=ig-8qstg3wi
 &verbose=1
 &zone=gd2

@@ -41,10 +41,10 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=GetWanInfo
+https://api.yiqiyun.net.cn/iaas/?action=GetWanInfo
 &resources.1=wacc-nzgqtn8b
 &info_type=cpe_mobile_info
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

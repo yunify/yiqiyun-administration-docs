@@ -37,10 +37,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyRouterAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyRouterAttributes
 &router=rtr-9iy0lt3s
 &router_name=demo
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

@@ -32,7 +32,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhem/iaas/?action=NFVJoinVxnets
+https://api.yiqiyun.net.cn/iaas/?action=NFVJoinVxnets
 &nfv=nfv-1234abcd
 &vxnets.1=vxnet-123
 &vxnets.2=vxnet-234

@@ -36,7 +36,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeBorderVxnets
+https://api.yiqiyun.net.cn/iaas/?action=DescribeBorderVxnets
 &border=irt-2zevtm67
 &offset=0
 &limit=100
@@ -54,7 +54,7 @@ _Example Response_:
             "vxnet_id":"vxnet-gonkgpv",
             "dyn_ip_start":"192.168.0.2",
             "dyn_ipv6_end":"",
-            "console_id":"shanhe",
+            "console_id":"",
             "create_time":"2020-11-13T07:47:50Z",
             "owner":"usr-1gIBrASt",
             "dhcp_server_ip":"",

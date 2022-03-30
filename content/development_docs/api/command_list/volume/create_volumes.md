@@ -37,10 +37,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=CreateVolumes
+https://api.yiqiyun.net.cn/iaas/?action=CreateVolumes
 &volume_name=demo
 &size=20
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

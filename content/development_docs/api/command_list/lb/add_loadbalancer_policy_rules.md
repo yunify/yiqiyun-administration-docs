@@ -33,10 +33,10 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=AddLoadBalancerPolicyRules
+https://api.yiqiyun.net.cn/iaas/?action=AddLoadBalancerPolicyRules
 &loadbalancer_policy=lbp-1234abcd
 &rules.1.rule_type=domain
-&rules.1.val=shanhe.com
+&rules.1.val=yiqiyun.net.cn
 &COMMON_PARAMS
 ```
 

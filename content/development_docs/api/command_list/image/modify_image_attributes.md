@@ -35,11 +35,11 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyImageAttributes
+https://api.yiqiyun.net.cn/iaas/?action=ModifyImageAttributes
 &image=img-rtyv0968
 &image_name=sample
 &description=staging_env
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

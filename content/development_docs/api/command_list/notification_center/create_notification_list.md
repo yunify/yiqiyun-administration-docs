@@ -32,7 +32,7 @@ draft: false
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=CreateNotificationList
+https://api.yiqiyun.net.cn/iaas/?action=CreateNotificationList
 &notification_list_name=sysadmins
 &notification_items.1=ni-xxxxx
 &notification_items.2=ni-xxxxx

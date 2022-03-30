@@ -58,7 +58,7 @@ draft: false
 | env | String | JSON格式的环境变量值，具体参见开发者文档mustache　|
 | vertical_scaling_policy | String | 节点纵向扩容配置，sequential表示依次扩容，parallel表示同时扩容 |
 | advanced_actions | String | 节点支持的操作，change_vxnet表示切换私网，scael_horizontal表示横向扩容 |
-| agent_installed | boolen | 节点是否安装山河的agent |
+| agent_installed | boolen | 节点是否安装亿栖云的agent |
 | user_access | Integer | 节点是否支持用户VNC登录，0表示不支持 |
 | gpu_class | Integer | 节点是否支持gpu，0表示不支持，1表示支持 |
 | gpu | Integer | 节点的gpu数量，0表示当前节点没有gpu |
@@ -85,16 +85,16 @@ draft: false
 
 **Example**
 
-以应用[ZooKeeper](https://appcenter.shanhe.com/apps/app-tg3lbp0a/ZooKeeper%20on%20shanhe)创建的集群为例
+以应用[ZooKeeper](http://appcenter.yiqiyun.net.cn/apps/app-tg3lbp0a?name=ZooKeeper)创建的集群为例
 
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeClusterNodes
+https://api.yiqiyun.net.cn/iaas/?action=DescribeClusterNodes
 &cluster=cl-q1witcdk
 &limit=20
 &reverse=1
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

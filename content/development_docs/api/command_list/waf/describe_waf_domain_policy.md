@@ -15,7 +15,7 @@ draft: false
 | domain_policies.n | String | WAF域名防护策略ID | Yes |
 | zone | String | 区域 ID，注意要小写 | Yes |
 
-[公共参数](https://docs.shanhe.com/product/api/common/parameters)
+[公共参数](/development_docs/api/parameters/)
 
 **Response Elements**
 
@@ -41,9 +41,9 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeWAFDomainPoliciesResponse
+https://api.yiqiyun.net.cn/iaas/?action=DescribeWAFDomainPoliciesResponse
 &domain_policies.1=wafdp-uv6qtfm5
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

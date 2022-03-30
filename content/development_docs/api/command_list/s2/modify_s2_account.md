@@ -36,10 +36,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=ModifyS2Account
+https://api.yiqiyun.net.cn/iaas/?action=ModifyS2Account
 &s2_account=s2a-cpuwpquf
 &nfs_ipaddr=1.2.3.4
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 

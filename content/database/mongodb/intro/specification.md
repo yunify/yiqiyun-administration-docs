@@ -31,12 +31,12 @@ draft: false
 
 | <span style="display:inline-block;width:120px">版本</span> | <span style="display:inline-block;width:120px">磁盘规格</span> |
 | :--------------------------------------------------------- | :----------------------------------------------------------- |
-| MongoDB 4.0.3 - ShanHe 1.7.0                            | <li>支持自定义磁盘类型：基础性，SSD企业级，企业级分布式 SAN<li>支持自定义磁盘大小：10GB-2000GB |
-| MongoDB 3.6.8 - ShanHe 1.6.1                            | <li>支持自定义磁盘大小：10GB-2000GB                          |
-| MongoDB 3.6.8 - ShanHe 1.6.0                            | <li>支持自定义磁盘大小：10GB-2000GB                          |
-| MongoDB 4.0.3 - ShanHe 1.5.0                            | <li>支持自定义磁盘大小：10GB-2000GB                          |
-| MongoDB 4.0.3 - ShanHe 1.3.0                            | <li>支持自定义磁盘大小：10GB-2000GB                          |
-| MongoDB 4.0.3 - ShanHe 1.2.0                            | <li>支持自定义磁盘大小：10GB-2000GB                          |
+| MongoDB 4.0.3 - YiQiYun 1.7.0                              | <li>支持自定义磁盘类型：基础性，SSD企业级，企业级分布式 SAN<li>支持自定义磁盘大小：10GB-2000GB |
+| MongoDB 3.6.8 - YiQiYun 1.6.1                              | <li>支持自定义磁盘大小：10GB-2000GB                          |
+| MongoDB 3.6.8 - YiQiYun 1.6.0                              | <li>支持自定义磁盘大小：10GB-2000GB                          |
+| MongoDB 4.0.3 - YiQiYun 1.5.0                              | <li>支持自定义磁盘大小：10GB-2000GB                          |
+| MongoDB 4.0.3 - YiQiYun 1.3.0                              | <li>支持自定义磁盘大小：10GB-2000GB                          |
+| MongoDB 4.0.3 - YiQiYun 1.2.0                              | <li>支持自定义磁盘大小：10GB-2000GB                          |
 | MongoDB v3.4.5 (WiredTiger)                                | <li>支持自定义磁盘大小：10GB-2000GB                          |
 | MongoDB v3.0.15 (MMAPv1)                                   | <li>支持自定义磁盘大小：10GB-2000GB                          |
 

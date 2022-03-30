@@ -39,7 +39,7 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=DescribeRouterStatics
+https://api.yiqiyun.net.cn/iaas/?action=DescribeRouterStatics
 &router=rtr-9iy0lt3s
 &COMMON_PARAMS
 ```

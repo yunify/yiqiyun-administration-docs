@@ -37,7 +37,7 @@ weight: 13
 _Example Request_
 
 ```
-https://api.shanhe.com/iaas/?action=CreateBrokers
+https://api.yiqiyun.net.cn/iaas/?action=CreateBrokers
 &instances.1=i-1tv6ffcy
 &zone=gd2
 &COMMON_PARAMS
@@ -52,7 +52,7 @@ _Example Response_:
     {
       "instance_id":"i-1tv6ffcy",
       "broker_port":23239,
-      "broker_host":"broker.shanhe.com"
+      "broker_host":"broker.yiqiyun.net.cn"
     }
   ],
   "ret_code":0

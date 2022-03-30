@@ -8,7 +8,7 @@ draft: false
 
 ##  Memcached 与 Redis 有何区别，如何选择？
 
-山河的缓存服务支持云数据库 Redis 和云数据库 Memcached。Redis 和 Memcached 都是非常受欢迎的开源内存数据库，相对关系型数据库，Redis 和 Memcached 使用更简单，且具备高性能。
+亿栖云的缓存服务支持云数据库 Redis 和云数据库 Memcached。Redis 和 Memcached 都是非常受欢迎的开源内存数据库，相对关系型数据库，Redis 和 Memcached 使用更简单，且具备高性能。
 
 同为 Key-Value 数据库，我们该如何选择？
 

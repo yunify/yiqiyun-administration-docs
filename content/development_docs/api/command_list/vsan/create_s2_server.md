@@ -8,7 +8,7 @@ draft: false
 
 创建新的共享存储服务器。
 
-山河目前仅支持VSAN类型的共享存储服务器， 及基于iSCSI协议的存储服务。
+亿栖云目前仅支持VSAN类型的共享存储服务器， 及基于iSCSI协议的存储服务。
 
 **Request Parameters**
 
@@ -38,10 +38,10 @@ draft: false
 _Example Request_:
 
 ```
-https://api.shanhe.com/iaas/?action=CreateS2Server
+https://api.yiqiyun.net.cn/iaas/?action=CreateS2Server
 &vxnet_id=vxnet-ln2mtlk
 &service_type=vsan
-&zone=jn1a
+&zone=zw2
 &COMMON_PARAMS
 ```
 
