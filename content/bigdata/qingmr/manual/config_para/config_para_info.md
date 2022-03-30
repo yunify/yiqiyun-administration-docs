@@ -1,7 +1,7 @@
 ---
 title: "参数介绍"
-description: 本小节主要介绍 SMR 常用配置项。 
-keywords: SMR 常用配置项；
+description: 本小节主要介绍 QingMR 常用配置项。 
+keywords: QingMR 常用配置项；
 weight: 10
 collapsible: false
 draft: false
@@ -9,9 +9,9 @@ draft: false
 
 
 
-在 AppCenter 集群管理控制台，支持对 SMR 常用配置参数的管理。
+在 AppCenter 集群管理控制台，支持对 QingMR 常用配置参数的管理。
 
-本小节主要介绍 AppCenter 中各 SMR 配置参数的含义。 
+本小节主要介绍 AppCenter 中各 QingMR 配置参数的含义。 
 
 ## 支持的配置参数
 

@@ -1,7 +1,7 @@
 ---
 title: "Hive 使用指南"
 description: 本小节主要介绍 Hive 使用指南。 
-keywords: smr hive
+keywords: QingMR hive
 weight: 25
 collapsible: false
 draft: false
@@ -24,7 +24,7 @@ mysql> grant all privileges on hive.* to '<username>'@'%';
 mysql> flush privileges;
 ```
 
-如果以 spark 作为 Hive 的执行引擎 (从 SMR 1.3.0 开始支持，且作为默认执行引擎)，在操作 Hive 之前请先在 hdfs 上创建相应的用户目录。例如若以用户 ubuntu 操作 Hive，需首先以 root 用户运行以下命令：
+如果以 spark 作为 Hive 的执行引擎 (从 QingMR 1.3.0 开始支持，且作为默认执行引擎)，在操作 Hive 之前请先在 hdfs 上创建相应的用户目录。例如若以用户 ubuntu 操作 Hive，需首先以 root 用户运行以下命令：
 
 ```shell
 # 切换 root 用户请使用命令 sudo su , 密码 p12cHANgepwD
@@ -86,7 +86,7 @@ hive> SELECT AVG(a.foo) FROM invites a WHERE a.ds='2008-08-15';
 ```
 
 ## Hive 执行引擎
-支持 mr 和 spark 两种执行引擎(其中 spark 引擎从 SMR 1.3.0 开始支持，并且作为默认执行引擎)，可以通过以下方式进行切换：
+支持 mr 和 spark 两种执行引擎(其中 spark 引擎从 QingMR 1.3.0 开始支持，并且作为默认执行引擎)，可以通过以下方式进行切换：
 
 - 集群级别的切换  
 
@@ -112,7 +112,7 @@ hive> set hive.execution.engine=spark;
 
 ## Hive 中使用 LZO 压缩
 
-Hive 从 SMR 2.0.0 开始支持 lzo 压缩：
+Hive 从 QingMR 2.0.0 开始支持 lzo 压缩：
 
 ```shell
 # 创建支持 lzo 压缩的表

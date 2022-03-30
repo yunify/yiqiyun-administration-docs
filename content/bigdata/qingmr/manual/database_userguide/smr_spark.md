@@ -1,7 +1,7 @@
 ---
 title: "Spark 使用指南"
 description: 本小节主要介绍Spark 基本操作使用指南。 
-keywords: smr Spark,
+keywords: QingMR Spark,
 weight: 15
 collapsible: false
 draft: false
@@ -121,7 +121,7 @@ bin/spark-submit --master yarn --deploy-mode cluster /opt/spark/examples/src/mai
 
 Spark 支持两种应用内调度器 FIFO（默认）和 FAIR。
 
-为了支持用户自定义 Spark 应用内 FAIR 调度器的需求，SMR 支持用户上传自定义的 FAIR 调度器，步骤如下：
+为了支持用户自定义 Spark 应用内 FAIR 调度器的需求，QingMR 支持用户上传自定义的 FAIR 调度器，步骤如下：
 
 1. 自定义 Spark 应用内 FAIR 调度器 spark-fair-scheduler.xml（文件名必须为 spark-fair-scheduler.xml）。
 2. 将这两个自定义调度器上传至 HDFS 的 /tmp/hadoop-yarn/ 目录。
@@ -154,7 +154,7 @@ scala > lzoTest.saveAsTextFile("/test_lzo", classOf[LzopCodec])
 
 ## 使用 BigDL
 
-从 SMR 2.0.0 开始支持基于 Spark 的分布式深度学习框架 BigDL 。
+从 QingMR 2.0.0 开始支持基于 Spark 的分布式深度学习框架 BigDL 。
 
 以下以训练经典卷积神经网络模型 LeNet5 进行示例：
 

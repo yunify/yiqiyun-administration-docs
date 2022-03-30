@@ -1,7 +1,7 @@
 ---
 title: "Flink 使用指南"
 description: 本小节主要介绍Flink 使用指南。 
-keywords: smr flink,
+keywords: QingMR flink,
 weight: 35
 collapsible: false
 draft: false
@@ -10,7 +10,7 @@ draft: false
 
   
 
-SMR 中的 Flink 以 Flink on YARN 模式运行，支持创建 Flink YARN Session ( Flink Cluster on YARN )，以及在  YARN 上运行 Standalone Flink job。
+QingMR 中的 Flink 以 Flink on YARN 模式运行，支持创建 Flink YARN Session ( Flink Cluster on YARN )，以及在  YARN 上运行 Standalone Flink job。
 
 ## Flink YARN Session ( Flink Cluster on YARN )
 

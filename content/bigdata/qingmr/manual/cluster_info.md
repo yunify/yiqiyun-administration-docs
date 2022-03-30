@@ -1,7 +1,7 @@
 ---
 title: "集群信息"
-description: 本小节主要介绍如何查看 SMR 集群信息。 
-keywords: SMR 集群信息
+description: 本小节主要介绍如何查看 QingMR 集群信息。 
+keywords: QingMR 集群信息
 weight: 10
 collapsible: false
 draft: false

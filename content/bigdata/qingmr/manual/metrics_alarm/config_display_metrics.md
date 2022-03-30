@@ -1,26 +1,26 @@
 ---
 title: "监控指标"
-description: 本小节主要介绍 SMR 主要支持哪些监控指标。 
-keywords: SMR 监控指标
+description: 本小节主要介绍 QingMR 主要支持哪些监控指标。 
+keywords: QingMR 监控指标
 weight: 10
 collapsible: false
 draft: false
 ---
 
-SMR 集群提供资源性能监控指标和告警信息。
+QingMR 集群提供资源性能监控指标和告警信息。
 
 - 资源监控指标统计了云服务器的资源信息，如 CPU 使用率、硬盘 IOPS 情况等，可用于查看系统性能是否到达瓶颈。
 - 服务监控指标统计了用于性能分析的常用的 Metrics 信息，可用于定位分析数据库的性能。
 
 > 注意：
 > 
-> SMR 集群 Agent 只用于监控集群的服务和资源指标，不会收除集除监控指标外的其它数据。
+> QingMR 集群 Agent 只用于监控集群的服务和资源指标，不会收除集除监控指标外的其它数据。
 
 ## 支持的服务监控指标
 
 通过对接 Hadoop、Spark 和 Hive 原生的监控，可获取丰富的服务监控信息。详情参见[Hadoop、Spark 和 Hive 原生的服务监控](../view_monitor_metrics)
 
-为了帮助用户更好的管理和维护 SMR 集群，我们提供了部分针对 YARN、 HDFS 以及 Spark 服务级别分角色的监控。
+为了帮助用户更好的管理和维护 QingMR 集群，我们提供了部分针对 YARN、 HDFS 以及 Spark 服务级别分角色的监控。
 
 - YARN 服务监控，包括 YARN 管理的各 NodeManager 节点状态、运行中的 YARN 应用、 YARN 应用状态、 YARN 集群总内存、 YARN 集群 virtual cores、YARN containers、NodeManger 节点内存等。
 

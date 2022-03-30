@@ -1,13 +1,13 @@
 ---
-title: "大数据基础服务 SMR"
-linkTitle: "SMR"
+title: "大数据引擎 QingMR"
+linkTitle: "QingMR"
 weight: 10
 collapsible: true
 type: "product"
 
 section1:
-  title: SMR
-  vice_title: 大数据基础服务 SMR 是新一代云端大数据服务，能够提供计算、存储、分析、查询一站式全方位的大数据服务。
+  title: QingMR
+  vice_title: 大数据基础服务 QingMR 是新一代云端大数据服务，能够提供计算、存储、分析、查询一站式全方位的大数据服务。
 
 Section2:
   title: 用户指南
@@ -29,7 +29,7 @@ Section2:
       url: "quickstart/create_cluster/"
 
     - title: 操作指南
-      content: 学习上手如何管理 SMR 集群，以及如何使用 SMR 提供的相关服务等。
+      content: 学习上手如何管理 QingMR 集群，以及如何使用 QingMR 提供的相关服务等。
       url: "manual/cluster_info/"
 
 section3:
@@ -50,17 +50,17 @@ section3:
 section4:
   children:
     - title: 了解
-      content: 什么是 SMR
+      content: 什么是 QingMR
       vice_title: 了解的第一步
       children:
         - title: 产品简介
           url: "intro/introduction/"
 
     - title: 进阶
-      content: 学习如何创建、管理、使用 SMR 集群
+      content: 学习如何创建、管理、使用 QingMR 集群
       vice_title: 上手的第一步
       children: 
-        - title: 创建 SMR
+        - title: 创建 QingMR
           url: "quickstart/create_cluster/"
 
 
