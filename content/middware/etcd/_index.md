@@ -54,7 +54,7 @@ section4:
           url: "/middware/etcd/intro/introduction"
 
     - title: 上手：快速部署 etcd 集群
-      content: 山河 etcd 集群应用方便用户创建etcd集群，并支持动态伸缩。
+      content: etcd 集群应用方便用户创建etcd集群，并支持动态伸缩。
       vice_title: 上手的第一步
       children:
         - title: 创建 etcd 集群

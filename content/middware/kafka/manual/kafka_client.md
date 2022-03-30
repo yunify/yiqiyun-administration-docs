@@ -7,7 +7,7 @@ draft: false
 
 >**说明**
 >
->使用 Kafka 1.0.0 - ShanHe 1.1.6 及后续版本，建议使用山河为您创建客户端节点，用户名：`ubuntu`，密码：`kafka`。
+>使用 Kafka 1.0.0 - YiQiYun 1.1.6 及后续版本，建议使用系统为您创建客户端节点，用户名：`ubuntu`，密码：`kafka`。
 
 ## 创建 Topic
 

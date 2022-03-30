@@ -17,7 +17,7 @@ draft: false
 
 ## 前提条件 
 
-- 已创建 SMR 集群，并在 `HBase 客户端` 中在 /opt/hadoop 目录下完成 MapReduce 服务配置。
+- 已创建 QingMR 集群，并在 `HBase 客户端` 中在 /opt/hadoop 目录下完成 MapReduce 服务配置。
 
 ## 方案简介
 

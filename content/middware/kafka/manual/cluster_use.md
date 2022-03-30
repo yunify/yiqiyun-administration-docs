@@ -37,7 +37,7 @@ draft: false
 
 ## 跨网访问
 
-山河计算平台提供灵活的网络配置，一般建议 Kafka 集群和客户端（生产者、消费者）都在同一个 VPC 下工作，来达到最高的性能。如果 Kafka 在实际使用中会出现 producer，consumer 与 broker 都不在一个网段之中需要跨 VPC，可以考虑以下方法：
+计算平台提供灵活的网络配置，一般建议 Kafka 集群和客户端（生产者、消费者）都在同一个 VPC 下工作，来达到最高的性能。如果 Kafka 在实际使用中会出现 producer，consumer 与 broker 都不在一个网段之中需要跨 VPC，可以考虑以下方法：
 
 1. 通过[边界路由器](/network/border_router/)、[IPSec 隧道](/network/vpc/manual/tunnel/ipsec/)、[GRE 隧道](/network/vpc/manual/tunnel/gre/) 等方式把网络打通，这种方式适合于大规模复杂网络的情况。
 
@@ -70,7 +70,7 @@ draft: false
 
 ## 日志及文件查看
 
-为了更好的获取节点使用情况，山河提供了方便快捷的文件日志获取服务。配置[VPN](/network/vpc/manual/vpn/)或[端口转发](/network/vpc/faq/methods_of_port_forwarding/)后，确保本地可以访问集群网络。即可在本地浏览器里查看或下载相应节点的日志和文件。
+为了更好的获取节点使用情况，系统提供了方便快捷的文件日志获取服务。配置[VPN](/network/vpc/manual/vpn/)或[端口转发](/network/vpc/faq/methods_of_port_forwarding/)后，确保本地可以访问集群网络。即可在本地浏览器里查看或下载相应节点的日志和文件。
 
 在集群详情页的**节点**标签下可以看到集群每个节点的信息，如节点角色，节点IP。对于 Kafka-manager 节点，在浏览器输入`http://节点IP`，可查看 Kafka Manager 的日志文件。
 

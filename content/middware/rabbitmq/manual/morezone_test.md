@@ -8,7 +8,7 @@ keyword: RabbitMQ, rabbitmq,  消息队列服务, 消息中间件
 
 ## 背景
 
-山河升级区域（Region）架构 轻松实现同城多活
+升级区域（Region）架构 轻松实现同城多活
 
 ## 测试结果
 

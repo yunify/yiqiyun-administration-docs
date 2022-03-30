@@ -1,5 +1,5 @@
 ---
-title: "创建RocketMQ"
+title: "创建 RocketMQ"
 description: 
 draft: false
 ---
@@ -30,4 +30,4 @@ draft: false
 
 ### 第四步：用户协议
 
-阅读并同意山河AppCenter用户协议之后，点击**提交**，即可开始部署应用。
+阅读并同意云平台 AppCenter 用户协议之后，点击**提交**，即可开始部署应用。

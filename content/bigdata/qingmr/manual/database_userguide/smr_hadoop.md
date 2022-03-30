@@ -1,7 +1,7 @@
 ---
 title: "Hadoop 使用指南 "
 description: 本小节主要介绍 Hadoop 使用指南。 
-keywords: Smr Hadoop,
+keywords: QingMR Hadoop,
 weight: 20
 collapsible: false
 draft: false
@@ -105,7 +105,7 @@ bin/spark-submit --master yarn --deploy-mode client examples/src/main/python/pi.
 ## 更新自定义 YARN 调度器
 
 YARN 支持两种调度器 CapacityScheduler（默认）和 FairScheduler。
-为了支持用户更多自定义调度器的需求，SMR 支持用户上传自定义调度器，步骤如下：
+为了支持用户更多自定义调度器的需求，QingMR 支持用户上传自定义调度器，步骤如下：
 
 1. 自定义 CapacityScheduler capacity-scheduler.xml 或者 FairScheduler fair-scheduler.xml（文件名必须为 capacity-scheduler.xml 或者 fair-scheduler.xml）
 2. 将这两个自定义调度器上传至 HDFS 的 /tmp/hadoop-yarn/ 目录
@@ -125,7 +125,7 @@ YARN 支持两种调度器 CapacityScheduler（默认）和 FairScheduler。
 
 ##  YARN log 收集
 
-SMR 支持将 YARN log 收集到 HDFS 指定目录，并可指定保持时间、保持目录等，可在配置参数页面配置。
+QingMR 支持将 YARN log 收集到 HDFS 指定目录，并可指定保持时间、保持目录等，可在配置参数页面配置。
 
 ![YARN log 收集](../../../_images/yarn_log_aggregation.png)
 
@@ -141,7 +141,7 @@ YARN 及 HDFS 进程最大占用内存
 
 ##  MapReduce 中使用 LZO 压缩
 
-Hadoop 从 SMR 2.0.0 开始支持 lzo 压缩，使用时请注意以下事项：
+Hadoop 从 QingMR 2.0.0 开始支持 lzo 压缩，使用时请注意以下事项：
 
 - lzo 文件默认不支持分片，需为其添加索引文件，才能支持多个 map 并行地对 lzo 文件进行处理。  
 - 作业的输入格式需设置为 `job.setInputFormatClass(LzoTextInputFormat.class)` ，该类在 `${HADOOP_HOME}/share/hadoop/common/lib/hadoop-lzo-0.4.20.jar` 中。
