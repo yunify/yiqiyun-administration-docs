@@ -15,12 +15,12 @@ draft: false
 
 ## 账号与访问
 
-|<span style="display:inline-block;width:80px">参数</span> |<span style="display:inline-block;width:120px">取值范围</span>|<span style="display:inline-block;width:420px">参数说明</span>|
-|:----|:----|:----|
-|   数据库名称    |  -       |   表示创建集群时，创建的初始数据库。 默认为 **shanhe** 。<li>集群创建后不可修改。  |
-|   user_name    |  -       |   表示创建集群时，创建的初始用户名称。 默认为 **shanhe** 。<li>集群创建后不可修改。  |
-|   密码   |  -       |   表示创建集群时，创建的初始用户密码。 默认为 **shanhe1234** 。<li>集群创建后不可修改。  |
-|   端口    |  1025 ~ 65534      |   表示 PostgreSQL 数据库端口号。默认为 5432。 <span style="display: block; background-color: #D8ECDE; padding: 10px 24px; margin: 10px 0; border-left: 3px solid #00a971;"><b>说明</b>: <li>修改后将重启数据库。</li></span> |
+| <span style="display:inline-block;width:80px">参数</span> | <span style="display:inline-block;width:120px">取值范围</span> | <span style="display:inline-block;width:420px">参数说明</span> |
+| :-------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| 数据库名称                                                | -                                                            | 表示创建集群时，创建的初始数据库。 默认为 **yiqiyun** 。<li>集群创建后不可修改。 |
+| user_name                                                 | -                                                            | 表示创建集群时，创建的初始用户名称。 默认为 **yiqiyun** 。<li>集群创建后不可修改。 |
+| 密码                                                      | -                                                            | 表示创建集群时，创建的初始用户密码。 默认为 **yiqiyun1234** 。<li>集群创建后不可修改。 |
+| 端口                                                      | 1025 ~ 65534                                                 | 表示 PostgreSQL 数据库端口号。默认为 5432。 <span style="display: block; background-color: #D8ECDE; padding: 10px 24px; margin: 10px 0; border-left: 3px solid #00a971;"><b>说明</b>: <li>修改后将重启数据库。</li></span> |
 
 ## 参数标识说明
 

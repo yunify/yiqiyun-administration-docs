@@ -34,12 +34,12 @@ MySQL Plus 支持通过内网地址和外网地址连接数据库，推荐使用
    <img src="../../../_images/check_access_info.png" alt="连接信息" style="zoom:50%;" />
 
 ### 访问数据库
-   
+
 通过命令连接方式如下：
 
 ```bash
 mysql -h <mysqlServerName> -P <port> -u <userName> -p -D <databaseName> -ssl-ca=<caNme> --ssl-cert=<> 
- ```
+```
 
 > **说明**
 > 
@@ -51,19 +51,19 @@ mysql -h <mysqlServerName> -P <port> -u <userName> -p -D <databaseName> -ssl-ca=
 > 
 > 详细开关 SSL 连接，请参见[SSL 传输加密](../../ssl_trans_encryption)。
 
-|<span style="display:inline-block;width:80px">选项</span> |<span style="display:inline-block;width:240px">说明</span>|<span style="display:inline-block;width:280px">示例</span> |
-|:----|:----|:----|
-|-h           |数据库内网或外网连接地址。       |<li>192.168.00.00<li>gz-cdb-xx123xx.mysql.shanhe.link|
-|-P          |数据库端口号。                 |3306|
-|-u          |用户账号名称。                |test_mysql|
-|-p          |用户账号密码。<li> 为保障密码安全，`-p`一般空密码。在执行命令后输入密码，回车即可。<li>若需填写该参数，`-p`与密码之间不能有空格。            |test_mysql|
-|-D          |数据库名称。非必填参数；可不输入`-D` ，仅输入数据库名称。    |mysql    | 
-|--ssl-      |数据库开启 **SSL 传输加密**后，必填连接参数。**注意** SSL 证书文件需上传到服务器，且需放在执行连接命令的路径下。   |--ssl-ca=ca.pem --ssl-cert=client-cert.pem --ssl-key=client-key.pem   | 
+| <span style="display:inline-block;width:80px">选项</span> | <span style="display:inline-block;width:240px">说明</span>   | <span style="display:inline-block;width:280px">示例</span>   |
+| :-------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| -h                                                        | 数据库内网或外网连接地址。                                   | <li>192.168.00.00<li>gz-cdb-xx123xx.mysql.yiqiyun.link       |
+| -P                                                        | 数据库端口号。                                               | 3306                                                         |
+| -u                                                        | 用户账号名称。                                               | test_mysql                                                   |
+| -p                                                        | 用户账号密码。<li> 为保障密码安全，`-p`一般空密码。在执行命令后输入密码，回车即可。<li>若需填写该参数，`-p`与密码之间不能有空格。 | test_mysql                                                   |
+| -D                                                        | 数据库名称。非必填参数；可不输入`-D` ，仅输入数据库名称。    | mysql                                                        |
+| --ssl-                                                    | 数据库开启 **SSL 传输加密**后，必填连接参数。**注意** SSL 证书文件需上传到服务器，且需放在执行连接命令的路径下。 | --ssl-ca=ca.pem --ssl-cert=client-cert.pem --ssl-key=client-key.pem |
 
 通过外网地址连接数据库，回显示例：
-   
+
 ```shell
-$ mysql -h gz-cdb-xx123xx.mysql.shanhe.link -P <3306> -u test_mysql -p
+$ mysql -h gz-cdb-xx123xx.mysql.yiqiyun.link -P <3306> -u test_mysql -p
 Enter password：
 Welcome to the MySQL monitor.   Commands end with ; or \g.
 Your MySQL connection id is 20

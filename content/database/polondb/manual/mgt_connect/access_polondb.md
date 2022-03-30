@@ -35,16 +35,16 @@ PolonDB 推荐使用内网地址连接数据库，确保数据传输速率的同
 <img src="../../../_images/check_access_info.png" alt="连接信息" style="zoom:50%;" />
 
 ### 访问数据库
-   
+
 通过命令连接方式如下：
 
 ```bash
 $ psql -U <userName> -h <port> -d <serverName> 
 ```
 
-|<span style="display:inline-block;width:80px">选项</span> |<span style="display:inline-block;width:240px">说明</span>|<span style="display:inline-block;width:280px">示例</span> |
-|:----|:----|:----|
-|-U           |数据库用户账号名。<br>新建数据库默认账号名 `shanhe`。      | shanhe  |
-|-h          |数据库节点的 IP 或者双节点集群的 VIP。                 |192.168.100.0|
-|-d          |数据库名称。 <br>新建数据库默认名称 `shanhe`。            | shanhe  |
-|密码          |数据库用户密码。<br>新建数据库默认账号密码`shanhe1234`              | shanhe1234 |
+| <span style="display:inline-block;width:80px">选项</span> | <span style="display:inline-block;width:240px">说明</span> | <span style="display:inline-block;width:280px">示例</span> |
+| :-------------------------------------------------------- | :--------------------------------------------------------- | :--------------------------------------------------------- |
+| -U                                                        | 数据库用户账号名。<br>新建数据库默认账号名 `yiqiyun`。     | yiqiyun                                                    |
+| -h                                                        | 数据库节点的 IP 或者双节点集群的 VIP。                     | 192.168.100.0                                              |
+| -d                                                        | 数据库名称。 <br>新建数据库默认名称 `yiqiyun`。            | yiqiyun                                                    |
+| 密码                                                      | 数据库用户密码。<br>新建数据库默认账号密码`yiqiyun1234`    | yiqiyun1234                                                |
