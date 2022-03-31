@@ -2,7 +2,7 @@
 error_reporting(0);
 class search_api
 {
-    const URL_ROOT = 'http://10.245.255.25:9200/official_website_sdcs/_search';
+    const URL_ROOT = 'http://10.193.1.15:9200/official_website_sdcs/_search';
     const CHARSET = 'UTF-8';
     /**GET*/
     private $msGets = '';
