@@ -3,7 +3,7 @@ title: "查看我的配额"
 description: test
 weight: 2
 draft: false
-keyword: 配额管理, QingCloud
+keyword: 配额管理
 
 ---
 

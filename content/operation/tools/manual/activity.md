@@ -3,7 +3,7 @@ title: "操作日志"
 description: Test description
 draft: false
 enableToc: false
-keyword: 操作日志, QingCloud
+keyword: 操作日志
 ---
 
 ## 本区操作日志

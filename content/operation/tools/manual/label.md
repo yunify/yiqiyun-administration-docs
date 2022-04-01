@@ -3,7 +3,7 @@ title: "标签"
 description: Test description
 draft: false
 enableToc: false
-keyword: 标签, QingCloud
+keyword: 标签
 ---
 
 下面为一组云服务器贴标签为例，来描述标签的使用方式。

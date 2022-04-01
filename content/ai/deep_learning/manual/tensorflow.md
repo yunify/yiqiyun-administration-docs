@@ -36,7 +36,7 @@ python mnist.py
 ### 非容器版
 
 ```shell
-wget https://github.com/QingCloudAppcenter/DeepLearning/raw/master/examples/tensorflow_multi_gpu_test.py
+wget https://github.com/QingCloudAppcenterAppcenter/DeepLearning/raw/master/examples/tensorflow_multi_gpu_test.py
 python tensorflow_multi_gpu_test.py
 ```
 

@@ -61,7 +61,7 @@ sudo su
 ```shell
 sudo nvidia-docker run -it --rm --name CONTAIN_NAME -p HOST_PORT:CONTAIN_PORT \
 -v HOST_VOLUME:CONTAIN_VOLUME --net YOUR_DOCKER_NET --ip SPECIFIC_IP --expose=EXPOSED_PORTS \
-qingcloud/deeplearning:1.0-py27-cu91-cudnn7.1 /bin/bash
+yiqiyun/deeplearning:1.0-py27-cu91-cudnn7.1 /bin/bash
 ```
 
 - 若使用 CPU 容器版，启动命令为:
@@ -69,7 +69,7 @@ qingcloud/deeplearning:1.0-py27-cu91-cudnn7.1 /bin/bash
 ```shell
 sudo docker run -it --rm --name CONTAIN_NAME -p HOST_PORT:CONTAIN_PORT \
 -v HOST_VOLUME:CONTAIN_VOLUME --net YOUR_DOCKER_NET --ip SPECIFIC_IP --expose=EXPOSED_PORTS \
-qingcloud/deeplearning:1.0-py27-cpu /bin/bash
+yiqiyun/deeplearning:1.0-py27-cpu /bin/bash
 ```
 
 - 容器名字、容器 IP 地址、端口映射查看:
@@ -80,10 +80,10 @@ sudo docker inspect your_contain_id | grep -i IPAddress
 
 - 单机训练启动：
 
-  使用内置镜像 qingcloud/deeplearning:1.0-py27-cu91-cudnn7.1 启动容器，并且通过 -v 参数挂载测试用例，测试用例在宿主机 /home/ubuntu/test 目录，若用户在容器启动时未挂载测试用例，则可以从[这里下载](https://github.com/QingCloudAppcenter/DeepLearning/tree/master/test)
+  使用内置镜像 qiyiqun/deeplearning:1.0-py27-cu91-cudnn7.1 启动容器，并且通过 -v 参数挂载测试用例，测试用例在宿主机 /home/ubuntu/test 目录，若用户在容器启动时未挂载测试用例，则可以从[这里下载](https://github.com/QingCloudAppcenter/DeepLearning/tree/master/test)
 
 ```shell
-sudo nvidia-docker run -it --rm --name test -p 8888:8888 -p 6006:6006 -v /home/ubuntu/test:/root/test qingcloud/deeplearning:1.0-py27-cu91-cudnn7.1 /bin/bash
+sudo nvidia-docker run -it --rm --name test -p 8888:8888 -p 6006:6006 -v /home/ubuntu/test:/root/test yiqiyun/deeplearning:1.0-py27-cu91-cudnn7.1 /bin/bash
 ```
 
 - 分布式训练启动：
@@ -91,7 +91,7 @@ sudo nvidia-docker run -it --rm --name test -p 8888:8888 -p 6006:6006 -v /home/u
   容器版分布式训练，需要设置容器共享主机网络。这里采用两台主机 node1:192.168.1.4，node2:192.168.1.5 进行实验，在 node1 和 node2 上各启动一个容器：
 
 ```shell
-sudo nvidia-docker run -it --rm --name test01 -v /home/ubuntu/test:/root/test --net host qingcloud/deeplearning:1.0-py27-cu91-cudnn7.1 /bin/bash
+sudo nvidia-docker run -it --rm --name test01 -v /home/ubuntu/test:/root/test --net host yiqiyun/deeplearning:1.0-py27-cu91-cudnn7.1 /bin/bash
 ```
 
 > 网络模式采用 host 模式，容器共享主机网络，即容器的 IP 地址分别为：192.168.1.4和192.168.1.5

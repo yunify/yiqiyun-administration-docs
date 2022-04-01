@@ -3,7 +3,7 @@ title: "回收站"
 description: Test description
 draft: false
 enableToc: false
-keyword: 回收站, QingCloud
+keyword: 回收站
 ---
 
 为展示回收站功能，以删除一台云服务器然后恢复的过程为例。

@@ -10,8 +10,6 @@ weight: 39
 
 ### 申请免费试用云服务器
 
-https://www.qingcloud.com/consultation
-
 申请条件：1.注册亿栖云账户；2.完成实名认证
 
 ## 操作步骤
@@ -20,7 +18,7 @@ https://www.qingcloud.com/consultation
 
 ### 查看优惠券
 
-1. 登录 [QingCloud 管理控制台](https://console.qingcloud.com/login)，选择**产品与服务** > **计算** > **云服务器**，进入域名列表页，点击云服务器**免费试用**。
+1. 登录管理控制台，选择**产品与服务** > **计算** > **云服务器**，进入域名列表页，点击云服务器**免费试用**。
 
    <img src="../../_images/free-instance-1.png" style="zoom:40%;" />
 
@@ -36,7 +34,7 @@ https://www.qingcloud.com/consultation
 
 - 免费试用78.12元优惠券可用于创建**上海1区**或**广东2区**的**基础型1核1g 20g**的云服务器。
 - 如果创建Linux云服务器，正好支撑1个月。不支持创建 Windows 云服务器。
-- 创建路径：**QingCloud 控制台** > **计算** > **云服务器**
+- 创建路径：**控制台** > **计算** > **云服务器**
 - 云服务器配置选择**基础型1核1g 20g系统盘**的云服务器；计费方式选择**按需计费**。
 - 云服务器创建详情请参考：[云服务器快速创建流程](/compute/vm/quickstart/create_vm/)
 - 创建云服务器时，可以异步选择并绑定 IP，无需单独创建。
