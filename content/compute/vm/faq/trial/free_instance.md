@@ -12,7 +12,7 @@ weight: 39
 
 https://www.qingcloud.com/consultation
 
-申请条件：1.注册青云账户；2.完成实名认证
+申请条件：1.注册亿栖云账户；2.完成实名认证
 
 ## 操作步骤
 

@@ -9,19 +9,19 @@ keyword: 账单, 发票, 订单, 充值
 
 ## 充值与计费
 
-账号支持多种充值途径：支付宝、网上银行、微信支付、线下银行转账。 可在[充值页面](https://console.shanhe.com/finance/wallet/)选择。
+账号支持多种充值途径：支付宝、网上银行、微信支付、线下银行转账。 可在[充值页面](http://console.yiqiyun.net.cn/finance/wallet/)选择。
 
-如果需要发票，请到[发票管理](https://console.shanhe.com/finance/invoices/)提出申请。
+如果需要发票，请到[发票管理](http://console.yiqiyun.net.cn/finance/invoices/)提出申请。
 
 执行按用量收费原则，即，您只需要为您使用了的资源付费，并且计费是按秒进行的，不设最低消费指标。
 
-您随时可以在管理控制台中通过[消费明细](https://console.shanhe.com/finance/statistic/)查询消费情况 。
+您随时可以在管理控制台中通过[消费明细](http://console.yiqiyun.net.cn/finance/statistic/)查询消费情况 。
 
 ## 余额不足提醒
 
 系统会定期检查用户余额和当时名下弹性计费资源的消费预估， 如果发现余额即将不足，会提前给用户发送通知。
 
-通知策略是：分别在提前30, 15，7，3，1 天时发送提醒。 默认是发送给账号的注册手机号及邮箱，如果用户希望自定义接受者列表，可在消息中心的[消息接收配置](https://console.shanhe.com/account/profile/notify_map/)中修改“财务消息”对应的消息接收人。
+通知策略是：分别在提前30, 15，7，3，1 天时发送提醒。 默认是发送给账号的注册手机号及邮箱，如果用户希望自定义接受者列表，可在消息中心的[消息接收配置](http://console.yiqiyun.net.cn/account/profile/notify_map/)中修改“财务消息”对应的消息接收人。
 
 ##  资源欠费
 

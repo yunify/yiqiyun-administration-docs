@@ -51,7 +51,7 @@ section3:
 section4:
   children:
     - title: 了解：什么是深度学习平台
-      content: 深度学习平台 Deep Learning on QingCloud 是基于强劲的 GPU 与 CPU 计算资源，搭载多个主流深度学习框架，可极速搭建深度学习开发环境，全面提速 AI 应用开发。
+      content: 深度学习平台 Deep Learning 是基于强劲的 GPU 与 CPU 计算资源，搭载多个主流深度学习框架，可极速搭建深度学习开发环境，全面提速 AI 应用开发。
       vice_title: 了解的第一步
       children:
         - title: 产品简介
