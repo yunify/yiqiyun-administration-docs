@@ -16,7 +16,7 @@ $(document).ready(function(){
             doc_cate = "解决方案";
         }
         else if(category=="logs"){
-            doc_cate = "山河志";
+            doc_cate = "青云志";
         }
         else if(category=="news"){
             doc_cate = "新闻";
@@ -44,14 +44,14 @@ $(document).ready(function(){
             }).done(function(data){
                 //gio('track', 'search', { 'searchterms': keywords });
                 $("#loading-mask").hide();
-                if (data.hits.total == 0){
-                    $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 0531-66680199-601，或发邮件至 nsccservice@sdas.org。</div>');
+                if (data.hits.total.value == 0){
+                    $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 4008576886，或发邮件至 contactus@yunify.com。</div>');
                     $('.directory li a span').html('');
                     $('.search-pagination').empty();
                     return;
                 }
                 else{
-                    $('.directory li.all-websites a span').html('('+data.hits.total+')')
+                    $('.directory li.all-websites a span').html('('+data.hits.total.value+')')
                     var cate_count = data.aggregations.cate_count.buckets;
                     var productCount = 0;
                     var solCount = 0;
@@ -68,7 +68,7 @@ $(document).ready(function(){
                         if(cate_count[idx].key=='解决方案'){
                             solCount = cate_count[idx].doc_count;
                         }
-                        if(cate_count[idx].key=='山河志'){
+                        if(cate_count[idx].key=='青云志'){
                             logsCount = cate_count[idx].doc_count;
                         }
                         if(cate_count[idx].key=='新闻'){
@@ -143,16 +143,16 @@ $(document).ready(function(){
 					$('.directory li.docs').addClass('is-active')
                     $("#loading-mask").hide();
 					if (data.hits.total.value == 0){
-						$('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 0531-66680199-601，或发邮件至 nsccservice@sdas.org。</div>');
+						$('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 4008576886，或发邮件至 contactus@yunify.com。</div>');
 						$('.directory li.is-active a span').html('');
 						$('.search-pagination').empty();
 						return;
 					}
-                    $('.directory li.is-active a span').html('('+data.hits.total+')')
+                    $('.directory li.is-active a span').html('('+data.hits.total.value+')')
                     var results = '';
                     $.each(data.hits.hits, function(index, item){
-                        var title = item.highlight.title || item._source.title;
-                        var content = item.highlight.content || item._source.content;
+                        var title = item._source.title;
+                        var content = item._source.content;
                         var category = item._source.category;
 						var item_from = '';
 						var p_style_for_doc = '';
@@ -172,11 +172,11 @@ $(document).ready(function(){
                             '</div>';
                     });
                     $('.search-result').html(results);
-                    $(".search-pagination").html(pagination(data.hits.total, pager));
+                    $(".search-pagination").html(pagination(data.hits.total.value, pager));
                 })
             }).fail(function(request, error){
 				$("#loading-mask").hide();
-                $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 0531-66680199-601，或发邮件至 nsccservice@sdas.org。</div>');
+                $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 4008576886，或发邮件至 contactus@yunify.com。</div>');
                 $('.search-pagination').empty();
             });
         }
@@ -196,16 +196,16 @@ $(document).ready(function(){
             }).done(function(data){
                 $("#loading-mask").hide();
                 if (data.hits.total.value == 0){
-                    $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 0531-66680199-601，或发邮件至 nsccservice@sdas.org。</div>');
+                    $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 4008576886，或发邮件至 contactus@yunify.com。</div>');
                     $('.directory li.is-active a span').html('');
                     $('.search-pagination').empty();
                     return;
                 }
-                $('.directory li.is-active a span').html('('+data.hits.total+')')
+                $('.directory li.is-active a span').html('('+data.hits.total.value+')')
                 var results = '';
                 $.each(data.hits.hits, function(index, item){
-                    var title = item.highlight.title || item._source.title;
-                    var content = item.highlight.content || item._source.content;
+                    var title =  item._source.title;
+                    var content = item._source.content;
                     var category = item._source.category;
 					var item_from = '';
 					var p_style_for_doc = '';
@@ -224,10 +224,10 @@ $(document).ready(function(){
                         '</div>';
                 });
                 $('.search-result').html(results);
-                $(".search-pagination").html(pagination(data.hits.total, pager));
+                $(".search-pagination").html(pagination(data.hits.total.value, pager));
             }).fail(function(request, error){
 				$("#loading-mask").hide();
-                $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 0531-66680199-601，或发邮件至 nsccservice@sdas.org。</div>');
+                $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 4008576886，或发邮件至 contactus@yunify.com。</div>');
                 $('.search-pagination').empty();
             });
         }
@@ -246,8 +246,8 @@ $(document).ready(function(){
                 data: {q:keywords, pager, cate:doc_cate,size_flag:false},
             }).done(function(data){
                 $("#loading-mask").hide();
-                if (data.hits.total == 0){
-                    $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 0531-66680199-601，或发邮件至 nsccservice@sdas.org。</div>');
+                if (data.hits.total.value == 0){
+                    $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 4008576886，或发邮件至 contactus@yunify.com。</div>');
                     $('.directory li.is-active a span').html('');
                     $('.search-pagination').empty();
                     return;
@@ -255,8 +255,8 @@ $(document).ready(function(){
                 var results = '';
                 //console.log(data);
                 $.each(data.hits.hits, function(index, item){
-                    var title = item.highlight.title || item._source.title;
-                    var content = item.highlight.content || item._source.content;
+                    var title =  item._source.title;
+                    var content = item._source.content;
                     var item_from = '';
 					var p_style_for_doc = '';
 					if(category=='docs'){
@@ -275,10 +275,10 @@ $(document).ready(function(){
                         '</div>';
                     }); 
                 $('.search-result').html(results);
-                $(".search-pagination").html(pagination(data.hits.total, pager));
+                $(".search-pagination").html(pagination(data.hits.total.value, pager));
             }).fail(function(request, error){
 				$("#loading-mask").hide();
-                $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 0531-66680199-601，或发邮件至 nsccservice@sdas.org。</div>');      
+                $('.search-result').html('<div class="no-result">没有找到您期望的内容，请尝试其他搜索词，请拨打我们的咨询电话 4008576886，或发邮件至 contactus@yunify.com。</div>');      
             });
         }  
     };
