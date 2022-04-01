@@ -14,7 +14,7 @@ draft: false
 在钉钉群组中—群设置—智能群助手—添加机器人，群机器人选择“自定义”。  
 ![](../best-practices.assets/webhook_dtalk1.png)  
 
-`在安全设置中需添加自定义关键词“QingCloud”、“告警”、“自动伸缩” 、“定时器”。`  
+`在安全设置中需添加自定义关键词“告警”、“自动伸缩” 、“定时器”。`  
 ![](../best-practices.assets/webhook_dtalk2.png)
 
 ### 二、获取 webhook 地址

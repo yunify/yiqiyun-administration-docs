@@ -4,7 +4,7 @@ date: 2020-01-30T00:36:25+09:00
 description: Test description
 draft: false
 enableToc: false
-keyword: 安置策略组, QingCloud
+keyword: 安置策略组
 ---
 
 安置策略组功能为用户提供了云服务器分组功能，用户可以通过创建合适关系的安置策略组并将部署的云服务器加入相应的分组，从而将一组云服务器实例按照分组关系部署到合适的物理节点上，来提高资源的可用性，业务的连续性。

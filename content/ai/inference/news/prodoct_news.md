@@ -12,7 +12,7 @@ product:
 
     - time: 2019-03-30
       title: 支持节点和磁盘容量自动伸缩
-      content: Kafka on QingCloud 新增支持自动伸缩框架，实现根据规则自动扩容磁盘和新增节点功能。
+      content: Kafka on yiqiyun 新增支持自动伸缩框架，实现根据规则自动扩容磁盘和新增节点功能。
       url: /middware/kafka/manual/cluster_use/
 
 
